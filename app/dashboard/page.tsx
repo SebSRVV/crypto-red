@@ -6,7 +6,10 @@ import {
   FaChartBar,
   FaArrowUp,
   FaArrowDown,
+  FaCoins,
+  FaCalendarAlt
 } from 'react-icons/fa';
+import { HiSparkles } from 'react-icons/hi';
 
 interface Crypto {
   name: string;
@@ -36,34 +39,52 @@ export default function Dashboard() {
   const [priceFlashes, setPriceFlashes] = useState<Record<string, 'up' | 'down' | null>>({});
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await fetch('/data/criptos_completas.json');
-        const json: Crypto[] = await res.json();
+  const fetchData = async () => {
+    try {
+      const [resData, resPredicted] = await Promise.all([
+        fetch('/data/criptos_completas.json'),
+        fetch('/data/criptos_predichas.json')
+      ]);
 
-        const flashes: Record<string, 'up' | 'down' | null> = {};
-        json.forEach((coin) => {
-          const prev = previousPrices[coin.symbol];
-          if (prev !== undefined && prev !== coin.current_price) {
-            flashes[coin.symbol] = coin.current_price > prev ? 'up' : 'down';
-          } else {
-            flashes[coin.symbol] = null;
-          }
-        });
+      const allCryptos: Crypto[] = await resData.json();
+      const predictedList = await resPredicted.json();
 
-        setPriceFlashes(flashes);
-        setPreviousPrices(Object.fromEntries(json.map(c => [c.symbol, c.current_price])));
-        setData(json);
-        setTimeout(() => setPriceFlashes({}), 1000);
-      } catch (err) {
-        console.error('Error al cargar criptos:', err);
-      }
-    };
+      // Soporte para array de strings o de objetos
+      const predictedSymbols = Array.isArray(predictedList)
+        ? predictedList.map(item =>
+            typeof item === 'string' ? item.toLowerCase() : item.symbol.toLowerCase()
+          )
+        : [];
 
-    fetchData();
-    const interval = setInterval(fetchData, 6000);
-    return () => clearInterval(interval);
-  }, [previousPrices]);
+      const updated = allCryptos.map(coin => ({
+        ...coin,
+        predicted: predictedSymbols.includes(coin.symbol.toLowerCase()),
+      }));
+
+      // Detectar cambios de precio para animación
+      const flashes: Record<string, 'up' | 'down' | null> = {};
+      updated.forEach((coin) => {
+        const prev = previousPrices[coin.symbol];
+        if (prev !== undefined && prev !== coin.current_price) {
+          flashes[coin.symbol] = coin.current_price > prev ? 'up' : 'down';
+        } else {
+          flashes[coin.symbol] = null;
+        }
+      });
+
+      setPriceFlashes(flashes);
+      setPreviousPrices(Object.fromEntries(updated.map(c => [c.symbol, c.current_price])));
+      setData(updated);
+      setTimeout(() => setPriceFlashes({}), 1000);
+    } catch (err) {
+      console.error('Error al cargar datos:', err);
+    }
+  };
+
+  fetchData();
+  const interval = setInterval(fetchData, 6000);
+  return () => clearInterval(interval);
+}, [previousPrices]);
 
   useEffect(() => {
     const sorted = [...data];
@@ -90,10 +111,13 @@ export default function Dashboard() {
     setSortedData(sorted);
   }, [data, sortOption]);
 
+  const totalCryptos = sortedData.length;
+  const recommendedCryptos = sortedData.filter(c => c.predicted).length;
+
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <h1>🚀 Análisis de Criptomonedas (IA + Mini Chart)</h1>
+        <h1>Dashboard de Criptomonedas</h1>
         <div className={styles.actions}>
           <button onClick={() => window.location.href = '/'} className={styles.backButton}>
             ⬅ Volver al Inicio
@@ -110,6 +134,18 @@ export default function Dashboard() {
             <option value="changeAsc">% Cambio ↑</option>
             <option value="changeDesc">% Cambio ↓</option>
           </select>
+        </div>
+
+        {/* 📊 Resumen */}
+        <div className={styles.summary}>
+          <p>
+            <FaCoins className={styles.icon} />
+            Total de criptomonedas: <strong>{totalCryptos}</strong>
+          </p>
+          <p>
+            <HiSparkles className={styles.icon} />
+            Recomendadas por IA: <strong>{recommendedCryptos}</strong>
+          </p>
         </div>
       </div>
 
@@ -128,19 +164,15 @@ export default function Dashboard() {
               style={{ animationDelay: `${index * 0.05}s` }}
               title={`Ver ${crypto.name} en CoinGecko`}
             >
-              {/* Logo */}
               {crypto.image && (
                 <img src={crypto.image} alt={`${crypto.name} logo`} className={styles.logo} loading="lazy" />
               )}
-
-              {/* Mini gráfico */}
               {crypto.chart && (
                 <img src={crypto.chart} alt="mini chart" className={styles.chart} />
               )}
 
               <h2>{crypto.name} <span>({crypto.symbol.toUpperCase()})</span></h2>
 
-              {/* Precio */}
               <p className={`${styles.price} ${isUp ? styles.priceUp : ''} ${isDown ? styles.priceDown : ''}`}>
                 <FaDollarSign className={styles.icon} />
                 <strong>Precio:</strong> ${crypto.current_price.toFixed(6)}
@@ -148,21 +180,27 @@ export default function Dashboard() {
                 {isDown && <FaArrowDown className={styles.downIcon} />}
               </p>
 
-              {/* Market Cap */}
               <p>
                 <FaChartBar className={styles.icon} />
                 <strong>Market Cap:</strong> ${crypto.market_cap.toLocaleString()}
               </p>
 
-              {/* Cambio 30d */}
-              <p className={crypto.price_change_30d >= 0 ? styles.positive : styles.negative}>
-                <strong>{crypto.price_change_30d.toFixed(2)}%</strong> Cambio 30d
-              </p>
+<div className={styles.changeBlock}>
+  <span className={styles.changeLabel}>
+    <FaCalendarAlt className={styles.icon} />
+    Cambio 30d
+  </span>
+  <span className={crypto.price_change_30d >= 0 ? styles.positive : styles.negative}>
+    {crypto.price_change_30d > 0 && <FaArrowUp className={styles.upIcon} />}
+    {crypto.price_change_30d < 0 && <FaArrowDown className={styles.downIcon} />}
+    {crypto.price_change_30d.toFixed(2)}%
+  </span>
+</div>
 
-              {/* Recomendación IA */}
               {crypto.predicted && (
                 <div className={styles.tagIA}>
-                  💡 Recomendado por IA
+                  <HiSparkles className={styles.icon} />
+                  Recomendado por IA
                   <div className={styles.reason}>{crypto.reason}</div>
                 </div>
               )}
