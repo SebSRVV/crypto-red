@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import styles from './Dashboard.module.css';
-import { useRouter } from 'next/navigation';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 interface Crypto {
   name: string;
@@ -14,31 +14,97 @@ interface Crypto {
 
 export default function Dashboard() {
   const [data, setData] = useState<Crypto[]>([]);
-  const router = useRouter();
+  const [previousPrices, setPreviousPrices] = useState<Record<string, number>>({});
+  const [priceFlashes, setPriceFlashes] = useState<Record<string, 'up' | 'down' | null>>({});
+
+  const getCoinGeckoUrl = (name: string) =>
+    `https://www.coingecko.com/es/monedas/${name.toLowerCase().replace(/\s+/g, '-')}`;
 
   useEffect(() => {
-    fetch('/data/criptos_recomendadas.json')
-      .then(res => res.json())
-      .then(setData)
-      .catch(console.error);
-  }, []);
+    const fetchData = async () => {
+      try {
+        const res = await fetch('/data/criptos_recomendadas.json');
+        const json: Crypto[] = await res.json();
+
+        const flashes: Record<string, 'up' | 'down' | null> = {};
+
+        json.forEach(coin => {
+          const prev = previousPrices[coin.symbol];
+          if (prev !== undefined && prev !== coin.current_price) {
+            flashes[coin.symbol] = coin.current_price > prev ? 'up' : 'down';
+          } else {
+            flashes[coin.symbol] = null;
+          }
+        });
+
+        setPriceFlashes(flashes);
+        setPreviousPrices(Object.fromEntries(json.map(c => [c.symbol, c.current_price])));
+        setData(json);
+
+        // Elimina los flashes después de 1s
+        setTimeout(() => {
+          setPriceFlashes({});
+        }, 1000);
+      } catch (err) {
+        console.error(err);
+      }
+    };
+
+    fetchData();
+    const interval = setInterval(fetchData, 10000); // cada 10s
+    return () => clearInterval(interval);
+  }, [previousPrices]);
 
   return (
     <div className={styles.container}>
       <div className={styles.header}>
         <h1>🚀 Criptomonedas Recomendadas</h1>
-        <button onClick={() => router.push('/')} className={styles.backButton}>
+        <button onClick={() => window.location.href = '/'} className={styles.backButton}>
           ⬅ Volver al Inicio
         </button>
       </div>
+
       <div className={styles.grid}>
         {data.map((crypto, index) => (
           <div key={index} className={styles.card}>
-            <img src={crypto.image} alt={crypto.name} className={styles.logo} />
-            <h2>{crypto.name} <span>({crypto.symbol.toUpperCase()})</span></h2>
-            <p><strong>Precio:</strong> ${crypto.current_price.toFixed(6)}</p>
-            <p><strong>Market Cap:</strong> ${crypto.market_cap.toLocaleString()}</p>
-            <p className={crypto.price_change_percentage_30d_in_currency >= 0 ? styles.positive : styles.negative}>
+            <img
+              src={crypto.image}
+              alt={crypto.name}
+              className={styles.logo}
+              loading="lazy"
+            />
+            <div className={styles.titleRow}>
+              <h2>
+                {crypto.name} <span>({crypto.symbol.toUpperCase()})</span>
+              </h2>
+              <a
+                href={getCoinGeckoUrl(crypto.name)}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Ver ${crypto.name} en CoinGecko`}
+                className={styles.linkIcon}
+              >
+                <FaExternalLinkAlt size={16} />
+              </a>
+            </div>
+
+            <p className={`
+              ${styles.price} 
+              ${priceFlashes[crypto.symbol] === 'up' ? styles.flashGreen : ''} 
+              ${priceFlashes[crypto.symbol] === 'down' ? styles.flashRed : ''}
+            `}>
+              <strong>Precio:</strong> ${crypto.current_price.toFixed(6)}
+            </p>
+
+            <p>
+              <strong>Market Cap:</strong> ${crypto.market_cap.toLocaleString()}
+            </p>
+
+            <p className={
+              crypto.price_change_percentage_30d_in_currency >= 0
+                ? styles.positive
+                : styles.negative
+            }>
               <strong>Cambio 30d:</strong> {crypto.price_change_percentage_30d_in_currency.toFixed(2)}%
             </p>
           </div>

@@ -3,6 +3,8 @@
   color: white;
   min-height: 100vh;
   padding: 2rem;
+  font-family: 'Inter', sans-serif;
+  animation: fadeIn 0.5s ease-out both;
 }
 
 .header {
@@ -10,47 +12,54 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 
 .header h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #7f5af0;
+  font-weight: 700;
 }
 
 .backButton {
   background-color: #7f5af0;
   border: none;
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem;
   font-weight: bold;
   font-size: 1rem;
-  border-radius: 6px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .backButton:hover {
-  background-color: #6244df;
+  background-color: #5a3ee6;
+  transform: scale(1.05);
 }
 
 .grid {
   display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .card {
-  background-color: #1e1e1e;
-  padding: 1.5rem;
-  border-radius: 12px;
+  background-color: #1a1a1a;
+  padding: 1.6rem;
+  border-radius: 14px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 0 10px rgba(127, 90, 240, 0.2);
+  transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.35s ease;
+  box-shadow: 0 0 12px rgba(127, 90, 240, 0.1);
+  position: relative;
+  cursor: pointer;
+  animation: fadeUp 0.6s ease forwards;
+  opacity: 0;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(127, 90, 240, 0.4);
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 30px rgba(127, 90, 240, 0.25);
 }
 
 .logo {
@@ -60,10 +69,34 @@
   margin-bottom: 1rem;
   object-fit: cover;
   border: 2px solid #7f5af0;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .logo {
+  transform: scale(1.1);
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.linkIcon {
+  color: #aaa;
+  transition: color 0.3s ease;
+}
+
+.linkIcon:hover {
+  color: #7f5af0;
 }
 
 .card h2 {
-  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  color: #ffffff;
 }
 
 .card h2 span {
@@ -71,10 +104,48 @@
   color: #aaa;
 }
 
+.card p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0.3rem 0;
+}
+
+.price {
+  transition: color 0.4s ease, transform 0.4s ease;
+}
+
+.flashGreen {
+  color: #4ade80;
+  transform: scale(1.08);
+}
+
+.flashRed {
+  color: #f87171;
+  transform: scale(0.95);
+}
+
 .positive {
-  color: #4ade80; /* verde */
+  color: #4ade80;
+  font-weight: bold;
 }
 
 .negative {
-  color: #f87171; /* rojo */
+  color: #f87171;
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
