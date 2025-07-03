@@ -10,6 +10,7 @@ import {
   FaCalendarAlt
 } from 'react-icons/fa';
 import { HiSparkles } from 'react-icons/hi';
+import Image from 'next/image';
 
 interface Crypto {
   name: string;
@@ -181,12 +182,25 @@ export default function Dashboard() {
               title={`Ver ${crypto.name} en CoinGecko`}
             >
               {crypto.image && (
-                <img src={crypto.image} alt={`${crypto.name} logo`} className={styles.logo} loading="lazy" />
-              )}
-              {crypto.chart && (
-                <img src={crypto.chart} alt="mini chart" className={styles.chart} />
-              )}
-
+  <Image
+    src={crypto.image}
+    alt={`${crypto.name} logo`}
+    width={64}
+    height={64}
+    className={styles.logo}
+    unoptimized
+  />
+)}
+{crypto.chart && (
+  <Image
+    src={crypto.chart}
+    alt="mini chart"
+    width={200}
+    height={40}
+    className={styles.chart}
+    unoptimized
+  />
+)}
               <h2>{crypto.name} <span>({crypto.symbol.toUpperCase()})</span></h2>
 
               <p className={`${styles.price} ${isUp ? styles.priceUp : ''} ${isDown ? styles.priceDown : ''}`}>

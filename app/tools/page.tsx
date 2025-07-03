@@ -4,6 +4,7 @@ import styles from './Tools.module.css';
 import { FaTools, FaPlay, FaDownload, FaHome } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
 
+
 export default function ToolsPage() {
   const [startPage, setStartPage] = useState(3);
   const [endPage, setEndPage] = useState(6);
@@ -25,8 +26,9 @@ export default function ToolsPage() {
       const data = await res.json();
       if (data.error) throw new Error(data.error);
       setLog(data.output || 'Sin salida');
-    } catch (err: any) {
-      setLog(`Error: ${err.message}`);
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : 'Error desconocido';
+      setLog(`Error: ${message}`);
     } finally {
       setLoading(false);
     }
@@ -82,7 +84,7 @@ export default function ToolsPage() {
 
       <div className={styles.logBox}>
         <strong>Log de ejecución:</strong>
-        <div style={{ marginTop: '0.5rem' }}>{log}</div>
+        <div style={{ marginTop: '0.5rem', whiteSpace: 'pre-wrap' }}>{log}</div>
       </div>
 
       <button onClick={() => router.push('/')} className={styles.backBtn}>
