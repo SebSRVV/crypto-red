@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "D:\Documents\GitHub\crypto-red\extractor.py", line 129, in <module>
+    extraer_criptos_completas(pagina_inicio=3, pagina_fin=6)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GitHub\crypto-red\extractor.py", line 52, in extraer_criptos_completas
+    print(f"\U0001f504 Buscando criptos desde CoinGecko (p�ginas {pagina_inicio} a {pagina_fin})...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f504' in position 0: character maps to <undefined>

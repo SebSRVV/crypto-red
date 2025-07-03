@@ -9,7 +9,6 @@ export default function Home() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    // Forzar aparición al montar
     const timeout = setTimeout(() => setVisible(true), 100);
     return () => clearTimeout(timeout);
   }, []);
@@ -32,12 +31,22 @@ export default function Home() {
             CryptoRed es una plataforma que detecta oportunidades de inversión en criptomonedas emergentes.
             Utilizamos modelos de machine learning y análisis de narrativas clave como inteligencia artificial, videojuegos, activos tokenizados y memes.
           </p>
-          <button
-            className={`${styles.button} ${visible ? styles.visible : ''}`}
-            onClick={() => router.push('/dashboard')}
-          >
-            Ir al Dashboard 🚀
-          </button>
+
+          <div className={`${styles.buttonGroup} ${visible ? styles.visible : ''}`}>
+            <button
+              className={styles.button}
+              onClick={() => router.push('/dashboard')}
+            >
+              Ir al Dashboard 🚀
+            </button>
+
+            <button
+              className={styles.buttonBlue}
+              onClick={() => router.push('/tools')}
+            >
+              Tools 🔧
+            </button>
+          </div>
         </div>
       </main>
 
