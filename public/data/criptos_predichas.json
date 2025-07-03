@@ -1,0 +1,15 @@
+[
+  {
+    "name": "WhiteBIT Coin",
+    "symbol": "wbt",
+    "image": "https://coin-images.coingecko.com/coins/images/27045/large/wbt_token.png?1696526096",
+    "chart": "/charts/wbt_chart.png",
+    "market_cap": 6307666319,
+    "current_price": 43.77,
+    "price_change_24h": 0.02965344770715,
+    "price_change_7d": -7.884407527949339,
+    "price_change_30d": 39.19149533910265,
+    "predicted": true,
+    "reason": "Alto rendimiento mensual (+30%)"
+  }
+]
