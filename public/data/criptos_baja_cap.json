@@ -1,0 +1,3906 @@
+[
+  {
+    "name": "Aave Polygon AAVE",
+    "symbol": "amaave",
+    "image": "https://coin-images.coingecko.com/coins/images/17239/large/amAAVE_2x.png?1696516796",
+    "market_cap": 0.0,
+    "current_price": 280.13,
+    "price_change_percentage_30d_in_currency": 11.859976434658307
+  },
+  {
+    "name": "3 Kingdoms Multiverse",
+    "symbol": "3km",
+    "image": "https://coin-images.coingecko.com/coins/images/29383/large/3KM_Logo.jpg?1696528330",
+    "market_cap": 0.0,
+    "current_price": 8.91e-06,
+    "price_change_percentage_30d_in_currency": -50.50403032821469
+  },
+  {
+    "name": "Advanced United Continent",
+    "symbol": "auc",
+    "image": "https://coin-images.coingecko.com/coins/images/24369/large/200x200.png?1696523553",
+    "market_cap": 0.0,
+    "current_price": 0.00031334,
+    "price_change_percentage_30d_in_currency": -13.780041178419001
+  },
+  {
+    "name": "AgeOfGods",
+    "symbol": "aog",
+    "image": "https://coin-images.coingecko.com/coins/images/22133/large/aog.PNG?1696521479",
+    "market_cap": 0.0,
+    "current_price": 0.00149137,
+    "price_change_percentage_30d_in_currency": -6.6898458337741555
+  },
+  {
+    "name": "AirBTC",
+    "symbol": "airbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/37369/large/photo_2024-04-21_01-29-59.jpg?1714117341",
+    "market_cap": 0.0,
+    "current_price": 7.9091e-08,
+    "price_change_percentage_30d_in_currency": 38.73851689223629
+  },
+  {
+    "name": "@BTC25",
+    "symbol": "@btc25",
+    "image": "https://coin-images.coingecko.com/coins/images/38584/large/photo_2024-03-04_12-32-04_%282%29.png?1718088255",
+    "market_cap": 0.0,
+    "current_price": 4.10412e-10,
+    "price_change_percentage_30d_in_currency": 8.57242120451638
+  },
+  {
+    "name": "0xNumber",
+    "symbol": "oxn",
+    "image": "https://coin-images.coingecko.com/coins/images/33870/large/200x200.png?1703131812",
+    "market_cap": 0.0,
+    "current_price": 0.00310539,
+    "price_change_percentage_30d_in_currency": -1.9613499447858458
+  },
+  {
+    "name": "Aave v3 USDT",
+    "symbol": "ausdt",
+    "image": "https://coin-images.coingecko.com/coins/images/32884/large/USDT.PNG?1699768611",
+    "market_cap": 0.0,
+    "current_price": 1.0,
+    "price_change_percentage_30d_in_currency": -0.008004674962120371
+  },
+  {
+    "name": "Aave AMM UniWBTCUSDC",
+    "symbol": "aammuniwbtcusdc",
+    "image": "https://coin-images.coingecko.com/coins/images/17255/large/aAmmUniWBTCUSDC.png?1696516811",
+    "market_cap": 0.0,
+    "current_price": 121094465374771.0,
+    "price_change_percentage_30d_in_currency": 2.51654719078978
+  },
+  {
+    "name": "Aave ZRX",
+    "symbol": "azrx",
+    "image": "https://coin-images.coingecko.com/coins/images/14264/large/aZRX.9be555a9.png?1696513965",
+    "market_cap": 0.0,
+    "current_price": 0.229711,
+    "price_change_percentage_30d_in_currency": -3.542254493671361
+  },
+  {
+    "name": "Aave DAI v1",
+    "symbol": "adai",
+    "image": "https://coin-images.coingecko.com/coins/images/10843/large/aDAI.png?1696510799",
+    "market_cap": 0.0,
+    "current_price": 0.998893,
+    "price_change_percentage_30d_in_currency": -0.10654880036289077
+  },
+  {
+    "name": "Aave AMM WBTC",
+    "symbol": "aammwbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/17215/large/aAMMWBTC_2x.png?1696516771",
+    "market_cap": 0.0,
+    "current_price": 108914.0,
+    "price_change_percentage_30d_in_currency": 4.904328715696553
+  },
+  {
+    "name": "Aave v3 agEUR",
+    "symbol": "aageur",
+    "image": "https://coin-images.coingecko.com/coins/images/32925/large/eur.png?1699826217",
+    "market_cap": 0.0,
+    "current_price": 1.18,
+    "price_change_percentage_30d_in_currency": 3.0990002097462113
+  },
+  {
+    "name": "Aave USDT v1",
+    "symbol": "ausdt",
+    "image": "https://coin-images.coingecko.com/coins/images/11725/large/aUSDT.png?1696511607",
+    "market_cap": 0.0,
+    "current_price": 0.999314,
+    "price_change_percentage_30d_in_currency": -0.10429067188726128
+  },
+  {
+    "name": "Airpuff",
+    "symbol": "apuff",
+    "image": "https://coin-images.coingecko.com/coins/images/36622/large/Airpuff_Icon.jpeg?1711980913",
+    "market_cap": 0.0,
+    "current_price": 0.00349719,
+    "price_change_percentage_30d_in_currency": 9.357461700583416
+  },
+  {
+    "name": "AirDAO bridged USDC (AirDAO)",
+    "symbol": "usdc",
+    "image": "https://coin-images.coingecko.com/coins/images/52499/large/usdc.jpg?1733466274",
+    "market_cap": 0.0,
+    "current_price": 0.999804,
+    "price_change_percentage_30d_in_currency": 0.0006723128461936162
+  },
+  {
+    "name": "Aave v3 AAVE",
+    "symbol": "aaave",
+    "image": "https://coin-images.coingecko.com/coins/images/32887/large/aave.png?1699773604",
+    "market_cap": 0.0,
+    "current_price": 279.61,
+    "price_change_percentage_30d_in_currency": 11.587320774388573
+  },
+  {
+    "name": "Aave v3 USDC",
+    "symbol": "ausdc",
+    "image": "https://coin-images.coingecko.com/coins/images/32847/large/usdc_%281%29.png?1699619355",
+    "market_cap": 0.0,
+    "current_price": 0.999927,
+    "price_change_percentage_30d_in_currency": 0.017537347333033294
+  },
+  {
+    "name": "Aave v3 FRAX",
+    "symbol": "afrax",
+    "image": "https://coin-images.coingecko.com/coins/images/32904/large/FRAX.png?1699802848",
+    "market_cap": 0.0,
+    "current_price": 0.999079,
+    "price_change_percentage_30d_in_currency": -0.05822172843267551
+  },
+  {
+    "name": "Aave v3 RPL",
+    "symbol": "arpl",
+    "image": "https://coin-images.coingecko.com/coins/images/32909/large/RPL.png?1699817497",
+    "market_cap": 0.0,
+    "current_price": 5.23,
+    "price_change_percentage_30d_in_currency": 4.401879554768233
+  },
+  {
+    "name": "Aave AMM USDC",
+    "symbol": "aammusdc",
+    "image": "https://coin-images.coingecko.com/coins/images/17226/large/aAMMUSDC_2x.png?1696516780",
+    "market_cap": 0.0,
+    "current_price": 0.999031,
+    "price_change_percentage_30d_in_currency": -0.0787732449517833
+  },
+  {
+    "name": "Adult Playground",
+    "symbol": "adult",
+    "image": "https://coin-images.coingecko.com/coins/images/32053/large/0x565d3902d6a5a2d5ce28ff427423e88933334dd2.png?1696530850",
+    "market_cap": 0.0,
+    "current_price": 0.00024844,
+    "price_change_percentage_30d_in_currency": -8.265111792846191
+  },
+  {
+    "name": "Aave ENJ",
+    "symbol": "aenj",
+    "image": "https://coin-images.coingecko.com/coins/images/14251/large/aENJ.ed76293b.png?1696513964",
+    "market_cap": 0.0,
+    "current_price": 0.069938,
+    "price_change_percentage_30d_in_currency": -5.615810855623855
+  },
+  {
+    "name": "Aave AMM UniUSDCWETH",
+    "symbol": "aammuniusdcweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17219/large/aAmmUniUSDCWETH.png?1696516774",
+    "market_cap": 0.0,
+    "current_price": 270091445.0,
+    "price_change_percentage_30d_in_currency": 1.698007141968891
+  },
+  {
+    "name": "Aave KNC v1",
+    "symbol": "aknc",
+    "image": "https://coin-images.coingecko.com/coins/images/11727/large/aKNC.png?1696511608",
+    "market_cap": 0.0,
+    "current_price": 0.30187,
+    "price_change_percentage_30d_in_currency": -8.342348247058881
+  },
+  {
+    "name": "AIvalanche DeFAI Agents",
+    "symbol": "avaxai",
+    "image": "https://coin-images.coingecko.com/coins/images/54213/large/AIvalanche_DeFAI_Agents.jpg?1738798952",
+    "market_cap": 0.0,
+    "current_price": 0.00016466,
+    "price_change_percentage_30d_in_currency": -65.00000126776439
+  },
+  {
+    "name": "Aave YFI",
+    "symbol": "ayfi",
+    "image": "https://coin-images.coingecko.com/coins/images/17257/large/aYFI_2x.png?1696516813",
+    "market_cap": 0.0,
+    "current_price": 5268.47,
+    "price_change_percentage_30d_in_currency": -0.6277573128986783
+  },
+  {
+    "name": "Aark Digital",
+    "symbol": "aark",
+    "image": "https://coin-images.coingecko.com/coins/images/37813/large/aark.png?1715599394",
+    "market_cap": 0.0,
+    "current_price": 0.00184135,
+    "price_change_percentage_30d_in_currency": -12.932869955280005
+  },
+  {
+    "name": "Aave Polygon WBTC",
+    "symbol": "amwbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/17265/large/amWBTC_2x.png?1696516820",
+    "market_cap": 0.0,
+    "current_price": 109625.0,
+    "price_change_percentage_30d_in_currency": 5.492457094426484
+  },
+  {
+    "name": "Aave Interest Bearing STETH",
+    "symbol": "asteth",
+    "image": "https://coin-images.coingecko.com/coins/images/24163/large/steth.jpg?1696523352",
+    "market_cap": 0.0,
+    "current_price": 2592.67,
+    "price_change_percentage_30d_in_currency": 1.9741446298329437
+  },
+  {
+    "name": "Aave MKR",
+    "symbol": "amkr",
+    "image": "https://coin-images.coingecko.com/coins/images/14248/large/aMKR.ac965178.png?1696513962",
+    "market_cap": 0.0,
+    "current_price": 1990.2,
+    "price_change_percentage_30d_in_currency": 16.62502173989371
+  },
+  {
+    "name": "3A",
+    "symbol": "a3a",
+    "image": "https://coin-images.coingecko.com/coins/images/33135/large/A3A.png?1700801023",
+    "market_cap": 0.0,
+    "current_price": 0.00013736,
+    "price_change_percentage_30d_in_currency": -27.419919393634768
+  },
+  {
+    "name": "Aave REN v1",
+    "symbol": "aren",
+    "image": "https://coin-images.coingecko.com/coins/images/12483/large/aREN.png?1696512300",
+    "market_cap": 0.0,
+    "current_price": 0.00872353,
+    "price_change_percentage_30d_in_currency": -25.30049699018246
+  },
+  {
+    "name": "Agatech",
+    "symbol": "agata",
+    "image": "https://coin-images.coingecko.com/coins/images/35835/large/agatechlogo.jpg?1716055496",
+    "market_cap": 0.0,
+    "current_price": 0.00913674,
+    "price_change_percentage_30d_in_currency": 0.31084659461490505
+  },
+  {
+    "name": "AgoraHub",
+    "symbol": "aga",
+    "image": "https://coin-images.coingecko.com/coins/images/38230/large/agora-avatar-black.png?1716828738",
+    "market_cap": 0.0,
+    "current_price": 0.00528827,
+    "price_change_percentage_30d_in_currency": -20.5004555908509
+  },
+  {
+    "name": "Agritech",
+    "symbol": "agt",
+    "image": "https://coin-images.coingecko.com/coins/images/30052/large/Agritech_Final_200x200_.png?1696528974",
+    "market_cap": 0.0,
+    "current_price": 9.59e-06,
+    "price_change_percentage_30d_in_currency": -2.9545162672071057
+  },
+  {
+    "name": "Aither",
+    "symbol": "aither",
+    "image": "https://coin-images.coingecko.com/coins/images/53520/large/Frame_1.jpg?1736574849",
+    "market_cap": 0.0,
+    "current_price": 0.00013368,
+    "price_change_percentage_30d_in_currency": -17.652652053169128
+  },
+  {
+    "name": "O-MEE",
+    "symbol": "ome",
+    "image": "https://coin-images.coingecko.com/coins/images/25099/large/logo-mark-full-colour-cmyk-693px_300ppi.jpg?1696524249",
+    "market_cap": 0.0,
+    "current_price": 1.153e-05,
+    "price_change_percentage_30d_in_currency": -55.25071135099827
+  },
+  {
+    "name": "1MDC",
+    "symbol": "1mdc",
+    "image": "https://coin-images.coingecko.com/coins/images/38846/large/1000007709.jpg?1719212316",
+    "market_cap": 0.0,
+    "current_price": 5.5196e-10,
+    "price_change_percentage_30d_in_currency": -13.296385288059936
+  },
+  {
+    "name": "1000CHEMS",
+    "symbol": "1000cheems",
+    "image": "https://coin-images.coingecko.com/coins/images/52984/large/1000chems.jpg?1734917735",
+    "market_cap": 0.0,
+    "current_price": 0.00146155,
+    "price_change_percentage_30d_in_currency": 3.3922592827453766
+  },
+  {
+    "name": "Aave AMM UniCRVWETH",
+    "symbol": "aammunicrvweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17220/large/aAmmUniCRVWETH.png?1696516775",
+    "market_cap": 0.0,
+    "current_price": 900.45,
+    "price_change_percentage_30d_in_currency": -9.25069216692144
+  },
+  {
+    "name": "A DOG IN THE MATRIX",
+    "symbol": "matrix",
+    "image": "https://coin-images.coingecko.com/coins/images/35411/large/ADGMTX_-_200x200.png?1708502727",
+    "market_cap": 0.0,
+    "current_price": 8.3e-06,
+    "price_change_percentage_30d_in_currency": 1.8947749967444738
+  },
+  {
+    "name": "Aave AAVE",
+    "symbol": "aaave",
+    "image": "https://coin-images.coingecko.com/coins/images/17248/large/amAAVE_2x.png?1696516804",
+    "market_cap": 0.0,
+    "current_price": 277.83,
+    "price_change_percentage_30d_in_currency": 9.977928950159935
+  },
+  {
+    "name": "Aave MANA",
+    "symbol": "amana",
+    "image": "https://coin-images.coingecko.com/coins/images/14267/large/aMANA.f89a1098.png?1696513968",
+    "market_cap": 0.0,
+    "current_price": 0.277244,
+    "price_change_percentage_30d_in_currency": -0.03144310723458365
+  },
+  {
+    "name": "AiShiba",
+    "symbol": "shibai",
+    "image": "https://coin-images.coingecko.com/coins/images/29898/large/Fotor_AI%EF%BC%882%EF%BC%89.png?1696528822",
+    "market_cap": 0.0,
+    "current_price": 1.44069e-13,
+    "price_change_percentage_30d_in_currency": -23.739303770875882
+  },
+  {
+    "name": "ADAcash",
+    "symbol": "adacash",
+    "image": "https://coin-images.coingecko.com/coins/images/19509/large/adacash.png?1696518943",
+    "market_cap": 0.0,
+    "current_price": 1.361e-09,
+    "price_change_percentage_30d_in_currency": -36.220230660188655
+  },
+  {
+    "name": "9mm",
+    "symbol": "9mm",
+    "image": "https://coin-images.coingecko.com/coins/images/54791/large/9mm.jpg?1741590221",
+    "market_cap": 0.0,
+    "current_price": 0.01303522,
+    "price_change_percentage_30d_in_currency": 298.23248084500926
+  },
+  {
+    "name": "1MBABYDOGE",
+    "symbol": "1mbabydoge",
+    "image": "https://coin-images.coingecko.com/coins/images/52465/large/babydoge.jpg?1733406850",
+    "market_cap": 0.0,
+    "current_price": 0.00119365,
+    "price_change_percentage_30d_in_currency": -15.72097577132698
+  },
+  {
+    "name": "5TARS",
+    "symbol": "5tars",
+    "image": "https://coin-images.coingecko.com/coins/images/54199/large/5tars_token_S.png?1738749419",
+    "market_cap": 0.0,
+    "current_price": 0.00242911,
+    "price_change_percentage_30d_in_currency": -53.17849675988341
+  },
+  {
+    "name": "Affine ultraETHs 2.0",
+    "symbol": "ultraeths",
+    "image": "https://coin-images.coingecko.com/coins/images/39864/large/affine-ultra-eths-cg-logo.png?1724379373",
+    "market_cap": 0.0,
+    "current_price": 2775.39,
+    "price_change_percentage_30d_in_currency": -6.649939148217225
+  },
+  {
+    "name": "Aeon",
+    "symbol": "aeon",
+    "image": "https://coin-images.coingecko.com/coins/images/321/large/aeon.png?1696501658",
+    "market_cap": 0.0,
+    "current_price": 0.142432,
+    "price_change_percentage_30d_in_currency": 4.106097077114961
+  },
+  {
+    "name": "Aave Polygon USDT",
+    "symbol": "amusdt",
+    "image": "https://coin-images.coingecko.com/coins/images/17264/large/amUSDT_2x.png?1696516819",
+    "market_cap": 0.0,
+    "current_price": 1.001,
+    "price_change_percentage_30d_in_currency": -0.14507423554454957
+  },
+  {
+    "name": "Aave TUSD",
+    "symbol": "atusd",
+    "image": "https://coin-images.coingecko.com/coins/images/14317/large/aTUSD.08592b49.png?1696514005",
+    "market_cap": 0.0,
+    "current_price": 0.996885,
+    "price_change_percentage_30d_in_currency": -0.13349065280644418
+  },
+  {
+    "name": "A Gently Used Nokia 3310",
+    "symbol": "usedphone",
+    "image": "https://coin-images.coingecko.com/coins/images/34197/large/-o3LcH4TAfpv0J475jrxPAonKqGxbdcVcRlGhzzZ_oE.jpeg?1705863498",
+    "market_cap": 0.0,
+    "current_price": 1.137e-05,
+    "price_change_percentage_30d_in_currency": -7.667524727707672
+  },
+  {
+    "name": "1Move Token",
+    "symbol": "1mt",
+    "image": "https://coin-images.coingecko.com/coins/images/27347/large/1MT.png?1696526394",
+    "market_cap": 0.0,
+    "current_price": 0.00089797,
+    "price_change_percentage_30d_in_currency": -3.0336851386763524
+  },
+  {
+    "name": "Aave v3 DPI",
+    "symbol": "adpi",
+    "image": "https://coin-images.coingecko.com/coins/images/32926/large/dpi.png?1699826275",
+    "market_cap": 0.0,
+    "current_price": 94.35,
+    "price_change_percentage_30d_in_currency": 1.7539609478027078
+  },
+  {
+    "name": "Aave v2 USDC",
+    "symbol": "ausdc",
+    "image": "https://coin-images.coingecko.com/coins/images/14318/large/aUSDC.e260d492.png?1696514006",
+    "market_cap": 0.0,
+    "current_price": 0.999031,
+    "price_change_percentage_30d_in_currency": 0.10173788899680858
+  },
+  {
+    "name": "0xScans",
+    "symbol": "scan",
+    "image": "https://coin-images.coingecko.com/coins/images/34983/large/photo_2024-02-01_20-12-00.jpg?1706873450",
+    "market_cap": 0.0,
+    "current_price": 0.00196891,
+    "price_change_percentage_30d_in_currency": -3.995269400962326
+  },
+  {
+    "name": "9inch",
+    "symbol": "9inch",
+    "image": "https://coin-images.coingecko.com/coins/images/32662/large/9INCH-logo.png?1698901092",
+    "market_cap": 0.0,
+    "current_price": 1.01e-06,
+    "price_change_percentage_30d_in_currency": -22.41108543508711
+  },
+  {
+    "name": "Abble",
+    "symbol": "aabl",
+    "image": "https://coin-images.coingecko.com/coins/images/36013/large/lM8keUnD_400x400.jpg?1710326029",
+    "market_cap": 0.0,
+    "current_price": 0.00066726,
+    "price_change_percentage_30d_in_currency": 50.13039770808834
+  },
+  {
+    "name": "ADADao",
+    "symbol": "adao",
+    "image": "https://coin-images.coingecko.com/coins/images/24372/large/dkw8F6mr_400x400.jpg?1696523556",
+    "market_cap": 0.0,
+    "current_price": 0.00053348,
+    "price_change_percentage_30d_in_currency": -0.18500814978646493
+  },
+  {
+    "name": "Aave BAT v1",
+    "symbol": "abat",
+    "image": "https://coin-images.coingecko.com/coins/images/11726/large/aBAT.png?1696511608",
+    "market_cap": 0.0,
+    "current_price": 0.131175,
+    "price_change_percentage_30d_in_currency": -1.0900064226364152
+  },
+  {
+    "name": "abcPHAR",
+    "symbol": "abcphar",
+    "image": "https://coin-images.coingecko.com/coins/images/39493/large/abcPHAR-black.png?1722492271",
+    "market_cap": 0.0,
+    "current_price": 295.12,
+    "price_change_percentage_30d_in_currency": 20.185756118078775
+  },
+  {
+    "name": "A Gently Used 2001 Honda",
+    "symbol": "usedcar",
+    "image": "https://coin-images.coingecko.com/coins/images/33996/large/usecar.png?1703599678",
+    "market_cap": 0.0,
+    "current_price": 0.00154557,
+    "price_change_percentage_30d_in_currency": -2.703515760494575
+  },
+  {
+    "name": "1000TROLL",
+    "symbol": "1000troll",
+    "image": "https://coin-images.coingecko.com/coins/images/34626/large/troll.png?1705544386",
+    "market_cap": 0.0,
+    "current_price": 3.72e-06,
+    "price_change_percentage_30d_in_currency": -18.060782835090468
+  },
+  {
+    "name": "Aave AMM UniAAVEWETH",
+    "symbol": "aammuniaaveweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17232/large/aAmmUniAAVEWETH.png?1696516786",
+    "market_cap": 0.0,
+    "current_price": 2655.69,
+    "price_change_percentage_30d_in_currency": 6.206837287657056
+  },
+  {
+    "name": "Aave v3 LINK",
+    "symbol": "alink",
+    "image": "https://coin-images.coingecko.com/coins/images/32888/large/link.png?1699773900",
+    "market_cap": 0.0,
+    "current_price": 13.74,
+    "price_change_percentage_30d_in_currency": -0.6360440892226155
+  },
+  {
+    "name": "Adonis",
+    "symbol": "adon",
+    "image": "https://coin-images.coingecko.com/coins/images/26793/large/Jugvt5z5_400x400.jpeg?1696525855",
+    "market_cap": 0.0,
+    "current_price": 1.31,
+    "price_change_percentage_30d_in_currency": 1.0881155760035783
+  },
+  {
+    "name": "1Reward Token",
+    "symbol": "1rt",
+    "image": "https://coin-images.coingecko.com/coins/images/27348/large/1RT.png?1696526395",
+    "market_cap": 0.0,
+    "current_price": 0.03621792,
+    "price_change_percentage_30d_in_currency": -2.6696820625838247
+  },
+  {
+    "name": "0x Leverage",
+    "symbol": "oxl",
+    "image": "https://coin-images.coingecko.com/coins/images/31977/large/Ox.jpeg?1696530780",
+    "market_cap": 0.0,
+    "current_price": 0.00059773,
+    "price_change_percentage_30d_in_currency": 41.61127536211544
+  },
+  {
+    "name": "OpenLiquidity",
+    "symbol": "openli",
+    "image": "https://coin-images.coingecko.com/coins/images/39270/large/lp.jpg?1721381975",
+    "market_cap": 0.0,
+    "current_price": 8.51e-05,
+    "price_change_percentage_30d_in_currency": 3.82882668902962
+  },
+  {
+    "name": "AI Meta Club",
+    "symbol": "amc",
+    "image": "https://coin-images.coingecko.com/coins/images/31919/large/aimeta.jpg?1696530728",
+    "market_cap": 0.0,
+    "current_price": 0.374373,
+    "price_change_percentage_30d_in_currency": -65.79161049011172
+  },
+  {
+    "name": "AI-X",
+    "symbol": "x",
+    "image": "https://coin-images.coingecko.com/coins/images/30783/large/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230616171447.jpg?1696529650",
+    "market_cap": 0.0,
+    "current_price": 1.7565e-11,
+    "price_change_percentage_30d_in_currency": -7.3928302872131635
+  },
+  {
+    "name": "2080",
+    "symbol": "2080",
+    "image": "https://coin-images.coingecko.com/coins/images/31816/large/b_fidelion_web_logo.png?1696530630",
+    "market_cap": 0.0,
+    "current_price": 0.00120744,
+    "price_change_percentage_30d_in_currency": -2.457287133578284
+  },
+  {
+    "name": "AISignal",
+    "symbol": "aisig",
+    "image": "https://coin-images.coingecko.com/coins/images/33671/large/IMG_20231214_221614_575.png?1702701782",
+    "market_cap": 0.0,
+    "current_price": 0.00027495,
+    "price_change_percentage_30d_in_currency": -0.421001669420089
+  },
+  {
+    "name": "Aave v3 sDAI",
+    "symbol": "asdai",
+    "image": "https://coin-images.coingecko.com/coins/images/32891/large/sdai.png?1699785595",
+    "market_cap": 0.0,
+    "current_price": 0.999789,
+    "price_change_percentage_30d_in_currency": -0.010264979968943702
+  },
+  {
+    "name": "Agnus AI",
+    "symbol": "agn",
+    "image": "https://coin-images.coingecko.com/coins/images/34387/large/photo_2024-01-08_14.11.37.jpeg?1704780575",
+    "market_cap": 0.0,
+    "current_price": 3.81e-06,
+    "price_change_percentage_30d_in_currency": -9.777134244648119
+  },
+  {
+    "name": "ABEL Finance",
+    "symbol": "abel",
+    "image": "https://coin-images.coingecko.com/coins/images/28469/large/Abel_logo_circle.png?1696527463",
+    "market_cap": 0.0,
+    "current_price": 0.00444602,
+    "price_change_percentage_30d_in_currency": 0.016509708049634697
+  },
+  {
+    "name": "Aave ENJ v1",
+    "symbol": "aenj",
+    "image": "https://coin-images.coingecko.com/coins/images/12484/large/aENJ.png?1696512301",
+    "market_cap": 0.0,
+    "current_price": 0.06991,
+    "price_change_percentage_30d_in_currency": -5.589313443380119
+  },
+  {
+    "name": "1Sol",
+    "symbol": "1sol",
+    "image": "https://coin-images.coingecko.com/coins/images/21615/large/YyGDie9f_400x400.jpg?1696520976",
+    "market_cap": 0.0,
+    "current_price": 0.00210064,
+    "price_change_percentage_30d_in_currency": -0.0004581719659990964
+  },
+  {
+    "name": "Agent Humpty Dumpty",
+    "symbol": "ahd",
+    "image": "https://coin-images.coingecko.com/coins/images/54888/large/IMG_3611.png?1742385756",
+    "market_cap": 0.0,
+    "current_price": 6.08e-06,
+    "price_change_percentage_30d_in_currency": 0.0
+  },
+  {
+    "name": "Aave MKR v1",
+    "symbol": "amkr",
+    "image": "https://coin-images.coingecko.com/coins/images/11731/large/aMKR.png?1696511612",
+    "market_cap": 0.0,
+    "current_price": 1991.01,
+    "price_change_percentage_30d_in_currency": 16.62502173989371
+  },
+  {
+    "name": "Aave v3 CRV",
+    "symbol": "acrv",
+    "image": "https://coin-images.coingecko.com/coins/images/32901/large/CRV.png?1699802172",
+    "market_cap": 0.0,
+    "current_price": 0.53314,
+    "price_change_percentage_30d_in_currency": -20.391219949231
+  },
+  {
+    "name": "Aave AMM BptWBTCWETH",
+    "symbol": "aammbptwbtcweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17260/large/aAmmBptWBTCWETH.png?1696516815",
+    "market_cap": 0.0,
+    "current_price": 266699.0,
+    "price_change_percentage_30d_in_currency": 3.5202994697379975
+  },
+  {
+    "name": "Aave AMM UniUNIWETH",
+    "symbol": "aammuniuniweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17225/large/aAmmUniUNIWETH.png?1696516780",
+    "market_cap": 0.0,
+    "current_price": 713.92,
+    "price_change_percentage_30d_in_currency": 10.276045184309778
+  },
+  {
+    "name": "Aave AMM DAI",
+    "symbol": "aammdai",
+    "image": "https://coin-images.coingecko.com/coins/images/17197/large/aAMMDAI_2x.png?1696516754",
+    "market_cap": 0.0,
+    "current_price": 0.998893,
+    "price_change_percentage_30d_in_currency": -0.07850471818257689
+  },
+  {
+    "name": "Aipocalypto",
+    "symbol": "aipo",
+    "image": "https://coin-images.coingecko.com/coins/images/51400/large/aipo.png?1731084580",
+    "market_cap": 0.0,
+    "current_price": 0.00440656,
+    "price_change_percentage_30d_in_currency": -34.3224386030941
+  },
+  {
+    "name": "01coin",
+    "symbol": "zoc",
+    "image": "https://coin-images.coingecko.com/coins/images/5720/large/F1nTlw9I_400x400.jpg?1696506175",
+    "market_cap": 0.0,
+    "current_price": 9.543e-05,
+    "price_change_percentage_30d_in_currency": -39.08360675678581
+  },
+  {
+    "name": "Aave XSUSHI",
+    "symbol": "axsushi",
+    "image": "https://coin-images.coingecko.com/coins/images/17256/large/aXSUSHI_2x.png?1696516812",
+    "market_cap": 0.0,
+    "current_price": 0.96296,
+    "price_change_percentage_30d_in_currency": -6.702984567297886
+  },
+  {
+    "name": "AI.COM",
+    "symbol": "ai.com",
+    "image": "https://coin-images.coingecko.com/coins/images/33246/large/BbLZo3AH_400x400.jpg?1701172033",
+    "market_cap": 0.0,
+    "current_price": 1.82e-06,
+    "price_change_percentage_30d_in_currency": -13.414437219520417
+  },
+  {
+    "name": "AGRI FUTURE TOKEN",
+    "symbol": "agrf",
+    "image": "https://coin-images.coingecko.com/coins/images/37891/large/AGRF.jpg?1715846415",
+    "market_cap": 0.0,
+    "current_price": 1.57,
+    "price_change_percentage_30d_in_currency": 1.3904863929213327
+  },
+  {
+    "name": "Aave Balancer Pool Token",
+    "symbol": "abpt",
+    "image": "https://coin-images.coingecko.com/coins/images/16788/large/ABPT_2x.png?1696516360",
+    "market_cap": 0.0,
+    "current_price": 0.33839,
+    "price_change_percentage_30d_in_currency": 8.29909503856268
+  },
+  {
+    "name": "AID",
+    "symbol": "aid",
+    "image": "https://coin-images.coingecko.com/coins/images/55476/large/IMG_0828.jpeg?1746256244",
+    "market_cap": 0.0,
+    "current_price": 0.360964,
+    "price_change_percentage_30d_in_currency": -31.377257499545163
+  },
+  {
+    "name": "AITaxBot",
+    "symbol": "aitax",
+    "image": "https://coin-images.coingecko.com/coins/images/37613/large/AITaxBot.png?1715058483",
+    "market_cap": 0.0,
+    "current_price": 0.0013347,
+    "price_change_percentage_30d_in_currency": -43.53635567955658
+  },
+  {
+    "name": "Aardvark",
+    "symbol": "vark",
+    "image": "https://coin-images.coingecko.com/coins/images/32678/large/VARK.jpg?1698929830",
+    "market_cap": 0.0,
+    "current_price": 0.00026004,
+    "price_change_percentage_30d_in_currency": -30.852637629826496
+  },
+  {
+    "name": "AICoin",
+    "symbol": "ai",
+    "image": "https://coin-images.coingecko.com/coins/images/30308/large/HZixmXSs_400x400.jpg?1696529211",
+    "market_cap": 0.0,
+    "current_price": 1.435e-05,
+    "price_change_percentage_30d_in_currency": -18.139966510619868
+  },
+  {
+    "name": "4 Next Unicorn",
+    "symbol": "nxtu",
+    "image": "https://coin-images.coingecko.com/coins/images/33061/large/4_Next_Unicorn_LOGO.png?1700493326",
+    "market_cap": 0.0,
+    "current_price": 0.00243093,
+    "price_change_percentage_30d_in_currency": -6.536096894544016
+  },
+  {
+    "name": "5th Scape",
+    "symbol": "$5scape",
+    "image": "https://coin-images.coingecko.com/coins/images/54304/large/Untitled_design_%2816%29.png?1739180825",
+    "market_cap": 0.0,
+    "current_price": 0.0001515,
+    "price_change_percentage_30d_in_currency": -57.81593512680949
+  },
+  {
+    "name": "Aave REN",
+    "symbol": "aren",
+    "image": "https://coin-images.coingecko.com/coins/images/14249/large/aREN.382be386.png?1696513963",
+    "market_cap": 0.0,
+    "current_price": 0.00871996,
+    "price_change_percentage_30d_in_currency": -25.332474302907436
+  },
+  {
+    "name": "Aave v3 WETH",
+    "symbol": "aweth",
+    "image": "https://coin-images.coingecko.com/coins/images/32882/large/WETH_%281%29.png?1699716492",
+    "market_cap": 0.0,
+    "current_price": 2595.0,
+    "price_change_percentage_30d_in_currency": 1.9566747475117334
+  },
+  {
+    "name": "Lenfi",
+    "symbol": "lenfi",
+    "image": "https://coin-images.coingecko.com/coins/images/27825/large/download_%2813%29.png?1696526843",
+    "market_cap": 0.0,
+    "current_price": 0.159347,
+    "price_change_percentage_30d_in_currency": -35.535426080985964
+  },
+  {
+    "name": "Aegents",
+    "symbol": "aegnt",
+    "image": "https://coin-images.coingecko.com/coins/images/53270/large/logo-200.jpg?1735914544",
+    "market_cap": 0.0,
+    "current_price": 0.0001443,
+    "price_change_percentage_30d_in_currency": -1.4604109085374695
+  },
+  {
+    "name": "777FuckIlluminatiWorldwid",
+    "symbol": "fiw",
+    "image": "https://coin-images.coingecko.com/coins/images/38243/large/FrbqV8cS_400x400.jpg?1729594239",
+    "market_cap": 0.0,
+    "current_price": 0.00018433,
+    "price_change_percentage_30d_in_currency": 78.62317649569827
+  },
+  {
+    "name": "Aave SNX",
+    "symbol": "asnx",
+    "image": "https://coin-images.coingecko.com/coins/images/14265/large/aSNX.3238f3e7.png?1696513966",
+    "market_cap": 0.0,
+    "current_price": 0.596715,
+    "price_change_percentage_30d_in_currency": -12.080970217404497
+  },
+  {
+    "name": "ACHMED - HEART AND SOL",
+    "symbol": "achmed",
+    "image": "https://coin-images.coingecko.com/coins/images/38400/large/geckologo.png?1717458646",
+    "market_cap": 0.0,
+    "current_price": 0.00293299,
+    "price_change_percentage_30d_in_currency": -12.762588614482254
+  },
+  {
+    "name": "A Fund Baby",
+    "symbol": "baby",
+    "image": "https://coin-images.coingecko.com/coins/images/30955/large/fund_baby.jpg?1696529794",
+    "market_cap": 0.0,
+    "current_price": 0.00141365,
+    "price_change_percentage_30d_in_currency": -38.271135738491814
+  },
+  {
+    "name": "Aave v3 WBTC",
+    "symbol": "awbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/32883/large/wbtc.png?1699719908",
+    "market_cap": 0.0,
+    "current_price": 109303.0,
+    "price_change_percentage_30d_in_currency": 4.135082955121474
+  },
+  {
+    "name": "AirTnT",
+    "symbol": "airtnt",
+    "image": "https://coin-images.coingecko.com/coins/images/28328/large/airtnt.png?1696527335",
+    "market_cap": 0.0,
+    "current_price": 2.87e-06,
+    "price_change_percentage_30d_in_currency": -92.95384722020198
+  },
+  {
+    "name": "Aave AMM UniYFIWETH",
+    "symbol": "aammuniyfiweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17258/large/aAmmUniYFIWETH.png?1696516814",
+    "market_cap": 0.0,
+    "current_price": 20326.0,
+    "price_change_percentage_30d_in_currency": 0.8072789141563557
+  },
+  {
+    "name": "Aave AMM UniDAIUSDC",
+    "symbol": "aammunidaiusdc",
+    "image": "https://coin-images.coingecko.com/coins/images/17218/large/aAmmUniDAIUSDC.png?1696516773",
+    "market_cap": 0.0,
+    "current_price": 2266917.0,
+    "price_change_percentage_30d_in_currency": -0.025336040578421135
+  },
+  {
+    "name": "Aethra AI",
+    "symbol": "aethra",
+    "image": "https://coin-images.coingecko.com/coins/images/53460/large/Aethra_AI.jpg?1736444769",
+    "market_cap": 0.0,
+    "current_price": 0.00067543,
+    "price_change_percentage_30d_in_currency": -69.67762368563058
+  },
+  {
+    "name": "Aave Polygon WMATIC",
+    "symbol": "amwmatic",
+    "image": "https://coin-images.coingecko.com/coins/images/17267/large/amWMATIC_2x.png?1696516822",
+    "market_cap": 0.0,
+    "current_price": 0.189357,
+    "price_change_percentage_30d_in_currency": -12.234516736906585
+  },
+  {
+    "name": "ABC PoS Pool",
+    "symbol": "abc",
+    "image": "https://coin-images.coingecko.com/coins/images/29845/large/ABC_PoS_Pool-2.png?1696528772",
+    "market_cap": 0.0,
+    "current_price": 0.331074,
+    "price_change_percentage_30d_in_currency": 9.035930990555453
+  },
+  {
+    "name": "AI Nexus",
+    "symbol": "a1x",
+    "image": "https://coin-images.coingecko.com/coins/images/52993/large/200x200_AI_Nexus.png?1734945646",
+    "market_cap": 0.0,
+    "current_price": 0.00246919,
+    "price_change_percentage_30d_in_currency": -18.35708553832061
+  },
+  {
+    "name": "Aiccelerate",
+    "symbol": "aicc",
+    "image": "https://coin-images.coingecko.com/coins/images/53514/large/aiccelerate-aic.webp?1736568547",
+    "market_cap": 0.0,
+    "current_price": 0.00096782,
+    "price_change_percentage_30d_in_currency": -32.73085730658635
+  },
+  {
+    "name": "AISweatShop",
+    "symbol": "defai",
+    "image": "https://coin-images.coingecko.com/coins/images/53652/large/-nN6YC_t_400x400.jpg?1736999983",
+    "market_cap": 0.0,
+    "current_price": 0.0066691,
+    "price_change_percentage_30d_in_currency": -6.40773516002293
+  },
+  {
+    "name": "Aave v3 cbETH",
+    "symbol": "acbeth",
+    "image": "https://coin-images.coingecko.com/coins/images/32892/large/cbETH.png?1699789253",
+    "market_cap": 0.0,
+    "current_price": 2855.09,
+    "price_change_percentage_30d_in_currency": 2.0432288256880207
+  },
+  {
+    "name": "1Hive Water",
+    "symbol": "water",
+    "image": "https://coin-images.coingecko.com/coins/images/26089/large/water_logo.png?1696525180",
+    "market_cap": 0.0,
+    "current_price": 0.073657,
+    "price_change_percentage_30d_in_currency": -15.338704388757584
+  },
+  {
+    "name": "Aave v3 WAVAX",
+    "symbol": "awavax",
+    "image": "https://coin-images.coingecko.com/coins/images/32915/large/wavax.png?1699824961",
+    "market_cap": 0.0,
+    "current_price": 17.05,
+    "price_change_percentage_30d_in_currency": -16.867212711866276
+  },
+  {
+    "name": "Aave AMM UniLINKWETH",
+    "symbol": "aammunilinkweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17221/large/aAmmUniLINKWETH.png?1696516776",
+    "market_cap": 0.0,
+    "current_price": 713.91,
+    "price_change_percentage_30d_in_currency": 1.170160130236117
+  },
+  {
+    "name": "Aave v3 rETH",
+    "symbol": "areth",
+    "image": "https://coin-images.coingecko.com/coins/images/32885/large/reth.png?1699768947",
+    "market_cap": 0.0,
+    "current_price": 2953.79,
+    "price_change_percentage_30d_in_currency": 2.0395789510509137
+  },
+  {
+    "name": "adDICted",
+    "symbol": "dic",
+    "image": "https://coin-images.coingecko.com/coins/images/37505/large/logo.jpg?1714611739",
+    "market_cap": 0.0,
+    "current_price": 0.00070726,
+    "price_change_percentage_30d_in_currency": -15.211865166317903
+  },
+  {
+    "name": "Aave v3 MaticX",
+    "symbol": "amaticx",
+    "image": "https://coin-images.coingecko.com/coins/images/32920/large/maticx.png?1699825663",
+    "market_cap": 0.0,
+    "current_price": 0.220794,
+    "price_change_percentage_30d_in_currency": -11.791925478107085
+  },
+  {
+    "name": "Aave BAL",
+    "symbol": "abal",
+    "image": "https://coin-images.coingecko.com/coins/images/17242/large/aBAL_2x.png?1696516799",
+    "market_cap": 0.0,
+    "current_price": 1.01,
+    "price_change_percentage_30d_in_currency": -4.964903725748241
+  },
+  {
+    "name": "Accumulated Finance Staked MANTA",
+    "symbol": "stmanta",
+    "image": "https://coin-images.coingecko.com/coins/images/51116/large/stmanta.png?1730118237",
+    "market_cap": 0.0,
+    "current_price": 0.75195,
+    "price_change_percentage_30d_in_currency": 0.0
+  },
+  {
+    "name": "Aave UNI",
+    "symbol": "auni",
+    "image": "https://coin-images.coingecko.com/coins/images/17247/large/aUNI_2x.png?1696516804",
+    "market_cap": 0.0,
+    "current_price": 7.46,
+    "price_change_percentage_30d_in_currency": 17.899957739236076
+  },
+  {
+    "name": "Abey",
+    "symbol": "abey",
+    "image": "https://coin-images.coingecko.com/coins/images/22146/large/Abey_Logo-2000x2000.png?1705684832",
+    "market_cap": 0.0,
+    "current_price": 0.088545,
+    "price_change_percentage_30d_in_currency": 1.762694078151497
+  },
+  {
+    "name": "Aave RAI",
+    "symbol": "arai",
+    "image": "https://coin-images.coingecko.com/coins/images/17245/large/aRAI_2x.png?1696516802",
+    "market_cap": 0.0,
+    "current_price": 2.89,
+    "price_change_percentage_30d_in_currency": -4.311497677900935
+  },
+  {
+    "name": "AIEarn",
+    "symbol": "aie",
+    "image": "https://coin-images.coingecko.com/coins/images/31985/large/AIE.jpg?1696530788",
+    "market_cap": 0.0,
+    "current_price": 1.4999e-08,
+    "price_change_percentage_30d_in_currency": -91.13849613398065
+  },
+  {
+    "name": "AI PEPE KING",
+    "symbol": "aipepe",
+    "image": "https://coin-images.coingecko.com/coins/images/37377/large/AIPEPEKING200x200.png?1714675377",
+    "market_cap": 0.0,
+    "current_price": 1.70976e-10,
+    "price_change_percentage_30d_in_currency": 17.56883145022886
+  },
+  {
+    "name": "Aave LINK v1",
+    "symbol": "alink",
+    "image": "https://coin-images.coingecko.com/coins/images/11729/large/aLINK.png?1696511610",
+    "market_cap": 0.0,
+    "current_price": 13.75,
+    "price_change_percentage_30d_in_currency": 0.06168634995004931
+  },
+  {
+    "name": "FREN",
+    "symbol": "fren",
+    "image": "https://coin-images.coingecko.com/coins/images/33950/large/fren.png?1703934448",
+    "market_cap": 0.0,
+    "current_price": 1.48e-06,
+    "price_change_percentage_30d_in_currency": -4.2318104902961995
+  },
+  {
+    "name": "Aave AMM BptBALWETH",
+    "symbol": "aammbptbalweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17261/large/aAmmBptBALWETH.png?1696516816",
+    "market_cap": 0.0,
+    "current_price": 63.21,
+    "price_change_percentage_30d_in_currency": -3.597766973066965
+  },
+  {
+    "name": "Aave SNX v1",
+    "symbol": "asnx",
+    "image": "https://coin-images.coingecko.com/coins/images/11733/large/aSNX.png?1696511614",
+    "market_cap": 0.0,
+    "current_price": 0.596715,
+    "price_change_percentage_30d_in_currency": -12.140100443623995
+  },
+  {
+    "name": "4-Way Mirror Money",
+    "symbol": "4wmm",
+    "image": "https://coin-images.coingecko.com/coins/images/38477/large/4mm.png?1717653236",
+    "market_cap": 0.0,
+    "current_price": 74.16,
+    "price_change_percentage_30d_in_currency": -31.922589625480896
+  },
+  {
+    "name": "Aave TUSD v1",
+    "symbol": "atusd",
+    "image": "https://coin-images.coingecko.com/coins/images/11724/large/aTUSD.png?1696511606",
+    "market_cap": 0.0,
+    "current_price": 0.996885,
+    "price_change_percentage_30d_in_currency": -0.15159005712232682
+  },
+  {
+    "name": "1000BONK",
+    "symbol": "1000bonk",
+    "image": "https://coin-images.coingecko.com/coins/images/33829/large/bonk_%281%29.png?1703065867",
+    "market_cap": 0.0,
+    "current_price": 0.01531898,
+    "price_change_percentage_30d_in_currency": -9.66305049789691
+  },
+  {
+    "name": "ABE",
+    "symbol": "abe",
+    "image": "https://coin-images.coingecko.com/coins/images/50620/large/ABE.png?1728494431",
+    "market_cap": 0.0,
+    "current_price": 6.868e-05,
+    "price_change_percentage_30d_in_currency": -54.55865047019005
+  },
+  {
+    "name": "Aave v3 aBasUSDbC",
+    "symbol": "abasusdbc",
+    "image": "https://coin-images.coingecko.com/coins/images/32910/large/base.png?1699824128",
+    "market_cap": 0.0,
+    "current_price": 1.0,
+    "price_change_percentage_30d_in_currency": 0.023818671940343907
+  },
+  {
+    "name": "2G Carbon Coin",
+    "symbol": "2gcc",
+    "image": "https://coin-images.coingecko.com/coins/images/27514/large/Ojh3Dm3-_400x400.jpeg?1696526553",
+    "market_cap": 0.0,
+    "current_price": 0.00981683,
+    "price_change_percentage_30d_in_currency": 3.1761743409732714
+  },
+  {
+    "name": "Landwolf",
+    "symbol": "wolf",
+    "image": "https://coin-images.coingecko.com/coins/images/38399/large/1.png?1717458463",
+    "market_cap": 0.0,
+    "current_price": 4.6815e-08,
+    "price_change_percentage_30d_in_currency": -40.33689743175361
+  },
+  {
+    "name": "Aeron",
+    "symbol": "arnx",
+    "image": "https://coin-images.coingecko.com/coins/images/1124/large/ARNX-token-logo-256x256.png?1696502218",
+    "market_cap": 0.0,
+    "current_price": 1.03e-06,
+    "price_change_percentage_30d_in_currency": -10.734146802270434
+  },
+  {
+    "name": "Agro Global Token",
+    "symbol": "agro",
+    "image": "https://coin-images.coingecko.com/coins/images/21511/large/200x200.png?1696520870",
+    "market_cap": 0.0,
+    "current_price": 0.00025958,
+    "price_change_percentage_30d_in_currency": -14.727722819845852
+  },
+  {
+    "name": "Aave v3 USDC.e",
+    "symbol": "ausdc.e",
+    "image": "https://coin-images.coingecko.com/coins/images/32911/large/usdc.png?1699824302",
+    "market_cap": 0.0,
+    "current_price": 0.99995,
+    "price_change_percentage_30d_in_currency": 0.011645938699414837
+  },
+  {
+    "name": "Aave LINK",
+    "symbol": "alink",
+    "image": "https://coin-images.coingecko.com/coins/images/14315/large/aLINK.412c6589.png?1696514004",
+    "market_cap": 0.0,
+    "current_price": 13.75,
+    "price_change_percentage_30d_in_currency": 0.020642038789079324
+  },
+  {
+    "name": "acmFinance",
+    "symbol": "acm",
+    "image": "https://coin-images.coingecko.com/coins/images/34192/large/ACM_LOGO_ICON_TIFFANY.png?1731408811",
+    "market_cap": 0.0,
+    "current_price": 0.141035,
+    "price_change_percentage_30d_in_currency": -10.47424653345856
+  },
+  {
+    "name": "Aave v3 WMATIC",
+    "symbol": "awmatic",
+    "image": "https://coin-images.coingecko.com/coins/images/32922/large/wmatic.png?1699825896",
+    "market_cap": 0.0,
+    "current_price": 0.190119,
+    "price_change_percentage_30d_in_currency": -18.086633572137256
+  },
+  {
+    "name": "AILayer Token",
+    "symbol": "ail",
+    "image": "https://coin-images.coingecko.com/coins/images/54989/large/ailayer_logo-200x200.png?1743059829",
+    "market_cap": 0.0,
+    "current_price": 0.00111989,
+    "price_change_percentage_30d_in_currency": -14.036966856136992
+  },
+  {
+    "name": "AI Supreme",
+    "symbol": "aisp",
+    "image": "https://coin-images.coingecko.com/coins/images/30900/large/200.png?1696529746",
+    "market_cap": 0.0,
+    "current_price": 0.00028419,
+    "price_change_percentage_30d_in_currency": -9.89322600118093
+  },
+  {
+    "name": "Aave v3 KNC",
+    "symbol": "aknc",
+    "image": "https://coin-images.coingecko.com/coins/images/32908/large/kyber.png?1699817281",
+    "market_cap": 0.0,
+    "current_price": 0.29935,
+    "price_change_percentage_30d_in_currency": -8.415315419061043
+  },
+  {
+    "name": "1000CAT",
+    "symbol": "1000cat",
+    "image": "https://coin-images.coingecko.com/coins/images/52824/large/cat.jpg?1734428093",
+    "market_cap": 0.0,
+    "current_price": 0.00808112,
+    "price_change_percentage_30d_in_currency": 11.261131311168066
+  },
+  {
+    "name": "Aave GUSD",
+    "symbol": "agusd",
+    "image": "https://coin-images.coingecko.com/coins/images/17246/large/aGUSD_2x.png?1696516803",
+    "market_cap": 0.0,
+    "current_price": 0.999104,
+    "price_change_percentage_30d_in_currency": -0.06824674372813198
+  },
+  {
+    "name": "Aave v1 USDC",
+    "symbol": "ausdc",
+    "image": "https://coin-images.coingecko.com/coins/images/11674/large/aUSDC.png?1696511564",
+    "market_cap": 0.0,
+    "current_price": 0.999031,
+    "price_change_percentage_30d_in_currency": -0.06883577015206861
+  },
+  {
+    "name": "Aave CRV",
+    "symbol": "acrv",
+    "image": "https://coin-images.coingecko.com/coins/images/17250/large/aCRV_2x.png?1696516806",
+    "market_cap": 0.0,
+    "current_price": 0.539477,
+    "price_change_percentage_30d_in_currency": -19.85515698795233
+  },
+  {
+    "name": "AI Protocol",
+    "symbol": "ai",
+    "image": "https://coin-images.coingecko.com/coins/images/54512/large/ai_200x200.png?1740070043",
+    "market_cap": 0.0,
+    "current_price": 0.151818,
+    "price_change_percentage_30d_in_currency": 0.0
+  },
+  {
+    "name": "Aave AMM WETH",
+    "symbol": "aammweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17259/large/aAMMWETH_2x.png?1696516814",
+    "market_cap": 0.0,
+    "current_price": 2592.67,
+    "price_change_percentage_30d_in_currency": 1.8870926369831258
+  },
+  {
+    "name": "Aave DAI",
+    "symbol": "adai",
+    "image": "https://coin-images.coingecko.com/coins/images/14242/large/aDAI.84b6c41f.png?1696513957",
+    "market_cap": 0.0,
+    "current_price": 0.998893,
+    "price_change_percentage_30d_in_currency": 0.022745948982354207
+  },
+  {
+    "name": "AASToken",
+    "symbol": "aast",
+    "image": "https://coin-images.coingecko.com/coins/images/35717/large/IMG_8288.JPG.jpg?1709630759",
+    "market_cap": 0.0,
+    "current_price": 0.00789851,
+    "price_change_percentage_30d_in_currency": -25.156541211037915
+  },
+  {
+    "name": "Aave v3 ARB",
+    "symbol": "aarb",
+    "image": "https://coin-images.coingecko.com/coins/images/32912/large/arbitrum.png?1699824441",
+    "market_cap": 0.0,
+    "current_price": 0.351086,
+    "price_change_percentage_30d_in_currency": 1.2311461072626013
+  },
+  {
+    "name": "9to5",
+    "symbol": "9-5",
+    "image": "https://coin-images.coingecko.com/coins/images/38143/large/9-5_Token.png?1718410483",
+    "market_cap": 0.0,
+    "current_price": 4.73e-06,
+    "price_change_percentage_30d_in_currency": -60.89137794297726
+  },
+  {
+    "name": "1MillionNFTs",
+    "symbol": "1mil",
+    "image": "https://coin-images.coingecko.com/coins/images/14990/large/4kQ8hRnU_400x400.jpg?1696514654",
+    "market_cap": 0.0,
+    "current_price": 0.01996188,
+    "price_change_percentage_30d_in_currency": -10.177786095907928
+  },
+  {
+    "name": "AICell",
+    "symbol": "aicell",
+    "image": "https://coin-images.coingecko.com/coins/images/52910/large/aqK6ODkn_400x400.jpg?1734647715",
+    "market_cap": 0.0,
+    "current_price": 0.00172682,
+    "price_change_percentage_30d_in_currency": -25.898829352400327
+  },
+  {
+    "name": "Aave v3 ENS",
+    "symbol": "aens",
+    "image": "https://coin-images.coingecko.com/coins/images/32907/large/ens.png?1699816992",
+    "market_cap": 0.0,
+    "current_price": 19.52,
+    "price_change_percentage_30d_in_currency": -5.546926121002414
+  },
+  {
+    "name": "1000SATS (Ordinals)",
+    "symbol": "1000sats",
+    "image": "https://coin-images.coingecko.com/coins/images/33713/large/sats.png?1702872301",
+    "market_cap": 0.0,
+    "current_price": 4.073e-05,
+    "price_change_percentage_30d_in_currency": -12.005949255856645
+  },
+  {
+    "name": "AI Waifu",
+    "symbol": "wai",
+    "image": "https://coin-images.coingecko.com/coins/images/50441/large/Logo.png?1727768050",
+    "market_cap": 0.0,
+    "current_price": 0.090637,
+    "price_change_percentage_30d_in_currency": 0.2071749209306264
+  },
+  {
+    "name": "AI Community",
+    "symbol": "ai",
+    "image": "https://coin-images.coingecko.com/coins/images/36025/large/IMG_2023.JPG?1710387107",
+    "market_cap": 0.0,
+    "current_price": 0.00025144,
+    "price_change_percentage_30d_in_currency": -1.0621186818714148
+  },
+  {
+    "name": "1RUS DAO",
+    "symbol": "1rusd",
+    "image": "https://coin-images.coingecko.com/coins/images/38082/large/photo_2023-12-08_12-58-58_%281%29_%281%29_%281%29.png?1716476351",
+    "market_cap": 0.0,
+    "current_price": 0.00014269,
+    "price_change_percentage_30d_in_currency": -11.106623456584899
+  },
+  {
+    "name": "Aave WETH",
+    "symbol": "aweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17238/large/aWETH_2x.png?1696516795",
+    "market_cap": 0.0,
+    "current_price": 2592.67,
+    "price_change_percentage_30d_in_currency": 1.8870926369831258
+  },
+  {
+    "name": "Adamant",
+    "symbol": "addy",
+    "image": "https://coin-images.coingecko.com/coins/images/15225/large/adamant.png?1696514880",
+    "market_cap": 0.0,
+    "current_price": 0.02082452,
+    "price_change_percentage_30d_in_currency": -1.6527646007782406
+  },
+  {
+    "name": "Aicean",
+    "symbol": "aice",
+    "image": "https://coin-images.coingecko.com/coins/images/55174/large/IMG_0397.jpeg?1744355219",
+    "market_cap": 0.0,
+    "current_price": 2.53,
+    "price_change_percentage_30d_in_currency": 85.67273646782061
+  },
+  {
+    "name": "Aave WBTC v1",
+    "symbol": "awbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/11734/large/aWBTC.png?1696511615",
+    "market_cap": 0.0,
+    "current_price": 108914.0,
+    "price_change_percentage_30d_in_currency": 4.874886145734247
+  },
+  {
+    "name": "Aave AMM UniBATWETH",
+    "symbol": "aammunibatweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17217/large/aAmmUniBATWETH.png?1696516773",
+    "market_cap": 0.0,
+    "current_price": 56.39,
+    "price_change_percentage_30d_in_currency": 0.6261347245008849
+  },
+  {
+    "name": "4TB Coin",
+    "symbol": "4tb",
+    "image": "https://coin-images.coingecko.com/coins/images/39844/large/4TB_Logo.png?1724294526",
+    "market_cap": 0.0,
+    "current_price": 0.0005902,
+    "price_change_percentage_30d_in_currency": 7.271123042680956
+  },
+  {
+    "name": "Aave v3 LUSD",
+    "symbol": "alusd",
+    "image": "https://coin-images.coingecko.com/coins/images/32894/large/LUSD.png?1699789893",
+    "market_cap": 0.0,
+    "current_price": 1.002,
+    "price_change_percentage_30d_in_currency": -0.10042970308650356
+  },
+  {
+    "name": "Aave AMM UniSNXWETH",
+    "symbol": "aammunisnxweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17224/large/aAmmUniSNXWETH.png?1696516779",
+    "market_cap": 0.0,
+    "current_price": 191.17,
+    "price_change_percentage_30d_in_currency": -4.930716594089701
+  },
+  {
+    "name": "Aave AMM UniMKRWETH",
+    "symbol": "aammunimkrweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17222/large/aAmmUniMKRWETH.png?1696516777",
+    "market_cap": 0.0,
+    "current_price": 6928.52,
+    "price_change_percentage_30d_in_currency": 9.45498434246113
+  },
+  {
+    "name": "Aave BUSD v1",
+    "symbol": "abusd",
+    "image": "https://coin-images.coingecko.com/coins/images/11736/large/aBUSD.png?1696511617",
+    "market_cap": 0.0,
+    "current_price": 0.997203,
+    "price_change_percentage_30d_in_currency": -0.08763865618444096
+  },
+  {
+    "name": "99Starz",
+    "symbol": "stz",
+    "image": "https://coin-images.coingecko.com/coins/images/21467/large/stz.png?1696520828",
+    "market_cap": 0.0,
+    "current_price": 0.00833999,
+    "price_change_percentage_30d_in_currency": -45.40405154496706
+  },
+  {
+    "name": "21X Diamonds",
+    "symbol": "21x",
+    "image": "https://coin-images.coingecko.com/coins/images/37730/large/photo_2024-05-09_10-21-43.jpg?1715336089",
+    "market_cap": 0.0,
+    "current_price": 6.40521e-07,
+    "price_change_percentage_30d_in_currency": 12.344682686481557
+  },
+  {
+    "name": "aiSUI",
+    "symbol": "suiagent",
+    "image": "https://coin-images.coingecko.com/coins/images/55754/large/suiagent-logo.jpg?1747296195",
+    "market_cap": 0.0,
+    "current_price": 0.00023819,
+    "price_change_percentage_30d_in_currency": -74.64702414233186
+  },
+  {
+    "name": "Aftermath Staked SUI",
+    "symbol": "afsui",
+    "image": "https://coin-images.coingecko.com/coins/images/32391/large/coin_icon_afsui.png?1698051868",
+    "market_cap": 0.0,
+    "current_price": 3.09,
+    "price_change_percentage_30d_in_currency": -10.017075834226643
+  },
+  {
+    "name": "Bitcoin Dogs",
+    "symbol": "0dog",
+    "image": "https://coin-images.coingecko.com/coins/images/39840/large/0DOG.png?1724288227",
+    "market_cap": 0.0,
+    "current_price": 4.115e-05,
+    "price_change_percentage_30d_in_currency": 1.6838559977962229
+  },
+  {
+    "name": "Aave BUSD",
+    "symbol": "abusd",
+    "image": "https://coin-images.coingecko.com/coins/images/14245/large/aBUSD.346a65d7_-_Copy.png?1696513960",
+    "market_cap": 0.0,
+    "current_price": 0.997203,
+    "price_change_percentage_30d_in_currency": -0.11568017482317659
+  },
+  {
+    "name": "Aave BAT",
+    "symbol": "abat",
+    "image": "https://coin-images.coingecko.com/coins/images/14246/large/aBAT.1fe436f7_-_Copy.png?1696513961",
+    "market_cap": 0.0,
+    "current_price": 0.131175,
+    "price_change_percentage_30d_in_currency": -1.0622384362967061
+  },
+  {
+    "name": "ago",
+    "symbol": "ago",
+    "image": "https://coin-images.coingecko.com/coins/images/37208/large/Logo_Ago_400x400_1_.png?1714459203",
+    "market_cap": 0.0,
+    "current_price": 0.00071671,
+    "price_change_percentage_30d_in_currency": -33.76985736204017
+  },
+  {
+    "name": "Edcoin",
+    "symbol": "edc",
+    "image": "https://coin-images.coingecko.com/coins/images/13872/large/EDCOIN-1.png?1696513617",
+    "market_cap": 0.0,
+    "current_price": 0.02909994,
+    "price_change_percentage_30d_in_currency": 4.374105491869976
+  },
+  {
+    "name": "Aave KNC",
+    "symbol": "aknc",
+    "image": "https://coin-images.coingecko.com/coins/images/14250/large/aKNC.42bcd2e3.png?1696513964",
+    "market_cap": 0.0,
+    "current_price": 0.30187,
+    "price_change_percentage_30d_in_currency": -8.301665436792053
+  },
+  {
+    "name": "Aave v3 stMATIC",
+    "symbol": "astmatic",
+    "image": "https://coin-images.coingecko.com/coins/images/32921/large/stmatic.png?1699825800",
+    "market_cap": 0.0,
+    "current_price": 0.218881,
+    "price_change_percentage_30d_in_currency": -11.838268925868691
+  },
+  {
+    "name": "0xCoco",
+    "symbol": "coco",
+    "image": "https://coin-images.coingecko.com/coins/images/31102/large/FL1-g3Ns_400x400.jpg?1696529933",
+    "market_cap": 0.0,
+    "current_price": 0.00033911,
+    "price_change_percentage_30d_in_currency": -28.905708471191883
+  },
+  {
+    "name": "1INCH yVault",
+    "symbol": "yv1inch",
+    "image": "https://coin-images.coingecko.com/coins/images/28795/large/yv1INCH-128-0xB8C3B7A2A618C552C23B1E4701109a9E756Bab67.png?1696527773",
+    "market_cap": 0.0,
+    "current_price": 0.195047,
+    "price_change_percentage_30d_in_currency": -14.421044866924623
+  },
+  {
+    "name": "ACryptoS",
+    "symbol": "acs",
+    "image": "https://coin-images.coingecko.com/coins/images/32721/large/ACS.jpg?1699009686",
+    "market_cap": 0.0,
+    "current_price": 0.17097,
+    "price_change_percentage_30d_in_currency": -7.888701734179546
+  },
+  {
+    "name": "Aave USDT",
+    "symbol": "ausdt",
+    "image": "https://coin-images.coingecko.com/coins/images/14243/large/aUSDT.78f5faae.png?1696513958",
+    "market_cap": 0.0,
+    "current_price": 0.999314,
+    "price_change_percentage_30d_in_currency": 0.07617436395162673
+  },
+  {
+    "name": "AICrew",
+    "symbol": "aicr",
+    "image": "https://coin-images.coingecko.com/coins/images/31569/large/Token_AICR.png?1696530381",
+    "market_cap": 0.0,
+    "current_price": 0.0225336,
+    "price_change_percentage_30d_in_currency": 0.31690983951058804
+  },
+  {
+    "name": "AiPTP",
+    "symbol": "atmt",
+    "image": "https://coin-images.coingecko.com/coins/images/30353/large/200.200.png?1696529253",
+    "market_cap": 0.0,
+    "current_price": 0.00077879,
+    "price_change_percentage_30d_in_currency": -17.606767665460605
+  },
+  {
+    "name": "Affinity",
+    "symbol": "afnty",
+    "image": "https://coin-images.coingecko.com/coins/images/27345/large/YPtUpB2I_400x400.jpeg?1696526392",
+    "market_cap": 0.0,
+    "current_price": 3.80272e-07,
+    "price_change_percentage_30d_in_currency": -8.238396868115563
+  },
+  {
+    "name": "Aave Polygon DAI",
+    "symbol": "amdai",
+    "image": "https://coin-images.coingecko.com/coins/images/17251/large/amDAI_2x.png?1696516807",
+    "market_cap": 0.0,
+    "current_price": 1.0,
+    "price_change_percentage_30d_in_currency": 0.011306152149778828
+  },
+  {
+    "name": "Abyss World",
+    "symbol": "awt",
+    "image": "https://coin-images.coingecko.com/coins/images/30679/large/black.png?1696529548",
+    "market_cap": 0.0,
+    "current_price": 1.568e-05,
+    "price_change_percentage_30d_in_currency": 138.87650734888956
+  },
+  {
+    "name": "Aave MANA v1",
+    "symbol": "amana",
+    "image": "https://coin-images.coingecko.com/coins/images/11730/large/aMANA.png?1696511611",
+    "market_cap": 0.0,
+    "current_price": 0.277244,
+    "price_change_percentage_30d_in_currency": -0.03144310723458365
+  },
+  {
+    "name": "Aave AMM USDT",
+    "symbol": "aammusdt",
+    "image": "https://coin-images.coingecko.com/coins/images/17200/large/aAMMUSDT_2x.png?1696516757",
+    "market_cap": 0.0,
+    "current_price": 0.999314,
+    "price_change_percentage_30d_in_currency": 0.009128567130457295
+  },
+  {
+    "name": "Aave SUSD v1",
+    "symbol": "asusd",
+    "image": "https://coin-images.coingecko.com/coins/images/11723/large/aSUSD.png?1696511605",
+    "market_cap": 0.0,
+    "current_price": 0.934259,
+    "price_change_percentage_30d_in_currency": -0.5360310809547509
+  },
+  {
+    "name": "Agility",
+    "symbol": "agi",
+    "image": "https://coin-images.coingecko.com/coins/images/29781/large/14csBMea_400x400.jpg?1696528711",
+    "market_cap": 0.0,
+    "current_price": 0.00107813,
+    "price_change_percentage_30d_in_currency": 19.759679148922622
+  },
+  {
+    "name": "Aave AMM UniRENWETH",
+    "symbol": "aammunirenweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17223/large/aAmmUniRENWETH.png?1696516778",
+    "market_cap": 0.0,
+    "current_price": 29.9,
+    "price_change_percentage_30d_in_currency": -11.022905322491502
+  },
+  {
+    "name": "Aave v3 BAL",
+    "symbol": "abal",
+    "image": "https://coin-images.coingecko.com/coins/images/32903/large/BAL_%281%29.png?1699802595",
+    "market_cap": 0.0,
+    "current_price": 1.01,
+    "price_change_percentage_30d_in_currency": -4.807203236536246
+  },
+  {
+    "name": "Aave v3 1INCH",
+    "symbol": "a1inch",
+    "image": "https://coin-images.coingecko.com/coins/images/32906/large/1INCH.png?1699804523",
+    "market_cap": 0.0,
+    "current_price": 0.181009,
+    "price_change_percentage_30d_in_currency": -14.187878431603076
+  },
+  {
+    "name": "Adroverse",
+    "symbol": "adr",
+    "image": "https://coin-images.coingecko.com/coins/images/24556/large/92mtj657_400x400.jpg?1696523732",
+    "market_cap": 0.0,
+    "current_price": 5.9e-06,
+    "price_change_percentage_30d_in_currency": -1.6511710088921228
+  },
+  {
+    "name": "Aave Polygon WETH",
+    "symbol": "amweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17266/large/amWETH_2x.png?1696516821",
+    "market_cap": 0.0,
+    "current_price": 2592.67,
+    "price_change_percentage_30d_in_currency": 2.042507767076723
+  },
+  {
+    "name": "Aelin",
+    "symbol": "aelin",
+    "image": "https://coin-images.coingecko.com/coins/images/22303/large/aelien.jpg?1696521649",
+    "market_cap": 0.0,
+    "current_price": 367.46,
+    "price_change_percentage_30d_in_currency": 16.604103184783096
+  },
+  {
+    "name": "Aave v3 STG",
+    "symbol": "astg",
+    "image": "https://coin-images.coingecko.com/coins/images/32905/large/ST.png?1699803503",
+    "market_cap": 0.0,
+    "current_price": 0.148464,
+    "price_change_percentage_30d_in_currency": -18.266106675896467
+  },
+  {
+    "name": "Aave ZRX v1",
+    "symbol": "azrx",
+    "image": "https://coin-images.coingecko.com/coins/images/11735/large/aZRX.png?1696511616",
+    "market_cap": 0.0,
+    "current_price": 0.229805,
+    "price_change_percentage_30d_in_currency": -3.589095984533821
+  },
+  {
+    "name": "Aave v3 DAI",
+    "symbol": "adai",
+    "image": "https://coin-images.coingecko.com/coins/images/32886/large/dai.png?1699769446",
+    "market_cap": 0.0,
+    "current_price": 0.999789,
+    "price_change_percentage_30d_in_currency": -0.031015917948232278
+  },
+  {
+    "name": "Accumulated Finance Staked ZETA",
+    "symbol": "stzeta",
+    "image": "https://coin-images.coingecko.com/coins/images/51117/large/stzeta.png?1730118280",
+    "market_cap": 0.0,
+    "current_price": 0.18399,
+    "price_change_percentage_30d_in_currency": -14.557216669935109
+  },
+  {
+    "name": "Aave AMM UniDAIWETH",
+    "symbol": "aammunidaiweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17230/large/aAmmUniDAIWETH.png?1696516784",
+    "market_cap": 0.0,
+    "current_price": 211.17,
+    "price_change_percentage_30d_in_currency": 1.2721192825084207
+  },
+  {
+    "name": "AGII",
+    "symbol": "agii",
+    "image": "https://coin-images.coingecko.com/coins/images/32371/large/AGII.png?1699534856",
+    "market_cap": 0.0,
+    "current_price": 2.114e-05,
+    "price_change_percentage_30d_in_currency": -18.15990190990667
+  },
+  {
+    "name": "Aave v3 EURS",
+    "symbol": "aeurs",
+    "image": "https://coin-images.coingecko.com/coins/images/32913/large/eurs.png?1699824583",
+    "market_cap": 0.0,
+    "current_price": 1.18,
+    "price_change_percentage_30d_in_currency": 3.093053735255559
+  },
+  {
+    "name": "Aave SUSD",
+    "symbol": "asusd",
+    "image": "https://coin-images.coingecko.com/coins/images/14266/large/aSUSD.9b00ffc6.png?1696513967",
+    "market_cap": 0.0,
+    "current_price": 0.933877,
+    "price_change_percentage_30d_in_currency": -0.5360310809547509
+  },
+  {
+    "name": "Aave v3 wstETH",
+    "symbol": "awsteth",
+    "image": "https://coin-images.coingecko.com/coins/images/32890/large/WSTETH.png?1699776336",
+    "market_cap": 0.0,
+    "current_price": 3128.31,
+    "price_change_percentage_30d_in_currency": 2.0873761905720087
+  },
+  {
+    "name": "AI CODE",
+    "symbol": "aicode",
+    "image": "https://coin-images.coingecko.com/coins/images/30057/large/AICODE.png?1696528979",
+    "market_cap": 0.0,
+    "current_price": 0.184699,
+    "price_change_percentage_30d_in_currency": -26.863661236937926
+  },
+  {
+    "name": "Aave v3 MKR",
+    "symbol": "amkr",
+    "image": "https://coin-images.coingecko.com/coins/images/32889/large/mkr.png?1699774767",
+    "market_cap": 0.0,
+    "current_price": 1984.48,
+    "price_change_percentage_30d_in_currency": 16.318165964132703
+  },
+  {
+    "name": "Ainu",
+    "symbol": "ainu",
+    "image": "https://coin-images.coingecko.com/coins/images/17022/large/AINU.jpg?1696516585",
+    "market_cap": 0.0,
+    "current_price": 4.46115e-13,
+    "price_change_percentage_30d_in_currency": -0.8365488223355951
+  },
+  {
+    "name": "AIHub",
+    "symbol": "aih",
+    "image": "https://coin-images.coingecko.com/coins/images/33833/large/AIH-cg.jpg?1703107152",
+    "market_cap": 0.0,
+    "current_price": 31.72,
+    "price_change_percentage_30d_in_currency": -15.907835118677111
+  },
+  {
+    "name": "Afrostar",
+    "symbol": "afro",
+    "image": "https://coin-images.coingecko.com/coins/images/19784/large/afrostar.PNG?1696519206",
+    "market_cap": 0.0,
+    "current_price": 4.242e-09,
+    "price_change_percentage_30d_in_currency": -2.8685624241868117
+  },
+  {
+    "name": "AddOn Ai",
+    "symbol": "addon",
+    "image": "https://coin-images.coingecko.com/coins/images/53515/large/addonai.jpg?1736573362",
+    "market_cap": 0.0,
+    "current_price": 0.00063084,
+    "price_change_percentage_30d_in_currency": -17.935730280164265
+  },
+  {
+    "name": "Active Token",
+    "symbol": "active",
+    "image": "https://coin-images.coingecko.com/coins/images/52342/large/activate-token-2_%282%29.png?1733128774",
+    "market_cap": 0.0,
+    "current_price": 0.00047754,
+    "price_change_percentage_30d_in_currency": -29.925637262154538
+  },
+  {
+    "name": "AiAkita",
+    "symbol": "aia",
+    "image": "https://coin-images.coingecko.com/coins/images/32491/large/AIA.jpg?1698293303",
+    "market_cap": 0.0,
+    "current_price": 7.1631e-14,
+    "price_change_percentage_30d_in_currency": -36.96790269206727
+  },
+  {
+    "name": "Aave v3 SNX",
+    "symbol": "asnx",
+    "image": "https://coin-images.coingecko.com/coins/images/32902/large/SNX.png?1699802376",
+    "market_cap": 0.0,
+    "current_price": 0.59889,
+    "price_change_percentage_30d_in_currency": -12.267167983426427
+  },
+  {
+    "name": "2MOON",
+    "symbol": "moon",
+    "image": "https://coin-images.coingecko.com/coins/images/32194/large/2MOON.jpg?1696745527",
+    "market_cap": 0.0,
+    "current_price": 1.94e-06,
+    "price_change_percentage_30d_in_currency": 59.41452875150992
+  },
+  {
+    "name": "AirNFT",
+    "symbol": "airt",
+    "image": "https://coin-images.coingecko.com/coins/images/18370/large/AIRT-Logo.png?1696517862",
+    "market_cap": 0.0,
+    "current_price": 0.00017202,
+    "price_change_percentage_30d_in_currency": -1.5028640346618072
+  },
+  {
+    "name": "Aave WBTC",
+    "symbol": "awbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/14244/large/aWBTC.41453c2a.png?1696513959",
+    "market_cap": 0.0,
+    "current_price": 108914.0,
+    "price_change_percentage_30d_in_currency": 4.874886145734247
+  },
+  {
+    "name": "Aave AMM UniWBTCWETH",
+    "symbol": "aammuniwbtcweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17231/large/aAmmUniWBTCWETH.png?1696516785",
+    "market_cap": 0.0,
+    "current_price": 4384600855.0,
+    "price_change_percentage_30d_in_currency": 3.5415074915938147
+  },
+  {
+    "name": "Aevum",
+    "symbol": "aevum",
+    "image": "https://coin-images.coingecko.com/coins/images/30587/large/vivaion-aevum-2.png?1696529455",
+    "market_cap": 0.0,
+    "current_price": 0.00487203,
+    "price_change_percentage_30d_in_currency": -16.445945591358644
+  },
+  {
+    "name": "Airtok",
+    "symbol": "airtok",
+    "image": "https://coin-images.coingecko.com/coins/images/54451/large/airtok.jpg?1739778722",
+    "market_cap": 0.0,
+    "current_price": 4.334e-05,
+    "price_change_percentage_30d_in_currency": -1.9770052992622535
+  },
+  {
+    "name": "AdaSwap",
+    "symbol": "asw",
+    "image": "https://coin-images.coingecko.com/coins/images/24453/large/rA5cmPtX_400x400.jpg?1696523633",
+    "market_cap": 0.0,
+    "current_price": 1.2e-06,
+    "price_change_percentage_30d_in_currency": -86.03401933164307
+  },
+  {
+    "name": "Able Finance",
+    "symbol": "able",
+    "image": "https://coin-images.coingecko.com/coins/images/17819/large/aac9bfb0-f27f-48f3-9b3e-ec090e10d3e1.png?1696517339",
+    "market_cap": 0.0,
+    "current_price": 3.92066e-13,
+    "price_change_percentage_30d_in_currency": 0.0
+  },
+  {
+    "name": "Ajuna Network",
+    "symbol": "ajun",
+    "image": "https://coin-images.coingecko.com/coins/images/39520/large/ajun.jpg?1722841554",
+    "market_cap": 0.0,
+    "current_price": 0.00132054,
+    "price_change_percentage_30d_in_currency": 29.659041574653784
+  },
+  {
+    "name": "Aave v3 GHST",
+    "symbol": "aghst",
+    "image": "https://coin-images.coingecko.com/coins/images/32923/large/ghst.png?1699826089",
+    "market_cap": 0.0,
+    "current_price": 0.38255,
+    "price_change_percentage_30d_in_currency": -6.624981577644845
+  },
+  {
+    "name": "Aave v3 LDO",
+    "symbol": "aldo",
+    "image": "https://coin-images.coingecko.com/coins/images/32895/large/LDO.png?1699790151",
+    "market_cap": 0.0,
+    "current_price": 0.765985,
+    "price_change_percentage_30d_in_currency": -9.42141194466549
+  },
+  {
+    "name": "Aave yVault",
+    "symbol": "yvaave",
+    "image": "https://coin-images.coingecko.com/coins/images/28784/large/yvAAVE-128-0xd9788f3931Ede4D5018184E198699dC6d66C1915.png?1696527763",
+    "market_cap": 0.0,
+    "current_price": 294.79,
+    "price_change_percentage_30d_in_currency": 11.285783830928036
+  },
+  {
+    "name": "5mc",
+    "symbol": "5mc",
+    "image": "https://coin-images.coingecko.com/coins/images/32862/large/5mc_200X200.png?1699670007",
+    "market_cap": 0.0,
+    "current_price": 0.0012491,
+    "price_change_percentage_30d_in_currency": -55.56392657495821
+  },
+  {
+    "name": "4444",
+    "symbol": "4444",
+    "image": "https://coin-images.coingecko.com/coins/images/55067/large/4444.jpg?1743580730",
+    "market_cap": 0.0,
+    "current_price": 3.94e-05,
+    "price_change_percentage_30d_in_currency": -17.64010882463803
+  },
+  {
+    "name": "Add Finance",
+    "symbol": "add",
+    "image": "https://coin-images.coingecko.com/coins/images/32008/large/add.jpg?1696530806",
+    "market_cap": 0.0,
+    "current_price": 1.781e-05,
+    "price_change_percentage_30d_in_currency": -1.3846253218560658
+  },
+  {
+    "name": "8-Bit Coin",
+    "symbol": "coin",
+    "image": "https://coin-images.coingecko.com/coins/images/39995/large/2024-08-29_20.42.45.jpg?1725066328",
+    "market_cap": 0.0,
+    "current_price": 7.235e-05,
+    "price_change_percentage_30d_in_currency": 23.037080710134823
+  },
+  {
+    "name": "404ver",
+    "symbol": "top",
+    "image": "https://coin-images.coingecko.com/coins/images/37255/large/TOPCG.png?1713864803",
+    "market_cap": 0.0,
+    "current_price": 0.00052427,
+    "price_change_percentage_30d_in_currency": -1.2364488075152467
+  },
+  {
+    "name": "Aave v3 UNI",
+    "symbol": "auni",
+    "image": "https://coin-images.coingecko.com/coins/images/32893/large/UNI.png?1699789595",
+    "market_cap": 0.0,
+    "current_price": 7.49,
+    "price_change_percentage_30d_in_currency": 17.906425595469763
+  },
+  {
+    "name": "Aave Polygon USDC",
+    "symbol": "amusdc",
+    "image": "https://coin-images.coingecko.com/coins/images/17249/large/amUSDC_2x.png?1696516805",
+    "market_cap": 0.0,
+    "current_price": 1.0,
+    "price_change_percentage_30d_in_currency": -0.13167890301649157
+  },
+  {
+    "name": "Aave Polygon AAVE",
+    "symbol": "amaave",
+    "image": "https://coin-images.coingecko.com/coins/images/17239/large/amAAVE_2x.png?1696516796",
+    "market_cap": 0.0,
+    "current_price": 280.13,
+    "price_change_percentage_30d_in_currency": 11.859976434658307
+  },
+  {
+    "name": "3 Kingdoms Multiverse",
+    "symbol": "3km",
+    "image": "https://coin-images.coingecko.com/coins/images/29383/large/3KM_Logo.jpg?1696528330",
+    "market_cap": 0.0,
+    "current_price": 8.91e-06,
+    "price_change_percentage_30d_in_currency": -50.50403032821469
+  },
+  {
+    "name": "Angryb",
+    "symbol": "anb",
+    "image": "https://coin-images.coingecko.com/coins/images/17270/large/AngryBlockchain.png?1696516825",
+    "market_cap": 0.0,
+    "current_price": 6.47822e-07,
+    "price_change_percentage_30d_in_currency": 0.15647207415680334
+  },
+  {
+    "name": "Advanced United Continent",
+    "symbol": "auc",
+    "image": "https://coin-images.coingecko.com/coins/images/24369/large/200x200.png?1696523553",
+    "market_cap": 0.0,
+    "current_price": 0.00031334,
+    "price_change_percentage_30d_in_currency": -13.780041178419001
+  },
+  {
+    "name": "AgeOfGods",
+    "symbol": "aog",
+    "image": "https://coin-images.coingecko.com/coins/images/22133/large/aog.PNG?1696521479",
+    "market_cap": 0.0,
+    "current_price": 0.00149137,
+    "price_change_percentage_30d_in_currency": -6.6898458337741555
+  },
+  {
+    "name": "AirBTC",
+    "symbol": "airbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/37369/large/photo_2024-04-21_01-29-59.jpg?1714117341",
+    "market_cap": 0.0,
+    "current_price": 7.9091e-08,
+    "price_change_percentage_30d_in_currency": 38.73851689223629
+  },
+  {
+    "name": "@BTC25",
+    "symbol": "@btc25",
+    "image": "https://coin-images.coingecko.com/coins/images/38584/large/photo_2024-03-04_12-32-04_%282%29.png?1718088255",
+    "market_cap": 0.0,
+    "current_price": 4.10412e-10,
+    "price_change_percentage_30d_in_currency": 8.57242120451638
+  },
+  {
+    "name": "Anzen Staked USDz",
+    "symbol": "susdz",
+    "image": "https://coin-images.coingecko.com/coins/images/38040/large/susdz-symbol-200x200.png?1716334492",
+    "market_cap": 0.0,
+    "current_price": 1.2,
+    "price_change_percentage_30d_in_currency": 0.9391095934321044
+  },
+  {
+    "name": "0xNumber",
+    "symbol": "oxn",
+    "image": "https://coin-images.coingecko.com/coins/images/33870/large/200x200.png?1703131812",
+    "market_cap": 0.0,
+    "current_price": 0.00310539,
+    "price_change_percentage_30d_in_currency": -1.9613499447858458
+  },
+  {
+    "name": "Aave v3 USDT",
+    "symbol": "ausdt",
+    "image": "https://coin-images.coingecko.com/coins/images/32884/large/USDT.PNG?1699768611",
+    "market_cap": 0.0,
+    "current_price": 1.0,
+    "price_change_percentage_30d_in_currency": -0.008004674962120371
+  },
+  {
+    "name": "Aave AMM UniWBTCUSDC",
+    "symbol": "aammuniwbtcusdc",
+    "image": "https://coin-images.coingecko.com/coins/images/17255/large/aAmmUniWBTCUSDC.png?1696516811",
+    "market_cap": 0.0,
+    "current_price": 121094465374771.0,
+    "price_change_percentage_30d_in_currency": 2.51654719078978
+  },
+  {
+    "name": "Aave ZRX",
+    "symbol": "azrx",
+    "image": "https://coin-images.coingecko.com/coins/images/14264/large/aZRX.9be555a9.png?1696513965",
+    "market_cap": 0.0,
+    "current_price": 0.229711,
+    "price_change_percentage_30d_in_currency": -3.542254493671361
+  },
+  {
+    "name": "Aave DAI v1",
+    "symbol": "adai",
+    "image": "https://coin-images.coingecko.com/coins/images/10843/large/aDAI.png?1696510799",
+    "market_cap": 0.0,
+    "current_price": 0.998893,
+    "price_change_percentage_30d_in_currency": -0.10654880036289077
+  },
+  {
+    "name": "Aave AMM WBTC",
+    "symbol": "aammwbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/17215/large/aAMMWBTC_2x.png?1696516771",
+    "market_cap": 0.0,
+    "current_price": 108914.0,
+    "price_change_percentage_30d_in_currency": 4.904328715696553
+  },
+  {
+    "name": "Aave v3 agEUR",
+    "symbol": "aageur",
+    "image": "https://coin-images.coingecko.com/coins/images/32925/large/eur.png?1699826217",
+    "market_cap": 0.0,
+    "current_price": 1.18,
+    "price_change_percentage_30d_in_currency": 3.0990002097462113
+  },
+  {
+    "name": "Aave USDT v1",
+    "symbol": "ausdt",
+    "image": "https://coin-images.coingecko.com/coins/images/11725/large/aUSDT.png?1696511607",
+    "market_cap": 0.0,
+    "current_price": 0.999314,
+    "price_change_percentage_30d_in_currency": -0.10429067188726128
+  },
+  {
+    "name": "Aave v3 AAVE",
+    "symbol": "aaave",
+    "image": "https://coin-images.coingecko.com/coins/images/32887/large/aave.png?1699773604",
+    "market_cap": 0.0,
+    "current_price": 279.61,
+    "price_change_percentage_30d_in_currency": 11.587320774388573
+  },
+  {
+    "name": "Aave v3 USDC",
+    "symbol": "ausdc",
+    "image": "https://coin-images.coingecko.com/coins/images/32847/large/usdc_%281%29.png?1699619355",
+    "market_cap": 0.0,
+    "current_price": 0.999927,
+    "price_change_percentage_30d_in_currency": 0.017537347333033294
+  },
+  {
+    "name": "Aave v3 FRAX",
+    "symbol": "afrax",
+    "image": "https://coin-images.coingecko.com/coins/images/32904/large/FRAX.png?1699802848",
+    "market_cap": 0.0,
+    "current_price": 0.999079,
+    "price_change_percentage_30d_in_currency": -0.05822172843267551
+  },
+  {
+    "name": "Aave AMM USDC",
+    "symbol": "aammusdc",
+    "image": "https://coin-images.coingecko.com/coins/images/17226/large/aAMMUSDC_2x.png?1696516780",
+    "market_cap": 0.0,
+    "current_price": 0.999031,
+    "price_change_percentage_30d_in_currency": -0.0787732449517833
+  },
+  {
+    "name": "Adult Playground",
+    "symbol": "adult",
+    "image": "https://coin-images.coingecko.com/coins/images/32053/large/0x565d3902d6a5a2d5ce28ff427423e88933334dd2.png?1696530850",
+    "market_cap": 0.0,
+    "current_price": 0.00024844,
+    "price_change_percentage_30d_in_currency": -8.265111792846191
+  },
+  {
+    "name": "Aave AMM UniUSDCWETH",
+    "symbol": "aammuniusdcweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17219/large/aAmmUniUSDCWETH.png?1696516774",
+    "market_cap": 0.0,
+    "current_price": 270091445.0,
+    "price_change_percentage_30d_in_currency": 1.698007141968891
+  },
+  {
+    "name": "Aave KNC v1",
+    "symbol": "aknc",
+    "image": "https://coin-images.coingecko.com/coins/images/11727/large/aKNC.png?1696511608",
+    "market_cap": 0.0,
+    "current_price": 0.30187,
+    "price_change_percentage_30d_in_currency": -8.342348247058881
+  },
+  {
+    "name": "Aave YFI",
+    "symbol": "ayfi",
+    "image": "https://coin-images.coingecko.com/coins/images/17257/large/aYFI_2x.png?1696516813",
+    "market_cap": 0.0,
+    "current_price": 5268.47,
+    "price_change_percentage_30d_in_currency": -0.6277573128986783
+  },
+  {
+    "name": "Alice",
+    "symbol": "alice",
+    "image": "https://coin-images.coingecko.com/coins/images/53853/large/alice-logo.png?1737610181",
+    "market_cap": 0.0,
+    "current_price": 0.04293111,
+    "price_change_percentage_30d_in_currency": -57.61643877448898
+  },
+  {
+    "name": "Aark Digital",
+    "symbol": "aark",
+    "image": "https://coin-images.coingecko.com/coins/images/37813/large/aark.png?1715599394",
+    "market_cap": 0.0,
+    "current_price": 0.00184135,
+    "price_change_percentage_30d_in_currency": -12.932869955280005
+  },
+  {
+    "name": "Aave Polygon WBTC",
+    "symbol": "amwbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/17265/large/amWBTC_2x.png?1696516820",
+    "market_cap": 0.0,
+    "current_price": 109625.0,
+    "price_change_percentage_30d_in_currency": 5.492457094426484
+  },
+  {
+    "name": "Aave Interest Bearing STETH",
+    "symbol": "asteth",
+    "image": "https://coin-images.coingecko.com/coins/images/24163/large/steth.jpg?1696523352",
+    "market_cap": 0.0,
+    "current_price": 2592.67,
+    "price_change_percentage_30d_in_currency": 1.9741446298329437
+  },
+  {
+    "name": "Aave MKR",
+    "symbol": "amkr",
+    "image": "https://coin-images.coingecko.com/coins/images/14248/large/aMKR.ac965178.png?1696513962",
+    "market_cap": 0.0,
+    "current_price": 1990.2,
+    "price_change_percentage_30d_in_currency": 16.62502173989371
+  },
+  {
+    "name": "Anon Inu",
+    "symbol": "ainu",
+    "image": "https://coin-images.coingecko.com/coins/images/17151/large/LOGO-AINU-COIN-GECKO.png?1696516711",
+    "market_cap": 0.0,
+    "current_price": 1.169e-09,
+    "price_change_percentage_30d_in_currency": -1.4167290985163083
+  },
+  {
+    "name": "Agatech",
+    "symbol": "agata",
+    "image": "https://coin-images.coingecko.com/coins/images/35835/large/agatechlogo.jpg?1716055496",
+    "market_cap": 0.0,
+    "current_price": 0.00913674,
+    "price_change_percentage_30d_in_currency": 0.31084659461490505
+  },
+  {
+    "name": "Agritech",
+    "symbol": "agt",
+    "image": "https://coin-images.coingecko.com/coins/images/30052/large/Agritech_Final_200x200_.png?1696528974",
+    "market_cap": 0.0,
+    "current_price": 9.59e-06,
+    "price_change_percentage_30d_in_currency": -2.9545162672071057
+  },
+  {
+    "name": "AgoraHub",
+    "symbol": "aga",
+    "image": "https://coin-images.coingecko.com/coins/images/38230/large/agora-avatar-black.png?1716828738",
+    "market_cap": 0.0,
+    "current_price": 0.00528827,
+    "price_change_percentage_30d_in_currency": -20.5004555908509
+  },
+  {
+    "name": "O-MEE",
+    "symbol": "ome",
+    "image": "https://coin-images.coingecko.com/coins/images/25099/large/logo-mark-full-colour-cmyk-693px_300ppi.jpg?1696524249",
+    "market_cap": 0.0,
+    "current_price": 1.153e-05,
+    "price_change_percentage_30d_in_currency": -55.25071135099827
+  },
+  {
+    "name": "1MDC",
+    "symbol": "1mdc",
+    "image": "https://coin-images.coingecko.com/coins/images/38846/large/1000007709.jpg?1719212316",
+    "market_cap": 0.0,
+    "current_price": 5.5196e-10,
+    "price_change_percentage_30d_in_currency": -13.296385288059936
+  },
+  {
+    "name": "AMC",
+    "symbol": "amc",
+    "image": "https://coin-images.coingecko.com/coins/images/37822/large/AMC.png?1715661262",
+    "market_cap": 0.0,
+    "current_price": 0.00074977,
+    "price_change_percentage_30d_in_currency": -8.802493973844516
+  },
+  {
+    "name": "Aave AMM UniCRVWETH",
+    "symbol": "aammunicrvweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17220/large/aAmmUniCRVWETH.png?1696516775",
+    "market_cap": 0.0,
+    "current_price": 900.45,
+    "price_change_percentage_30d_in_currency": -9.25069216692144
+  },
+  {
+    "name": "A DOG IN THE MATRIX",
+    "symbol": "matrix",
+    "image": "https://coin-images.coingecko.com/coins/images/35411/large/ADGMTX_-_200x200.png?1708502727",
+    "market_cap": 0.0,
+    "current_price": 8.3e-06,
+    "price_change_percentage_30d_in_currency": 1.8947749967444738
+  },
+  {
+    "name": "Aave MANA",
+    "symbol": "amana",
+    "image": "https://coin-images.coingecko.com/coins/images/14267/large/aMANA.f89a1098.png?1696513968",
+    "market_cap": 0.0,
+    "current_price": 0.277244,
+    "price_change_percentage_30d_in_currency": -0.03144310723458365
+  },
+  {
+    "name": "AiShiba",
+    "symbol": "shibai",
+    "image": "https://coin-images.coingecko.com/coins/images/29898/large/Fotor_AI%EF%BC%882%EF%BC%89.png?1696528822",
+    "market_cap": 0.0,
+    "current_price": 1.44069e-13,
+    "price_change_percentage_30d_in_currency": -23.739303770875882
+  },
+  {
+    "name": "ADAcash",
+    "symbol": "adacash",
+    "image": "https://coin-images.coingecko.com/coins/images/19509/large/adacash.png?1696518943",
+    "market_cap": 0.0,
+    "current_price": 1.361e-09,
+    "price_change_percentage_30d_in_currency": -36.220230660188655
+  },
+  {
+    "name": "9mm",
+    "symbol": "9mm",
+    "image": "https://coin-images.coingecko.com/coins/images/54791/large/9mm.jpg?1741590221",
+    "market_cap": 0.0,
+    "current_price": 0.01303522,
+    "price_change_percentage_30d_in_currency": 298.23248084500926
+  },
+  {
+    "name": "1MBABYDOGE",
+    "symbol": "1mbabydoge",
+    "image": "https://coin-images.coingecko.com/coins/images/52465/large/babydoge.jpg?1733406850",
+    "market_cap": 0.0,
+    "current_price": 0.00119365,
+    "price_change_percentage_30d_in_currency": -15.72097577132698
+  },
+  {
+    "name": "5TARS",
+    "symbol": "5tars",
+    "image": "https://coin-images.coingecko.com/coins/images/54199/large/5tars_token_S.png?1738749419",
+    "market_cap": 0.0,
+    "current_price": 0.00242911,
+    "price_change_percentage_30d_in_currency": -53.17849675988341
+  },
+  {
+    "name": "Affine ultraETHs 2.0",
+    "symbol": "ultraeths",
+    "image": "https://coin-images.coingecko.com/coins/images/39864/large/affine-ultra-eths-cg-logo.png?1724379373",
+    "market_cap": 0.0,
+    "current_price": 2775.39,
+    "price_change_percentage_30d_in_currency": -6.649939148217225
+  },
+  {
+    "name": "Aeon",
+    "symbol": "aeon",
+    "image": "https://coin-images.coingecko.com/coins/images/321/large/aeon.png?1696501658",
+    "market_cap": 0.0,
+    "current_price": 0.142432,
+    "price_change_percentage_30d_in_currency": 4.106097077114961
+  },
+  {
+    "name": "Aave Polygon USDT",
+    "symbol": "amusdt",
+    "image": "https://coin-images.coingecko.com/coins/images/17264/large/amUSDT_2x.png?1696516819",
+    "market_cap": 0.0,
+    "current_price": 1.001,
+    "price_change_percentage_30d_in_currency": -0.14507423554454957
+  },
+  {
+    "name": "A Gently Used Nokia 3310",
+    "symbol": "usedphone",
+    "image": "https://coin-images.coingecko.com/coins/images/34197/large/-o3LcH4TAfpv0J475jrxPAonKqGxbdcVcRlGhzzZ_oE.jpeg?1705863498",
+    "market_cap": 0.0,
+    "current_price": 1.137e-05,
+    "price_change_percentage_30d_in_currency": -7.667524727707672
+  },
+  {
+    "name": "Aave TUSD",
+    "symbol": "atusd",
+    "image": "https://coin-images.coingecko.com/coins/images/14317/large/aTUSD.08592b49.png?1696514005",
+    "market_cap": 0.0,
+    "current_price": 0.996885,
+    "price_change_percentage_30d_in_currency": -0.13349065280644418
+  },
+  {
+    "name": "AliceNet",
+    "symbol": "alca",
+    "image": "https://coin-images.coingecko.com/coins/images/29417/large/LinkedIn_-_Profile_300_x_300.png?1696528366",
+    "market_cap": 0.0,
+    "current_price": 0.00133056,
+    "price_change_percentage_30d_in_currency": 1.7160623689980372
+  },
+  {
+    "name": "1Move Token",
+    "symbol": "1mt",
+    "image": "https://coin-images.coingecko.com/coins/images/27347/large/1MT.png?1696526394",
+    "market_cap": 0.0,
+    "current_price": 0.00089797,
+    "price_change_percentage_30d_in_currency": -3.0336851386763524
+  },
+  {
+    "name": "Astar (Moonbeam)",
+    "symbol": "$xcastr",
+    "image": "https://coin-images.coingecko.com/coins/images/29986/large/astar.jpg?1696528911",
+    "market_cap": 0.0,
+    "current_price": 0.0283168,
+    "price_change_percentage_30d_in_currency": 10.1244676489408
+  },
+  {
+    "name": "Aave v3 DPI",
+    "symbol": "adpi",
+    "image": "https://coin-images.coingecko.com/coins/images/32926/large/dpi.png?1699826275",
+    "market_cap": 0.0,
+    "current_price": 94.35,
+    "price_change_percentage_30d_in_currency": 1.7539609478027078
+  },
+  {
+    "name": "Aave v2 USDC",
+    "symbol": "ausdc",
+    "image": "https://coin-images.coingecko.com/coins/images/14318/large/aUSDC.e260d492.png?1696514006",
+    "market_cap": 0.0,
+    "current_price": 0.999031,
+    "price_change_percentage_30d_in_currency": 0.10173788899680858
+  },
+  {
+    "name": "0xScans",
+    "symbol": "scan",
+    "image": "https://coin-images.coingecko.com/coins/images/34983/large/photo_2024-02-01_20-12-00.jpg?1706873450",
+    "market_cap": 0.0,
+    "current_price": 0.00196891,
+    "price_change_percentage_30d_in_currency": -3.995269400962326
+  },
+  {
+    "name": "9inch",
+    "symbol": "9inch",
+    "image": "https://coin-images.coingecko.com/coins/images/32662/large/9INCH-logo.png?1698901092",
+    "market_cap": 0.0,
+    "current_price": 1.01e-06,
+    "price_change_percentage_30d_in_currency": -22.41108543508711
+  },
+  {
+    "name": "Abble",
+    "symbol": "aabl",
+    "image": "https://coin-images.coingecko.com/coins/images/36013/large/lM8keUnD_400x400.jpg?1710326029",
+    "market_cap": 0.0,
+    "current_price": 0.00066726,
+    "price_change_percentage_30d_in_currency": 50.13039770808834
+  },
+  {
+    "name": "Amino",
+    "symbol": "amino",
+    "image": "https://coin-images.coingecko.com/coins/images/53626/large/amino.jpg?1736908953",
+    "market_cap": 0.0,
+    "current_price": 0.00020072,
+    "price_change_percentage_30d_in_currency": 21.16355543165213
+  },
+  {
+    "name": "ADADao",
+    "symbol": "adao",
+    "image": "https://coin-images.coingecko.com/coins/images/24372/large/dkw8F6mr_400x400.jpg?1696523556",
+    "market_cap": 0.0,
+    "current_price": 0.00053348,
+    "price_change_percentage_30d_in_currency": -0.18500814978646493
+  },
+  {
+    "name": "Aave BAT v1",
+    "symbol": "abat",
+    "image": "https://coin-images.coingecko.com/coins/images/11726/large/aBAT.png?1696511608",
+    "market_cap": 0.0,
+    "current_price": 0.131175,
+    "price_change_percentage_30d_in_currency": -1.0900064226364152
+  },
+  {
+    "name": "A Gently Used 2001 Honda",
+    "symbol": "usedcar",
+    "image": "https://coin-images.coingecko.com/coins/images/33996/large/usecar.png?1703599678",
+    "market_cap": 0.0,
+    "current_price": 0.00154557,
+    "price_change_percentage_30d_in_currency": -2.703515760494575
+  },
+  {
+    "name": "abcPHAR",
+    "symbol": "abcphar",
+    "image": "https://coin-images.coingecko.com/coins/images/39493/large/abcPHAR-black.png?1722492271",
+    "market_cap": 0.0,
+    "current_price": 295.12,
+    "price_change_percentage_30d_in_currency": 20.185756118078775
+  },
+  {
+    "name": "Aave AMM UniAAVEWETH",
+    "symbol": "aammuniaaveweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17232/large/aAmmUniAAVEWETH.png?1696516786",
+    "market_cap": 0.0,
+    "current_price": 2655.69,
+    "price_change_percentage_30d_in_currency": 6.206837287657056
+  },
+  {
+    "name": "Aave v3 LINK",
+    "symbol": "alink",
+    "image": "https://coin-images.coingecko.com/coins/images/32888/large/link.png?1699773900",
+    "market_cap": 0.0,
+    "current_price": 13.74,
+    "price_change_percentage_30d_in_currency": -0.6360440892226155
+  },
+  {
+    "name": "Adonis",
+    "symbol": "adon",
+    "image": "https://coin-images.coingecko.com/coins/images/26793/large/Jugvt5z5_400x400.jpeg?1696525855",
+    "market_cap": 0.0,
+    "current_price": 1.31,
+    "price_change_percentage_30d_in_currency": 1.0881155760035783
+  },
+  {
+    "name": "0x Leverage",
+    "symbol": "oxl",
+    "image": "https://coin-images.coingecko.com/coins/images/31977/large/Ox.jpeg?1696530780",
+    "market_cap": 0.0,
+    "current_price": 0.00059773,
+    "price_change_percentage_30d_in_currency": 41.61127536211544
+  },
+  {
+    "name": "Alcor IBC Bridged USDT (WAX)",
+    "symbol": "usdt",
+    "image": "https://coin-images.coingecko.com/coins/images/37650/large/USDT.png?1715157018",
+    "market_cap": 0.0,
+    "current_price": 1.0,
+    "price_change_percentage_30d_in_currency": 0.009669625186046749
+  },
+  {
+    "name": "AI Meta Club",
+    "symbol": "amc",
+    "image": "https://coin-images.coingecko.com/coins/images/31919/large/aimeta.jpg?1696530728",
+    "market_cap": 0.0,
+    "current_price": 0.374373,
+    "price_change_percentage_30d_in_currency": -65.79161049011172
+  },
+  {
+    "name": "AI-X",
+    "symbol": "x",
+    "image": "https://coin-images.coingecko.com/coins/images/30783/large/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230616171447.jpg?1696529650",
+    "market_cap": 0.0,
+    "current_price": 1.7565e-11,
+    "price_change_percentage_30d_in_currency": -7.3928302872131635
+  },
+  {
+    "name": "2080",
+    "symbol": "2080",
+    "image": "https://coin-images.coingecko.com/coins/images/31816/large/b_fidelion_web_logo.png?1696530630",
+    "market_cap": 0.0,
+    "current_price": 0.00120744,
+    "price_change_percentage_30d_in_currency": -2.457287133578284
+  },
+  {
+    "name": "Alita",
+    "symbol": "ali",
+    "image": "https://coin-images.coingecko.com/coins/images/17750/large/Logo-200x200_%286%29.png?1696517276",
+    "market_cap": 0.0,
+    "current_price": 0.02905137,
+    "price_change_percentage_30d_in_currency": -3.852505831964079
+  },
+  {
+    "name": "AISignal",
+    "symbol": "aisig",
+    "image": "https://coin-images.coingecko.com/coins/images/33671/large/IMG_20231214_221614_575.png?1702701782",
+    "market_cap": 0.0,
+    "current_price": 0.00027495,
+    "price_change_percentage_30d_in_currency": -0.421001669420089
+  },
+  {
+    "name": "Aave v3 sDAI",
+    "symbol": "asdai",
+    "image": "https://coin-images.coingecko.com/coins/images/32891/large/sdai.png?1699785595",
+    "market_cap": 0.0,
+    "current_price": 0.999789,
+    "price_change_percentage_30d_in_currency": -0.010264979968943702
+  },
+  {
+    "name": "Agnus AI",
+    "symbol": "agn",
+    "image": "https://coin-images.coingecko.com/coins/images/34387/large/photo_2024-01-08_14.11.37.jpeg?1704780575",
+    "market_cap": 0.0,
+    "current_price": 3.81e-06,
+    "price_change_percentage_30d_in_currency": -9.777134244648119
+  },
+  {
+    "name": "ABEL Finance",
+    "symbol": "abel",
+    "image": "https://coin-images.coingecko.com/coins/images/28469/large/Abel_logo_circle.png?1696527463",
+    "market_cap": 0.0,
+    "current_price": 0.00444602,
+    "price_change_percentage_30d_in_currency": 0.016509708049634697
+  },
+  {
+    "name": "Aave ENJ v1",
+    "symbol": "aenj",
+    "image": "https://coin-images.coingecko.com/coins/images/12484/large/aENJ.png?1696512301",
+    "market_cap": 0.0,
+    "current_price": 0.06991,
+    "price_change_percentage_30d_in_currency": -5.589313443380119
+  },
+  {
+    "name": "1Sol",
+    "symbol": "1sol",
+    "image": "https://coin-images.coingecko.com/coins/images/21615/large/YyGDie9f_400x400.jpg?1696520976",
+    "market_cap": 0.0,
+    "current_price": 0.00210064,
+    "price_change_percentage_30d_in_currency": -0.0004581719659990964
+  },
+  {
+    "name": "Agent Humpty Dumpty",
+    "symbol": "ahd",
+    "image": "https://coin-images.coingecko.com/coins/images/54888/large/IMG_3611.png?1742385756",
+    "market_cap": 0.0,
+    "current_price": 6.08e-06,
+    "price_change_percentage_30d_in_currency": 0.0
+  },
+  {
+    "name": "Amateras",
+    "symbol": "amt",
+    "image": "https://coin-images.coingecko.com/coins/images/21759/large/logo.png?1696521114",
+    "market_cap": 0.0,
+    "current_price": 0.00792702,
+    "price_change_percentage_30d_in_currency": 0.057960135030691286
+  },
+  {
+    "name": "AlitaAI",
+    "symbol": "alita",
+    "image": "https://coin-images.coingecko.com/coins/images/33954/large/photo_2023-12-22_15.04.29.png?1703561417",
+    "market_cap": 0.0,
+    "current_price": 4.04616e-07,
+    "price_change_percentage_30d_in_currency": -4.017283065696206
+  },
+  {
+    "name": "Aave MKR v1",
+    "symbol": "amkr",
+    "image": "https://coin-images.coingecko.com/coins/images/11731/large/aMKR.png?1696511612",
+    "market_cap": 0.0,
+    "current_price": 1991.01,
+    "price_change_percentage_30d_in_currency": 16.62502173989371
+  },
+  {
+    "name": "Aave v3 CRV",
+    "symbol": "acrv",
+    "image": "https://coin-images.coingecko.com/coins/images/32901/large/CRV.png?1699802172",
+    "market_cap": 0.0,
+    "current_price": 0.53314,
+    "price_change_percentage_30d_in_currency": -20.391219949231
+  },
+  {
+    "name": "Aave AMM BptWBTCWETH",
+    "symbol": "aammbptwbtcweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17260/large/aAmmBptWBTCWETH.png?1696516815",
+    "market_cap": 0.0,
+    "current_price": 266699.0,
+    "price_change_percentage_30d_in_currency": 3.5202994697379975
+  },
+  {
+    "name": "Aave AMM UniUNIWETH",
+    "symbol": "aammuniuniweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17225/large/aAmmUniUNIWETH.png?1696516780",
+    "market_cap": 0.0,
+    "current_price": 713.92,
+    "price_change_percentage_30d_in_currency": 10.276045184309778
+  },
+  {
+    "name": "Aave AMM DAI",
+    "symbol": "aammdai",
+    "image": "https://coin-images.coingecko.com/coins/images/17197/large/aAMMDAI_2x.png?1696516754",
+    "market_cap": 0.0,
+    "current_price": 0.998893,
+    "price_change_percentage_30d_in_currency": -0.07850471818257689
+  },
+  {
+    "name": "Aipocalypto",
+    "symbol": "aipo",
+    "image": "https://coin-images.coingecko.com/coins/images/51400/large/aipo.png?1731084580",
+    "market_cap": 0.0,
+    "current_price": 0.00440656,
+    "price_change_percentage_30d_in_currency": -34.3224386030941
+  },
+  {
+    "name": "01coin",
+    "symbol": "zoc",
+    "image": "https://coin-images.coingecko.com/coins/images/5720/large/F1nTlw9I_400x400.jpg?1696506175",
+    "market_cap": 0.0,
+    "current_price": 9.543e-05,
+    "price_change_percentage_30d_in_currency": -39.08360675678581
+  },
+  {
+    "name": "Aave XSUSHI",
+    "symbol": "axsushi",
+    "image": "https://coin-images.coingecko.com/coins/images/17256/large/aXSUSHI_2x.png?1696516812",
+    "market_cap": 0.0,
+    "current_price": 0.96296,
+    "price_change_percentage_30d_in_currency": -6.702984567297886
+  },
+  {
+    "name": "AI.COM",
+    "symbol": "ai.com",
+    "image": "https://coin-images.coingecko.com/coins/images/33246/large/BbLZo3AH_400x400.jpg?1701172033",
+    "market_cap": 0.0,
+    "current_price": 1.82e-06,
+    "price_change_percentage_30d_in_currency": -13.414437219520417
+  },
+  {
+    "name": "AGRI FUTURE TOKEN",
+    "symbol": "agrf",
+    "image": "https://coin-images.coingecko.com/coins/images/37891/large/AGRF.jpg?1715846415",
+    "market_cap": 0.0,
+    "current_price": 1.57,
+    "price_change_percentage_30d_in_currency": 1.3904863929213327
+  },
+  {
+    "name": "AID",
+    "symbol": "aid",
+    "image": "https://coin-images.coingecko.com/coins/images/55476/large/IMG_0828.jpeg?1746256244",
+    "market_cap": 0.0,
+    "current_price": 0.360964,
+    "price_change_percentage_30d_in_currency": -31.377257499545163
+  },
+  {
+    "name": "Aave Balancer Pool Token",
+    "symbol": "abpt",
+    "image": "https://coin-images.coingecko.com/coins/images/16788/large/ABPT_2x.png?1696516360",
+    "market_cap": 0.0,
+    "current_price": 0.33839,
+    "price_change_percentage_30d_in_currency": 8.29909503856268
+  },
+  {
+    "name": "AICoin",
+    "symbol": "ai",
+    "image": "https://coin-images.coingecko.com/coins/images/30308/large/HZixmXSs_400x400.jpg?1696529211",
+    "market_cap": 0.0,
+    "current_price": 1.435e-05,
+    "price_change_percentage_30d_in_currency": -18.139966510619868
+  },
+  {
+    "name": "Aardvark",
+    "symbol": "vark",
+    "image": "https://coin-images.coingecko.com/coins/images/32678/large/VARK.jpg?1698929830",
+    "market_cap": 0.0,
+    "current_price": 0.00026004,
+    "price_change_percentage_30d_in_currency": -30.852637629826496
+  },
+  {
+    "name": "Anryton",
+    "symbol": "mol",
+    "image": "https://coin-images.coingecko.com/coins/images/54827/large/download_%285%29.png?1741932455",
+    "market_cap": 0.0,
+    "current_price": 0.052938,
+    "price_change_percentage_30d_in_currency": -54.08712707589811
+  },
+  {
+    "name": "5th Scape",
+    "symbol": "$5scape",
+    "image": "https://coin-images.coingecko.com/coins/images/54304/large/Untitled_design_%2816%29.png?1739180825",
+    "market_cap": 0.0,
+    "current_price": 0.0001515,
+    "price_change_percentage_30d_in_currency": -57.81593512680949
+  },
+  {
+    "name": "Aave REN",
+    "symbol": "aren",
+    "image": "https://coin-images.coingecko.com/coins/images/14249/large/aREN.382be386.png?1696513963",
+    "market_cap": 0.0,
+    "current_price": 0.00871996,
+    "price_change_percentage_30d_in_currency": -25.332474302907436
+  },
+  {
+    "name": "Amazy",
+    "symbol": "azy",
+    "image": "https://coin-images.coingecko.com/coins/images/26315/large/photo_2022-07-07_12-38-02.jpg?1696525397",
+    "market_cap": 0.0,
+    "current_price": 0.00030443,
+    "price_change_percentage_30d_in_currency": 3.6868666045764678
+  },
+  {
+    "name": "Lenfi",
+    "symbol": "lenfi",
+    "image": "https://coin-images.coingecko.com/coins/images/27825/large/download_%2813%29.png?1696526843",
+    "market_cap": 0.0,
+    "current_price": 0.159347,
+    "price_change_percentage_30d_in_currency": -35.535426080985964
+  },
+  {
+    "name": "Aave v3 WETH",
+    "symbol": "aweth",
+    "image": "https://coin-images.coingecko.com/coins/images/32882/large/WETH_%281%29.png?1699716492",
+    "market_cap": 0.0,
+    "current_price": 2595.0,
+    "price_change_percentage_30d_in_currency": 1.9566747475117334
+  },
+  {
+    "name": "Aegents",
+    "symbol": "aegnt",
+    "image": "https://coin-images.coingecko.com/coins/images/53270/large/logo-200.jpg?1735914544",
+    "market_cap": 0.0,
+    "current_price": 0.0001443,
+    "price_change_percentage_30d_in_currency": -1.4604109085374695
+  },
+  {
+    "name": "777FuckIlluminatiWorldwid",
+    "symbol": "fiw",
+    "image": "https://coin-images.coingecko.com/coins/images/38243/large/FrbqV8cS_400x400.jpg?1729594239",
+    "market_cap": 0.0,
+    "current_price": 0.00018433,
+    "price_change_percentage_30d_in_currency": 78.62317649569827
+  },
+  {
+    "name": "ACHMED - HEART AND SOL",
+    "symbol": "achmed",
+    "image": "https://coin-images.coingecko.com/coins/images/38400/large/geckologo.png?1717458646",
+    "market_cap": 0.0,
+    "current_price": 0.00293299,
+    "price_change_percentage_30d_in_currency": -12.762588614482254
+  },
+  {
+    "name": "A Fund Baby",
+    "symbol": "baby",
+    "image": "https://coin-images.coingecko.com/coins/images/30955/large/fund_baby.jpg?1696529794",
+    "market_cap": 0.0,
+    "current_price": 0.00141365,
+    "price_change_percentage_30d_in_currency": -38.271135738491814
+  },
+  {
+    "name": "Akita Inu",
+    "symbol": "akita",
+    "image": "https://coin-images.coingecko.com/coins/images/14115/large/akita.png?1696513836",
+    "market_cap": 0.0,
+    "current_price": 4.814e-08,
+    "price_change_percentage_30d_in_currency": -13.771679518965893
+  },
+  {
+    "name": "BlastUP",
+    "symbol": "blastup",
+    "image": "https://coin-images.coingecko.com/coins/images/36054/large/blastup_icon_logo.png?1710403683",
+    "market_cap": 0.0,
+    "current_price": 0.00050801,
+    "price_change_percentage_30d_in_currency": 10.049159548113616
+  },
+  {
+    "name": "Aave v3 WBTC",
+    "symbol": "awbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/32883/large/wbtc.png?1699719908",
+    "market_cap": 0.0,
+    "current_price": 109303.0,
+    "price_change_percentage_30d_in_currency": 4.135082955121474
+  },
+  {
+    "name": "AirTnT",
+    "symbol": "airtnt",
+    "image": "https://coin-images.coingecko.com/coins/images/28328/large/airtnt.png?1696527335",
+    "market_cap": 0.0,
+    "current_price": 2.87e-06,
+    "price_change_percentage_30d_in_currency": -92.95384722020198
+  },
+  {
+    "name": "Aave AMM UniYFIWETH",
+    "symbol": "aammuniyfiweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17258/large/aAmmUniYFIWETH.png?1696516814",
+    "market_cap": 0.0,
+    "current_price": 20326.0,
+    "price_change_percentage_30d_in_currency": 0.8072789141563557
+  },
+  {
+    "name": "Aave AMM UniDAIUSDC",
+    "symbol": "aammunidaiusdc",
+    "image": "https://coin-images.coingecko.com/coins/images/17218/large/aAmmUniDAIUSDC.png?1696516773",
+    "market_cap": 0.0,
+    "current_price": 2266917.0,
+    "price_change_percentage_30d_in_currency": -0.025336040578421135
+  },
+  {
+    "name": "Aethra AI",
+    "symbol": "aethra",
+    "image": "https://coin-images.coingecko.com/coins/images/53460/large/Aethra_AI.jpg?1736444769",
+    "market_cap": 0.0,
+    "current_price": 0.00067543,
+    "price_change_percentage_30d_in_currency": -69.67762368563058
+  },
+  {
+    "name": "Aave Polygon WMATIC",
+    "symbol": "amwmatic",
+    "image": "https://coin-images.coingecko.com/coins/images/17267/large/amWMATIC_2x.png?1696516822",
+    "market_cap": 0.0,
+    "current_price": 0.189357,
+    "price_change_percentage_30d_in_currency": -12.234516736906585
+  },
+  {
+    "name": "Amazon Tokenized Stock Defichain",
+    "symbol": "damzn",
+    "image": "https://coin-images.coingecko.com/coins/images/24357/large/dAMZN.JPG?1696523542",
+    "market_cap": 0.0,
+    "current_price": 14.89,
+    "price_change_percentage_30d_in_currency": 4.5092198073931495
+  },
+  {
+    "name": "ABC PoS Pool",
+    "symbol": "abc",
+    "image": "https://coin-images.coingecko.com/coins/images/29845/large/ABC_PoS_Pool-2.png?1696528772",
+    "market_cap": 0.0,
+    "current_price": 0.331074,
+    "price_change_percentage_30d_in_currency": 9.035930990555453
+  },
+  {
+    "name": "ALPHA",
+    "symbol": "alpha",
+    "image": "https://coin-images.coingecko.com/coins/images/36088/large/LOGO.png?1710442339",
+    "market_cap": 0.0,
+    "current_price": 1.434e-05,
+    "price_change_percentage_30d_in_currency": -10.308792827965814
+  },
+  {
+    "name": "AI Nexus",
+    "symbol": "a1x",
+    "image": "https://coin-images.coingecko.com/coins/images/52993/large/200x200_AI_Nexus.png?1734945646",
+    "market_cap": 0.0,
+    "current_price": 0.00246919,
+    "price_change_percentage_30d_in_currency": -18.35708553832061
+  },
+  {
+    "name": "Aiccelerate",
+    "symbol": "aicc",
+    "image": "https://coin-images.coingecko.com/coins/images/53514/large/aiccelerate-aic.webp?1736568547",
+    "market_cap": 0.0,
+    "current_price": 0.00096782,
+    "price_change_percentage_30d_in_currency": -32.73085730658635
+  },
+  {
+    "name": "Aave v3 cbETH",
+    "symbol": "acbeth",
+    "image": "https://coin-images.coingecko.com/coins/images/32892/large/cbETH.png?1699789253",
+    "market_cap": 0.0,
+    "current_price": 2855.09,
+    "price_change_percentage_30d_in_currency": 2.0432288256880207
+  },
+  {
+    "name": "Aave v3 WAVAX",
+    "symbol": "awavax",
+    "image": "https://coin-images.coingecko.com/coins/images/32915/large/wavax.png?1699824961",
+    "market_cap": 0.0,
+    "current_price": 17.05,
+    "price_change_percentage_30d_in_currency": -16.867212711866276
+  },
+  {
+    "name": "Aave AMM UniLINKWETH",
+    "symbol": "aammunilinkweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17221/large/aAmmUniLINKWETH.png?1696516776",
+    "market_cap": 0.0,
+    "current_price": 713.91,
+    "price_change_percentage_30d_in_currency": 1.170160130236117
+  },
+  {
+    "name": "Aave v3 rETH",
+    "symbol": "areth",
+    "image": "https://coin-images.coingecko.com/coins/images/32885/large/reth.png?1699768947",
+    "market_cap": 0.0,
+    "current_price": 2953.79,
+    "price_change_percentage_30d_in_currency": 2.0395789510509137
+  },
+  {
+    "name": "adDICted",
+    "symbol": "dic",
+    "image": "https://coin-images.coingecko.com/coins/images/37505/large/logo.jpg?1714611739",
+    "market_cap": 0.0,
+    "current_price": 0.00070726,
+    "price_change_percentage_30d_in_currency": -15.211865166317903
+  },
+  {
+    "name": "Aave v3 MaticX",
+    "symbol": "amaticx",
+    "image": "https://coin-images.coingecko.com/coins/images/32920/large/maticx.png?1699825663",
+    "market_cap": 0.0,
+    "current_price": 0.220794,
+    "price_change_percentage_30d_in_currency": -11.791925478107085
+  },
+  {
+    "name": "Aave BAL",
+    "symbol": "abal",
+    "image": "https://coin-images.coingecko.com/coins/images/17242/large/aBAL_2x.png?1696516799",
+    "market_cap": 0.0,
+    "current_price": 1.01,
+    "price_change_percentage_30d_in_currency": -4.964903725748241
+  },
+  {
+    "name": "Accumulated Finance Staked MANTA",
+    "symbol": "stmanta",
+    "image": "https://coin-images.coingecko.com/coins/images/51116/large/stmanta.png?1730118237",
+    "market_cap": 0.0,
+    "current_price": 0.75195,
+    "price_change_percentage_30d_in_currency": 0.0
+  },
+  {
+    "name": "Aave UNI",
+    "symbol": "auni",
+    "image": "https://coin-images.coingecko.com/coins/images/17247/large/aUNI_2x.png?1696516804",
+    "market_cap": 0.0,
+    "current_price": 7.46,
+    "price_change_percentage_30d_in_currency": 17.899957739236076
+  },
+  {
+    "name": "Abey",
+    "symbol": "abey",
+    "image": "https://coin-images.coingecko.com/coins/images/22146/large/Abey_Logo-2000x2000.png?1705684832",
+    "market_cap": 0.0,
+    "current_price": 0.088545,
+    "price_change_percentage_30d_in_currency": 1.762694078151497
+  },
+  {
+    "name": "Aave RAI",
+    "symbol": "arai",
+    "image": "https://coin-images.coingecko.com/coins/images/17245/large/aRAI_2x.png?1696516802",
+    "market_cap": 0.0,
+    "current_price": 2.89,
+    "price_change_percentage_30d_in_currency": -4.311497677900935
+  },
+  {
+    "name": "ALBEDO",
+    "symbol": "albedo",
+    "image": "https://coin-images.coingecko.com/coins/images/28024/large/217d99e9-8a21-4678-9019-6b3cf7f714fe.png?1696527039",
+    "market_cap": 0.0,
+    "current_price": 2.87e-06,
+    "price_change_percentage_30d_in_currency": -9.322716948160117
+  },
+  {
+    "name": "AIEarn",
+    "symbol": "aie",
+    "image": "https://coin-images.coingecko.com/coins/images/31985/large/AIE.jpg?1696530788",
+    "market_cap": 0.0,
+    "current_price": 1.4999e-08,
+    "price_change_percentage_30d_in_currency": -91.13849613398065
+  },
+  {
+    "name": "ARB Protocol",
+    "symbol": "arb",
+    "image": "https://coin-images.coingecko.com/coins/images/26046/large/IMG_3600.png?1696525126",
+    "market_cap": 0.0,
+    "current_price": 2.833e-05,
+    "price_change_percentage_30d_in_currency": -15.180862325379982
+  },
+  {
+    "name": "Aave LINK v1",
+    "symbol": "alink",
+    "image": "https://coin-images.coingecko.com/coins/images/11729/large/aLINK.png?1696511610",
+    "market_cap": 0.0,
+    "current_price": 13.75,
+    "price_change_percentage_30d_in_currency": 0.06168634995004931
+  },
+  {
+    "name": "FREN",
+    "symbol": "fren",
+    "image": "https://coin-images.coingecko.com/coins/images/33950/large/fren.png?1703934448",
+    "market_cap": 0.0,
+    "current_price": 1.48e-06,
+    "price_change_percentage_30d_in_currency": -4.2318104902961995
+  },
+  {
+    "name": "Alpha Gardeners",
+    "symbol": "ag",
+    "image": "https://coin-images.coingecko.com/coins/images/31153/large/AG.png?1696529981",
+    "market_cap": 0.0,
+    "current_price": 8.35e-06,
+    "price_change_percentage_30d_in_currency": -13.69830235562009
+  },
+  {
+    "name": "Aave AMM BptBALWETH",
+    "symbol": "aammbptbalweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17261/large/aAmmBptBALWETH.png?1696516816",
+    "market_cap": 0.0,
+    "current_price": 63.21,
+    "price_change_percentage_30d_in_currency": -3.597766973066965
+  },
+  {
+    "name": "Aave SNX v1",
+    "symbol": "asnx",
+    "image": "https://coin-images.coingecko.com/coins/images/11733/large/aSNX.png?1696511614",
+    "market_cap": 0.0,
+    "current_price": 0.596715,
+    "price_change_percentage_30d_in_currency": -12.140100443623995
+  },
+  {
+    "name": "4-Way Mirror Money",
+    "symbol": "4wmm",
+    "image": "https://coin-images.coingecko.com/coins/images/38477/large/4mm.png?1717653236",
+    "market_cap": 0.0,
+    "current_price": 74.16,
+    "price_change_percentage_30d_in_currency": -31.922589625480896
+  },
+  {
+    "name": "Aave TUSD v1",
+    "symbol": "atusd",
+    "image": "https://coin-images.coingecko.com/coins/images/11724/large/aTUSD.png?1696511606",
+    "market_cap": 0.0,
+    "current_price": 0.996885,
+    "price_change_percentage_30d_in_currency": -0.15159005712232682
+  },
+  {
+    "name": "1000BONK",
+    "symbol": "1000bonk",
+    "image": "https://coin-images.coingecko.com/coins/images/33829/large/bonk_%281%29.png?1703065867",
+    "market_cap": 0.0,
+    "current_price": 0.01531898,
+    "price_change_percentage_30d_in_currency": -9.66305049789691
+  },
+  {
+    "name": "ABE",
+    "symbol": "abe",
+    "image": "https://coin-images.coingecko.com/coins/images/50620/large/ABE.png?1728494431",
+    "market_cap": 0.0,
+    "current_price": 6.868e-05,
+    "price_change_percentage_30d_in_currency": -54.55865047019005
+  },
+  {
+    "name": "Alpha Shards",
+    "symbol": "alpha",
+    "image": "https://coin-images.coingecko.com/coins/images/32002/large/alpha_%281%29.jpeg?1696530802",
+    "market_cap": 0.0,
+    "current_price": 1.17e-06,
+    "price_change_percentage_30d_in_currency": -12.28653765042494
+  },
+  {
+    "name": "Aave v3 aBasUSDbC",
+    "symbol": "abasusdbc",
+    "image": "https://coin-images.coingecko.com/coins/images/32910/large/base.png?1699824128",
+    "market_cap": 0.0,
+    "current_price": 1.0,
+    "price_change_percentage_30d_in_currency": 0.023818671940343907
+  },
+  {
+    "name": "ANT",
+    "symbol": "ant",
+    "image": "https://coin-images.coingecko.com/coins/images/54659/large/ANT_Token_logo.jpg?1740895768",
+    "market_cap": 0.0,
+    "current_price": 1e-05,
+    "price_change_percentage_30d_in_currency": -88.88905473777886
+  },
+  {
+    "name": "Agro Global Token",
+    "symbol": "agro",
+    "image": "https://coin-images.coingecko.com/coins/images/21511/large/200x200.png?1696520870",
+    "market_cap": 0.0,
+    "current_price": 0.00025958,
+    "price_change_percentage_30d_in_currency": -14.727722819845852
+  },
+  {
+    "name": "Aeron",
+    "symbol": "arnx",
+    "image": "https://coin-images.coingecko.com/coins/images/1124/large/ARNX-token-logo-256x256.png?1696502218",
+    "market_cap": 0.0,
+    "current_price": 1.03e-06,
+    "price_change_percentage_30d_in_currency": -10.734146802270434
+  },
+  {
+    "name": "Aave v3 USDC.e",
+    "symbol": "ausdc.e",
+    "image": "https://coin-images.coingecko.com/coins/images/32911/large/usdc.png?1699824302",
+    "market_cap": 0.0,
+    "current_price": 0.99995,
+    "price_change_percentage_30d_in_currency": 0.011645938699414837
+  },
+  {
+    "name": "acmFinance",
+    "symbol": "acm",
+    "image": "https://coin-images.coingecko.com/coins/images/34192/large/ACM_LOGO_ICON_TIFFANY.png?1731408811",
+    "market_cap": 0.0,
+    "current_price": 0.141035,
+    "price_change_percentage_30d_in_currency": -10.47424653345856
+  },
+  {
+    "name": "Aave v3 WMATIC",
+    "symbol": "awmatic",
+    "image": "https://coin-images.coingecko.com/coins/images/32922/large/wmatic.png?1699825896",
+    "market_cap": 0.0,
+    "current_price": 0.190119,
+    "price_change_percentage_30d_in_currency": -18.086633572137256
+  },
+  {
+    "name": "AILayer Token",
+    "symbol": "ail",
+    "image": "https://coin-images.coingecko.com/coins/images/54989/large/ailayer_logo-200x200.png?1743059829",
+    "market_cap": 0.0,
+    "current_price": 0.00111989,
+    "price_change_percentage_30d_in_currency": -14.036966856136992
+  },
+  {
+    "name": "AI Supreme",
+    "symbol": "aisp",
+    "image": "https://coin-images.coingecko.com/coins/images/30900/large/200.png?1696529746",
+    "market_cap": 0.0,
+    "current_price": 0.00028419,
+    "price_change_percentage_30d_in_currency": -9.89322600118093
+  },
+  {
+    "name": "Aave GUSD",
+    "symbol": "agusd",
+    "image": "https://coin-images.coingecko.com/coins/images/17246/large/aGUSD_2x.png?1696516803",
+    "market_cap": 0.0,
+    "current_price": 0.999104,
+    "price_change_percentage_30d_in_currency": -0.06824674372813198
+  },
+  {
+    "name": "Aave v1 USDC",
+    "symbol": "ausdc",
+    "image": "https://coin-images.coingecko.com/coins/images/11674/large/aUSDC.png?1696511564",
+    "market_cap": 0.0,
+    "current_price": 0.999031,
+    "price_change_percentage_30d_in_currency": -0.06883577015206861
+  },
+  {
+    "name": "AI Protocol",
+    "symbol": "ai",
+    "image": "https://coin-images.coingecko.com/coins/images/54512/large/ai_200x200.png?1740070043",
+    "market_cap": 0.0,
+    "current_price": 0.151818,
+    "price_change_percentage_30d_in_currency": 0.0
+  },
+  {
+    "name": "Aave CRV",
+    "symbol": "acrv",
+    "image": "https://coin-images.coingecko.com/coins/images/17250/large/aCRV_2x.png?1696516806",
+    "market_cap": 0.0,
+    "current_price": 0.539477,
+    "price_change_percentage_30d_in_currency": -19.85515698795233
+  },
+  {
+    "name": "Aave AMM WETH",
+    "symbol": "aammweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17259/large/aAMMWETH_2x.png?1696516814",
+    "market_cap": 0.0,
+    "current_price": 2592.67,
+    "price_change_percentage_30d_in_currency": 1.8870926369831258
+  },
+  {
+    "name": "Aave DAI",
+    "symbol": "adai",
+    "image": "https://coin-images.coingecko.com/coins/images/14242/large/aDAI.84b6c41f.png?1696513957",
+    "market_cap": 0.0,
+    "current_price": 0.998893,
+    "price_change_percentage_30d_in_currency": 0.022745948982354207
+  },
+  {
+    "name": "AASToken",
+    "symbol": "aast",
+    "image": "https://coin-images.coingecko.com/coins/images/35717/large/IMG_8288.JPG.jpg?1709630759",
+    "market_cap": 0.0,
+    "current_price": 0.00789851,
+    "price_change_percentage_30d_in_currency": -25.156541211037915
+  },
+  {
+    "name": "AICell",
+    "symbol": "aicell",
+    "image": "https://coin-images.coingecko.com/coins/images/52910/large/aqK6ODkn_400x400.jpg?1734647715",
+    "market_cap": 0.0,
+    "current_price": 0.00172682,
+    "price_change_percentage_30d_in_currency": -25.898829352400327
+  },
+  {
+    "name": "Aave v3 ARB",
+    "symbol": "aarb",
+    "image": "https://coin-images.coingecko.com/coins/images/32912/large/arbitrum.png?1699824441",
+    "market_cap": 0.0,
+    "current_price": 0.351086,
+    "price_change_percentage_30d_in_currency": 1.2311461072626013
+  },
+  {
+    "name": "Albert",
+    "symbol": "albert",
+    "image": "https://coin-images.coingecko.com/coins/images/36506/large/Albert_Logo.jpg?1711643124",
+    "market_cap": 0.0,
+    "current_price": 9.62e-06,
+    "price_change_percentage_30d_in_currency": -11.880093077034553
+  },
+  {
+    "name": "Aave v3 ENS",
+    "symbol": "aens",
+    "image": "https://coin-images.coingecko.com/coins/images/32907/large/ens.png?1699816992",
+    "market_cap": 0.0,
+    "current_price": 19.52,
+    "price_change_percentage_30d_in_currency": -5.546926121002414
+  },
+  {
+    "name": "Ambra",
+    "symbol": "ambr",
+    "image": "https://coin-images.coingecko.com/coins/images/31365/large/%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%A1.png?1696530182",
+    "market_cap": 0.0,
+    "current_price": 0.087985,
+    "price_change_percentage_30d_in_currency": -11.469011192009635
+  },
+  {
+    "name": "1000SATS (Ordinals)",
+    "symbol": "1000sats",
+    "image": "https://coin-images.coingecko.com/coins/images/33713/large/sats.png?1702872301",
+    "market_cap": 0.0,
+    "current_price": 4.073e-05,
+    "price_change_percentage_30d_in_currency": -12.005949255856645
+  },
+  {
+    "name": "AI Waifu",
+    "symbol": "wai",
+    "image": "https://coin-images.coingecko.com/coins/images/50441/large/Logo.png?1727768050",
+    "market_cap": 0.0,
+    "current_price": 0.090637,
+    "price_change_percentage_30d_in_currency": 0.2071749209306264
+  },
+  {
+    "name": "Alium Finance",
+    "symbol": "alm",
+    "image": "https://coin-images.coingecko.com/coins/images/15621/large/alium.png?1696515255",
+    "market_cap": 0.0,
+    "current_price": 0.00165134,
+    "price_change_percentage_30d_in_currency": -12.04008161030168
+  },
+  {
+    "name": "AI Community",
+    "symbol": "ai",
+    "image": "https://coin-images.coingecko.com/coins/images/36025/large/IMG_2023.JPG?1710387107",
+    "market_cap": 0.0,
+    "current_price": 0.00025144,
+    "price_change_percentage_30d_in_currency": -1.0621186818714148
+  },
+  {
+    "name": "1RUS DAO",
+    "symbol": "1rusd",
+    "image": "https://coin-images.coingecko.com/coins/images/38082/large/photo_2023-12-08_12-58-58_%281%29_%281%29_%281%29.png?1716476351",
+    "market_cap": 0.0,
+    "current_price": 0.00014269,
+    "price_change_percentage_30d_in_currency": -11.106623456584899
+  },
+  {
+    "name": "Bridged Tether (Alex Bridge)",
+    "symbol": "susdt",
+    "image": "https://coin-images.coingecko.com/coins/images/30407/large/aUSD.png?1734879036",
+    "market_cap": 0.0,
+    "current_price": 1.0,
+    "price_change_percentage_30d_in_currency": -0.006131720065357447
+  },
+  {
+    "name": "Aicean",
+    "symbol": "aice",
+    "image": "https://coin-images.coingecko.com/coins/images/55174/large/IMG_0397.jpeg?1744355219",
+    "market_cap": 0.0,
+    "current_price": 2.53,
+    "price_change_percentage_30d_in_currency": 85.67273646782061
+  },
+  {
+    "name": "Adamant",
+    "symbol": "addy",
+    "image": "https://coin-images.coingecko.com/coins/images/15225/large/adamant.png?1696514880",
+    "market_cap": 0.0,
+    "current_price": 0.02082452,
+    "price_change_percentage_30d_in_currency": -1.6527646007782406
+  },
+  {
+    "name": "Aave WBTC v1",
+    "symbol": "awbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/11734/large/aWBTC.png?1696511615",
+    "market_cap": 0.0,
+    "current_price": 108914.0,
+    "price_change_percentage_30d_in_currency": 4.874886145734247
+  },
+  {
+    "name": "Aave AMM UniBATWETH",
+    "symbol": "aammunibatweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17217/large/aAmmUniBATWETH.png?1696516773",
+    "market_cap": 0.0,
+    "current_price": 56.39,
+    "price_change_percentage_30d_in_currency": 0.6261347245008849
+  },
+  {
+    "name": "ALITA",
+    "symbol": "alme",
+    "image": "https://coin-images.coingecko.com/coins/images/36641/large/photo_2024-03-26_10-18-51.png?1712033931",
+    "market_cap": 0.0,
+    "current_price": 5.21e-06,
+    "price_change_percentage_30d_in_currency": -1.5733605271950593
+  },
+  {
+    "name": "Aave v3 LUSD",
+    "symbol": "alusd",
+    "image": "https://coin-images.coingecko.com/coins/images/32894/large/LUSD.png?1699789893",
+    "market_cap": 0.0,
+    "current_price": 1.002,
+    "price_change_percentage_30d_in_currency": -0.10042970308650356
+  },
+  {
+    "name": "Aave AMM UniSNXWETH",
+    "symbol": "aammunisnxweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17224/large/aAmmUniSNXWETH.png?1696516779",
+    "market_cap": 0.0,
+    "current_price": 191.17,
+    "price_change_percentage_30d_in_currency": -4.930716594089701
+  },
+  {
+    "name": "Andy's Cat",
+    "symbol": "candy",
+    "image": "https://coin-images.coingecko.com/coins/images/38403/large/1000007551.jpg?1717460653",
+    "market_cap": 0.0,
+    "current_price": 8.63e-06,
+    "price_change_percentage_30d_in_currency": -6.964542459681362
+  },
+  {
+    "name": "Aave AMM UniMKRWETH",
+    "symbol": "aammunimkrweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17222/large/aAmmUniMKRWETH.png?1696516777",
+    "market_cap": 0.0,
+    "current_price": 6928.52,
+    "price_change_percentage_30d_in_currency": 9.45498434246113
+  },
+  {
+    "name": "Akita Inu ASA",
+    "symbol": "akta",
+    "image": "https://coin-images.coingecko.com/coins/images/26832/large/akta.png?1696525891",
+    "market_cap": 0.0,
+    "current_price": 0.00037205,
+    "price_change_percentage_30d_in_currency": -49.37343783439931
+  },
+  {
+    "name": "Aave BUSD v1",
+    "symbol": "abusd",
+    "image": "https://coin-images.coingecko.com/coins/images/11736/large/aBUSD.png?1696511617",
+    "market_cap": 0.0,
+    "current_price": 0.997203,
+    "price_change_percentage_30d_in_currency": -0.08763865618444096
+  },
+  {
+    "name": "99Starz",
+    "symbol": "stz",
+    "image": "https://coin-images.coingecko.com/coins/images/21467/large/stz.png?1696520828",
+    "market_cap": 0.0,
+    "current_price": 0.00833999,
+    "price_change_percentage_30d_in_currency": -45.40405154496706
+  },
+  {
+    "name": "21X Diamonds",
+    "symbol": "21x",
+    "image": "https://coin-images.coingecko.com/coins/images/37730/large/photo_2024-05-09_10-21-43.jpg?1715336089",
+    "market_cap": 0.0,
+    "current_price": 6.40521e-07,
+    "price_change_percentage_30d_in_currency": 12.344682686481557
+  },
+  {
+    "name": "aiSUI",
+    "symbol": "suiagent",
+    "image": "https://coin-images.coingecko.com/coins/images/55754/large/suiagent-logo.jpg?1747296195",
+    "market_cap": 0.0,
+    "current_price": 0.00023819,
+    "price_change_percentage_30d_in_currency": -74.64702414233186
+  },
+  {
+    "name": "Aftermath Staked SUI",
+    "symbol": "afsui",
+    "image": "https://coin-images.coingecko.com/coins/images/32391/large/coin_icon_afsui.png?1698051868",
+    "market_cap": 0.0,
+    "current_price": 3.09,
+    "price_change_percentage_30d_in_currency": -10.017075834226643
+  },
+  {
+    "name": "Aave BAT",
+    "symbol": "abat",
+    "image": "https://coin-images.coingecko.com/coins/images/14246/large/aBAT.1fe436f7_-_Copy.png?1696513961",
+    "market_cap": 0.0,
+    "current_price": 0.131175,
+    "price_change_percentage_30d_in_currency": -1.0622384362967061
+  },
+  {
+    "name": "Aladdin rUSD",
+    "symbol": "arusd",
+    "image": "https://coin-images.coingecko.com/coins/images/38795/large/Screenshot_2024-06-20_at_2.41.40%E2%80%AFPM.png?1718880106",
+    "market_cap": 0.0,
+    "current_price": 1.19,
+    "price_change_percentage_30d_in_currency": 1.5270017395009998
+  },
+  {
+    "name": "ago",
+    "symbol": "ago",
+    "image": "https://coin-images.coingecko.com/coins/images/37208/large/Logo_Ago_400x400_1_.png?1714459203",
+    "market_cap": 0.0,
+    "current_price": 0.00071671,
+    "price_change_percentage_30d_in_currency": -33.76985736204017
+  },
+  {
+    "name": "Edcoin",
+    "symbol": "edc",
+    "image": "https://coin-images.coingecko.com/coins/images/13872/large/EDCOIN-1.png?1696513617",
+    "market_cap": 0.0,
+    "current_price": 0.02909994,
+    "price_change_percentage_30d_in_currency": 4.374105491869976
+  },
+  {
+    "name": "Aave KNC",
+    "symbol": "aknc",
+    "image": "https://coin-images.coingecko.com/coins/images/14250/large/aKNC.42bcd2e3.png?1696513964",
+    "market_cap": 0.0,
+    "current_price": 0.30187,
+    "price_change_percentage_30d_in_currency": -8.301665436792053
+  },
+  {
+    "name": "Aave v3 stMATIC",
+    "symbol": "astmatic",
+    "image": "https://coin-images.coingecko.com/coins/images/32921/large/stmatic.png?1699825800",
+    "market_cap": 0.0,
+    "current_price": 0.218881,
+    "price_change_percentage_30d_in_currency": -11.838268925868691
+  },
+  {
+    "name": "1INCH yVault",
+    "symbol": "yv1inch",
+    "image": "https://coin-images.coingecko.com/coins/images/28795/large/yv1INCH-128-0xB8C3B7A2A618C552C23B1E4701109a9E756Bab67.png?1696527773",
+    "market_cap": 0.0,
+    "current_price": 0.195047,
+    "price_change_percentage_30d_in_currency": -14.421044866924623
+  },
+  {
+    "name": "ACryptoS",
+    "symbol": "acs",
+    "image": "https://coin-images.coingecko.com/coins/images/32721/large/ACS.jpg?1699009686",
+    "market_cap": 0.0,
+    "current_price": 0.17097,
+    "price_change_percentage_30d_in_currency": -7.888701734179546
+  },
+  {
+    "name": "AICrew",
+    "symbol": "aicr",
+    "image": "https://coin-images.coingecko.com/coins/images/31569/large/Token_AICR.png?1696530381",
+    "market_cap": 0.0,
+    "current_price": 0.0225336,
+    "price_change_percentage_30d_in_currency": 0.31690983951058804
+  },
+  {
+    "name": "Aave USDT",
+    "symbol": "ausdt",
+    "image": "https://coin-images.coingecko.com/coins/images/14243/large/aUSDT.78f5faae.png?1696513958",
+    "market_cap": 0.0,
+    "current_price": 0.999314,
+    "price_change_percentage_30d_in_currency": 0.07617436395162673
+  },
+  {
+    "name": "AiPTP",
+    "symbol": "atmt",
+    "image": "https://coin-images.coingecko.com/coins/images/30353/large/200.200.png?1696529253",
+    "market_cap": 0.0,
+    "current_price": 0.00077879,
+    "price_change_percentage_30d_in_currency": -17.606767665460605
+  },
+  {
+    "name": "Affinity",
+    "symbol": "afnty",
+    "image": "https://coin-images.coingecko.com/coins/images/27345/large/YPtUpB2I_400x400.jpeg?1696526392",
+    "market_cap": 0.0,
+    "current_price": 3.80272e-07,
+    "price_change_percentage_30d_in_currency": -8.238396868115563
+  },
+  {
+    "name": "Ansem Wif Photographer",
+    "symbol": "awp",
+    "image": "https://coin-images.coingecko.com/coins/images/37048/large/AWP200x200.png?1713165133",
+    "market_cap": 0.0,
+    "current_price": 0.00018928,
+    "price_change_percentage_30d_in_currency": -5.221433507801455
+  },
+  {
+    "name": "Aave Polygon DAI",
+    "symbol": "amdai",
+    "image": "https://coin-images.coingecko.com/coins/images/17251/large/amDAI_2x.png?1696516807",
+    "market_cap": 0.0,
+    "current_price": 1.0,
+    "price_change_percentage_30d_in_currency": 0.011306152149778828
+  },
+  {
+    "name": "Abyss World",
+    "symbol": "awt",
+    "image": "https://coin-images.coingecko.com/coins/images/30679/large/black.png?1696529548",
+    "market_cap": 0.0,
+    "current_price": 1.568e-05,
+    "price_change_percentage_30d_in_currency": 138.87650734888956
+  },
+  {
+    "name": "Aave MANA v1",
+    "symbol": "amana",
+    "image": "https://coin-images.coingecko.com/coins/images/11730/large/aMANA.png?1696511611",
+    "market_cap": 0.0,
+    "current_price": 0.277244,
+    "price_change_percentage_30d_in_currency": -0.03144310723458365
+  },
+  {
+    "name": "Aave AMM USDT",
+    "symbol": "aammusdt",
+    "image": "https://coin-images.coingecko.com/coins/images/17200/large/aAMMUSDT_2x.png?1696516757",
+    "market_cap": 0.0,
+    "current_price": 0.999314,
+    "price_change_percentage_30d_in_currency": 0.009128567130457295
+  },
+  {
+    "name": "Agility",
+    "symbol": "agi",
+    "image": "https://coin-images.coingecko.com/coins/images/29781/large/14csBMea_400x400.jpg?1696528711",
+    "market_cap": 0.0,
+    "current_price": 0.00107813,
+    "price_change_percentage_30d_in_currency": 19.759679148922622
+  },
+  {
+    "name": "Aave SUSD v1",
+    "symbol": "asusd",
+    "image": "https://coin-images.coingecko.com/coins/images/11723/large/aSUSD.png?1696511605",
+    "market_cap": 0.0,
+    "current_price": 0.934259,
+    "price_change_percentage_30d_in_currency": -0.5360310809547509
+  },
+  {
+    "name": "Aave AMM UniRENWETH",
+    "symbol": "aammunirenweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17223/large/aAmmUniRENWETH.png?1696516778",
+    "market_cap": 0.0,
+    "current_price": 29.9,
+    "price_change_percentage_30d_in_currency": -11.022905322491502
+  },
+  {
+    "name": "Aave v3 BAL",
+    "symbol": "abal",
+    "image": "https://coin-images.coingecko.com/coins/images/32903/large/BAL_%281%29.png?1699802595",
+    "market_cap": 0.0,
+    "current_price": 1.01,
+    "price_change_percentage_30d_in_currency": -4.807203236536246
+  },
+  {
+    "name": "Aave v3 1INCH",
+    "symbol": "a1inch",
+    "image": "https://coin-images.coingecko.com/coins/images/32906/large/1INCH.png?1699804523",
+    "market_cap": 0.0,
+    "current_price": 0.181009,
+    "price_change_percentage_30d_in_currency": -14.187878431603076
+  },
+  {
+    "name": "AmberDAO",
+    "symbol": "amber",
+    "image": "https://coin-images.coingecko.com/coins/images/36626/large/Black.png?1712014965",
+    "market_cap": 0.0,
+    "current_price": 44.13,
+    "price_change_percentage_30d_in_currency": -32.14288024812462
+  },
+  {
+    "name": "Adroverse",
+    "symbol": "adr",
+    "image": "https://coin-images.coingecko.com/coins/images/24556/large/92mtj657_400x400.jpg?1696523732",
+    "market_cap": 0.0,
+    "current_price": 5.9e-06,
+    "price_change_percentage_30d_in_currency": -1.6511710088921228
+  },
+  {
+    "name": "Aelin",
+    "symbol": "aelin",
+    "image": "https://coin-images.coingecko.com/coins/images/22303/large/aelien.jpg?1696521649",
+    "market_cap": 0.0,
+    "current_price": 367.46,
+    "price_change_percentage_30d_in_currency": 16.604103184783096
+  },
+  {
+    "name": "Aave v3 STG",
+    "symbol": "astg",
+    "image": "https://coin-images.coingecko.com/coins/images/32905/large/ST.png?1699803503",
+    "market_cap": 0.0,
+    "current_price": 0.148464,
+    "price_change_percentage_30d_in_currency": -18.266106675896467
+  },
+  {
+    "name": "Aave ZRX v1",
+    "symbol": "azrx",
+    "image": "https://coin-images.coingecko.com/coins/images/11735/large/aZRX.png?1696511616",
+    "market_cap": 0.0,
+    "current_price": 0.229805,
+    "price_change_percentage_30d_in_currency": -3.589095984533821
+  },
+  {
+    "name": "Aave v3 DAI",
+    "symbol": "adai",
+    "image": "https://coin-images.coingecko.com/coins/images/32886/large/dai.png?1699769446",
+    "market_cap": 0.0,
+    "current_price": 0.999789,
+    "price_change_percentage_30d_in_currency": -0.031015917948232278
+  },
+  {
+    "name": "Accumulated Finance Staked ZETA",
+    "symbol": "stzeta",
+    "image": "https://coin-images.coingecko.com/coins/images/51117/large/stzeta.png?1730118280",
+    "market_cap": 0.0,
+    "current_price": 0.18399,
+    "price_change_percentage_30d_in_currency": -14.557216669935109
+  },
+  {
+    "name": "Aave AMM UniDAIWETH",
+    "symbol": "aammunidaiweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17230/large/aAmmUniDAIWETH.png?1696516784",
+    "market_cap": 0.0,
+    "current_price": 211.17,
+    "price_change_percentage_30d_in_currency": 1.2721192825084207
+  },
+  {
+    "name": "AGII",
+    "symbol": "agii",
+    "image": "https://coin-images.coingecko.com/coins/images/32371/large/AGII.png?1699534856",
+    "market_cap": 0.0,
+    "current_price": 2.114e-05,
+    "price_change_percentage_30d_in_currency": -18.15990190990667
+  },
+  {
+    "name": "Anima",
+    "symbol": "anima",
+    "image": "https://coin-images.coingecko.com/coins/images/39092/large/ANIMA.png?1720487600",
+    "market_cap": 0.0,
+    "current_price": 0.00187213,
+    "price_change_percentage_30d_in_currency": -22.19632882483783
+  },
+  {
+    "name": "Aave v3 EURS",
+    "symbol": "aeurs",
+    "image": "https://coin-images.coingecko.com/coins/images/32913/large/eurs.png?1699824583",
+    "market_cap": 0.0,
+    "current_price": 1.18,
+    "price_change_percentage_30d_in_currency": 3.093053735255559
+  },
+  {
+    "name": "Astra Protocol",
+    "symbol": "astra",
+    "image": "https://coin-images.coingecko.com/coins/images/24083/large/1dd4988b-5fcc-4646-b38d-aba2461ff12c.jpeg?1728586626",
+    "market_cap": 0.0,
+    "current_price": 0.00173821,
+    "price_change_percentage_30d_in_currency": -16.981292033852323
+  },
+  {
+    "name": "Aave SUSD",
+    "symbol": "asusd",
+    "image": "https://coin-images.coingecko.com/coins/images/14266/large/aSUSD.9b00ffc6.png?1696513967",
+    "market_cap": 0.0,
+    "current_price": 0.933877,
+    "price_change_percentage_30d_in_currency": -0.5360310809547509
+  },
+  {
+    "name": "Aave v3 wstETH",
+    "symbol": "awsteth",
+    "image": "https://coin-images.coingecko.com/coins/images/32890/large/WSTETH.png?1699776336",
+    "market_cap": 0.0,
+    "current_price": 3128.31,
+    "price_change_percentage_30d_in_currency": 2.0873761905720087
+  },
+  {
+    "name": "AI CODE",
+    "symbol": "aicode",
+    "image": "https://coin-images.coingecko.com/coins/images/30057/large/AICODE.png?1696528979",
+    "market_cap": 0.0,
+    "current_price": 0.184699,
+    "price_change_percentage_30d_in_currency": -26.863661236937926
+  },
+  {
+    "name": "Aave v3 MKR",
+    "symbol": "amkr",
+    "image": "https://coin-images.coingecko.com/coins/images/32889/large/mkr.png?1699774767",
+    "market_cap": 0.0,
+    "current_price": 1984.48,
+    "price_change_percentage_30d_in_currency": 16.318165964132703
+  },
+  {
+    "name": "Ainu",
+    "symbol": "ainu",
+    "image": "https://coin-images.coingecko.com/coins/images/17022/large/AINU.jpg?1696516585",
+    "market_cap": 0.0,
+    "current_price": 4.46115e-13,
+    "price_change_percentage_30d_in_currency": -0.8365488223355951
+  },
+  {
+    "name": "Alitas",
+    "symbol": "alt",
+    "image": "https://coin-images.coingecko.com/coins/images/16330/large/ALT.png?1696515931",
+    "market_cap": 0.0,
+    "current_price": 0.00499846,
+    "price_change_percentage_30d_in_currency": -64.74217588112377
+  },
+  {
+    "name": "AIHub",
+    "symbol": "aih",
+    "image": "https://coin-images.coingecko.com/coins/images/33833/large/AIH-cg.jpg?1703107152",
+    "market_cap": 0.0,
+    "current_price": 31.72,
+    "price_change_percentage_30d_in_currency": -15.907835118677111
+  },
+  {
+    "name": "Afrostar",
+    "symbol": "afro",
+    "image": "https://coin-images.coingecko.com/coins/images/19784/large/afrostar.PNG?1696519206",
+    "market_cap": 0.0,
+    "current_price": 4.242e-09,
+    "price_change_percentage_30d_in_currency": -2.8685624241868117
+  },
+  {
+    "name": "AddOn Ai",
+    "symbol": "addon",
+    "image": "https://coin-images.coingecko.com/coins/images/53515/large/addonai.jpg?1736573362",
+    "market_cap": 0.0,
+    "current_price": 0.00063084,
+    "price_change_percentage_30d_in_currency": -17.935730280164265
+  },
+  {
+    "name": "Active Token",
+    "symbol": "active",
+    "image": "https://coin-images.coingecko.com/coins/images/52342/large/activate-token-2_%282%29.png?1733128774",
+    "market_cap": 0.0,
+    "current_price": 0.00047754,
+    "price_change_percentage_30d_in_currency": -29.925637262154538
+  },
+  {
+    "name": "AiAkita",
+    "symbol": "aia",
+    "image": "https://coin-images.coingecko.com/coins/images/32491/large/AIA.jpg?1698293303",
+    "market_cap": 0.0,
+    "current_price": 7.1631e-14,
+    "price_change_percentage_30d_in_currency": -36.96790269206727
+  },
+  {
+    "name": "AlphaFi Staked SUI",
+    "symbol": "stsui",
+    "image": "https://coin-images.coingecko.com/coins/images/54211/large/b_r2Ps67_400x400.png?1738784534",
+    "market_cap": 0.0,
+    "current_price": 2.99,
+    "price_change_percentage_30d_in_currency": -11.481126076129856
+  },
+  {
+    "name": "Aave WBTC",
+    "symbol": "awbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/14244/large/aWBTC.41453c2a.png?1696513959",
+    "market_cap": 0.0,
+    "current_price": 108914.0,
+    "price_change_percentage_30d_in_currency": 4.874886145734247
+  },
+  {
+    "name": "Aave AMM UniWBTCWETH",
+    "symbol": "aammuniwbtcweth",
+    "image": "https://coin-images.coingecko.com/coins/images/17231/large/aAmmUniWBTCWETH.png?1696516785",
+    "market_cap": 0.0,
+    "current_price": 4384600855.0,
+    "price_change_percentage_30d_in_currency": 3.5415074915938147
+  },
+  {
+    "name": "Alibaba Tokenized Stock Defichain",
+    "symbol": "dbaba",
+    "image": "https://coin-images.coingecko.com/coins/images/24708/large/2.png?1696523873",
+    "market_cap": 0.0,
+    "current_price": 7.47,
+    "price_change_percentage_30d_in_currency": 0.3437830324962723
+  },
+  {
+    "name": "Aevum",
+    "symbol": "aevum",
+    "image": "https://coin-images.coingecko.com/coins/images/30587/large/vivaion-aevum-2.png?1696529455",
+    "market_cap": 0.0,
+    "current_price": 0.00487203,
+    "price_change_percentage_30d_in_currency": -16.445945591358644
+  },
+  {
+    "name": "AdaSwap",
+    "symbol": "asw",
+    "image": "https://coin-images.coingecko.com/coins/images/24453/large/rA5cmPtX_400x400.jpg?1696523633",
+    "market_cap": 0.0,
+    "current_price": 1.2e-06,
+    "price_change_percentage_30d_in_currency": -86.03401933164307
+  },
+  {
+    "name": "Able Finance",
+    "symbol": "able",
+    "image": "https://coin-images.coingecko.com/coins/images/17819/large/aac9bfb0-f27f-48f3-9b3e-ec090e10d3e1.png?1696517339",
+    "market_cap": 0.0,
+    "current_price": 3.92066e-13,
+    "price_change_percentage_30d_in_currency": 0.0
+  },
+  {
+    "name": "Aave v3 GHST",
+    "symbol": "aghst",
+    "image": "https://coin-images.coingecko.com/coins/images/32923/large/ghst.png?1699826089",
+    "market_cap": 0.0,
+    "current_price": 0.38255,
+    "price_change_percentage_30d_in_currency": -6.624981577644845
+  },
+  {
+    "name": "Aave v3 LDO",
+    "symbol": "aldo",
+    "image": "https://coin-images.coingecko.com/coins/images/32895/large/LDO.png?1699790151",
+    "market_cap": 0.0,
+    "current_price": 0.765985,
+    "price_change_percentage_30d_in_currency": -9.42141194466549
+  },
+  {
+    "name": "Aave yVault",
+    "symbol": "yvaave",
+    "image": "https://coin-images.coingecko.com/coins/images/28784/large/yvAAVE-128-0xd9788f3931Ede4D5018184E198699dC6d66C1915.png?1696527763",
+    "market_cap": 0.0,
+    "current_price": 294.79,
+    "price_change_percentage_30d_in_currency": 11.285783830928036
+  },
+  {
+    "name": "Add Finance",
+    "symbol": "add",
+    "image": "https://coin-images.coingecko.com/coins/images/32008/large/add.jpg?1696530806",
+    "market_cap": 0.0,
+    "current_price": 1.781e-05,
+    "price_change_percentage_30d_in_currency": -1.3846253218560658
+  },
+  {
+    "name": "Alea",
+    "symbol": "alea",
+    "image": "https://coin-images.coingecko.com/coins/images/35199/large/alea_logo_512_black_%281%29.png?1707840041",
+    "market_cap": 0.0,
+    "current_price": 0.593362,
+    "price_change_percentage_30d_in_currency": -25.592417730567075
+  },
+  {
+    "name": "8-Bit Coin",
+    "symbol": "coin",
+    "image": "https://coin-images.coingecko.com/coins/images/39995/large/2024-08-29_20.42.45.jpg?1725066328",
+    "market_cap": 0.0,
+    "current_price": 7.235e-05,
+    "price_change_percentage_30d_in_currency": 23.037080710134823
+  },
+  {
+    "name": "404ver",
+    "symbol": "top",
+    "image": "https://coin-images.coingecko.com/coins/images/37255/large/TOPCG.png?1713864803",
+    "market_cap": 0.0,
+    "current_price": 0.00052427,
+    "price_change_percentage_30d_in_currency": -1.2364488075152467
+  },
+  {
+    "name": "Aave v3 UNI",
+    "symbol": "auni",
+    "image": "https://coin-images.coingecko.com/coins/images/32893/large/UNI.png?1699789595",
+    "market_cap": 0.0,
+    "current_price": 7.49,
+    "price_change_percentage_30d_in_currency": 17.906425595469763
+  },
+  {
+    "name": "Aave Polygon USDC",
+    "symbol": "amusdc",
+    "image": "https://coin-images.coingecko.com/coins/images/17249/large/amUSDC_2x.png?1696516805",
+    "market_cap": 0.0,
+    "current_price": 1.0,
+    "price_change_percentage_30d_in_currency": -0.13167890301649157
+  }
+]

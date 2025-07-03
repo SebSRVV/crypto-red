@@ -1,0 +1,122 @@
+[
+  {
+    "name": "AirBTC",
+    "symbol": "airbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/37369/large/photo_2024-04-21_01-29-59.jpg?1714117341",
+    "market_cap": 0.0,
+    "current_price": 7.9091e-08,
+    "price_change_percentage_30d_in_currency": 38.73851689223629
+  },
+  {
+    "name": "9mm",
+    "symbol": "9mm",
+    "image": "https://coin-images.coingecko.com/coins/images/54791/large/9mm.jpg?1741590221",
+    "market_cap": 0.0,
+    "current_price": 0.01303522,
+    "price_change_percentage_30d_in_currency": 298.23248084500926
+  },
+  {
+    "name": "Abble",
+    "symbol": "aabl",
+    "image": "https://coin-images.coingecko.com/coins/images/36013/large/lM8keUnD_400x400.jpg?1710326029",
+    "market_cap": 0.0,
+    "current_price": 0.00066726,
+    "price_change_percentage_30d_in_currency": 50.13039770808834
+  },
+  {
+    "name": "0x Leverage",
+    "symbol": "oxl",
+    "image": "https://coin-images.coingecko.com/coins/images/31977/large/Ox.jpeg?1696530780",
+    "market_cap": 0.0,
+    "current_price": 0.00059773,
+    "price_change_percentage_30d_in_currency": 41.61127536211544
+  },
+  {
+    "name": "777FuckIlluminatiWorldwid",
+    "symbol": "fiw",
+    "image": "https://coin-images.coingecko.com/coins/images/38243/large/FrbqV8cS_400x400.jpg?1729594239",
+    "market_cap": 0.0,
+    "current_price": 0.00018433,
+    "price_change_percentage_30d_in_currency": 78.62317649569827
+  },
+  {
+    "name": "Aicean",
+    "symbol": "aice",
+    "image": "https://coin-images.coingecko.com/coins/images/55174/large/IMG_0397.jpeg?1744355219",
+    "market_cap": 0.0,
+    "current_price": 2.53,
+    "price_change_percentage_30d_in_currency": 85.67273646782061
+  },
+  {
+    "name": "Abyss World",
+    "symbol": "awt",
+    "image": "https://coin-images.coingecko.com/coins/images/30679/large/black.png?1696529548",
+    "market_cap": 0.0,
+    "current_price": 1.568e-05,
+    "price_change_percentage_30d_in_currency": 138.87650734888956
+  },
+  {
+    "name": "2MOON",
+    "symbol": "moon",
+    "image": "https://coin-images.coingecko.com/coins/images/32194/large/2MOON.jpg?1696745527",
+    "market_cap": 0.0,
+    "current_price": 1.94e-06,
+    "price_change_percentage_30d_in_currency": 59.41452875150992
+  },
+  {
+    "name": "AirBTC",
+    "symbol": "airbtc",
+    "image": "https://coin-images.coingecko.com/coins/images/37369/large/photo_2024-04-21_01-29-59.jpg?1714117341",
+    "market_cap": 0.0,
+    "current_price": 7.9091e-08,
+    "price_change_percentage_30d_in_currency": 38.73851689223629
+  },
+  {
+    "name": "9mm",
+    "symbol": "9mm",
+    "image": "https://coin-images.coingecko.com/coins/images/54791/large/9mm.jpg?1741590221",
+    "market_cap": 0.0,
+    "current_price": 0.01303522,
+    "price_change_percentage_30d_in_currency": 298.23248084500926
+  },
+  {
+    "name": "Abble",
+    "symbol": "aabl",
+    "image": "https://coin-images.coingecko.com/coins/images/36013/large/lM8keUnD_400x400.jpg?1710326029",
+    "market_cap": 0.0,
+    "current_price": 0.00066726,
+    "price_change_percentage_30d_in_currency": 50.13039770808834
+  },
+  {
+    "name": "0x Leverage",
+    "symbol": "oxl",
+    "image": "https://coin-images.coingecko.com/coins/images/31977/large/Ox.jpeg?1696530780",
+    "market_cap": 0.0,
+    "current_price": 0.00059773,
+    "price_change_percentage_30d_in_currency": 41.61127536211544
+  },
+  {
+    "name": "777FuckIlluminatiWorldwid",
+    "symbol": "fiw",
+    "image": "https://coin-images.coingecko.com/coins/images/38243/large/FrbqV8cS_400x400.jpg?1729594239",
+    "market_cap": 0.0,
+    "current_price": 0.00018433,
+    "price_change_percentage_30d_in_currency": 78.62317649569827
+  },
+  {
+    "name": "Aicean",
+    "symbol": "aice",
+    "image": "https://coin-images.coingecko.com/coins/images/55174/large/IMG_0397.jpeg?1744355219",
+    "market_cap": 0.0,
+    "current_price": 2.53,
+    "price_change_percentage_30d_in_currency": 85.67273646782061
+  },
+  {
+    "name": "Abyss World",
+    "symbol": "awt",
+    "image": "https://coin-images.coingecko.com/coins/images/30679/large/black.png?1696529548",
+    "market_cap": 0.0,
+    "current_price": 1.568e-05,
+    "price_change_percentage_30d_in_currency": 138.87650734888956
+  }
+]
