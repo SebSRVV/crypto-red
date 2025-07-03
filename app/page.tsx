@@ -1,14 +1,21 @@
 'use client';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import styles from './Home.module.css';
 import { HiOutlineCpuChip } from 'react-icons/hi2';
 
 export default function Home() {
   const router = useRouter();
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    // Forzar aparición al montar
+    const timeout = setTimeout(() => setVisible(true), 100);
+    return () => clearTimeout(timeout);
+  }, []);
 
   return (
     <div className={styles.container}>
-      {/* Header con logo e ícono */}
       <header className={styles.header}>
         <div className={styles.logoWrapper}>
           <HiOutlineCpuChip className={styles.icon} />
@@ -18,20 +25,23 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.content}>
-          <h2 className={styles.title}>
+          <h2 className={`${styles.title} ${visible ? styles.visible : ''}`}>
             Impulsando tus decisiones con <span className={styles.accent}>inteligencia artificial</span>
           </h2>
-          <p className={styles.description}>
+          <p className={`${styles.description} ${visible ? styles.visible : ''}`}>
             CryptoRed es una plataforma que detecta oportunidades de inversión en criptomonedas emergentes.
             Utilizamos modelos de machine learning y análisis de narrativas clave como inteligencia artificial, videojuegos, activos tokenizados y memes.
           </p>
-          <button className={styles.button} onClick={() => router.push('/dashboard')}>
+          <button
+            className={`${styles.button} ${visible ? styles.visible : ''}`}
+            onClick={() => router.push('/dashboard')}
+          >
             Ir al Dashboard 🚀
           </button>
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className={`${styles.footer} ${visible ? styles.visible : ''}`}>
         <p>© {new Date().getFullYear()} CryptoRed — Todos los derechos reservados</p>
       </footer>
     </div>

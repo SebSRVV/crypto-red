@@ -1,11 +1,3 @@
-:root {
-  --background: #0d0d0d;
-  --primary: #e63946;
-  --hover: #d62828;
-  --text-main: #dddddd;
-  --accent: #f1faee;
-}
-
 .container {
   min-height: 100vh;
   background: var(--background);
