@@ -31,88 +31,104 @@ type SortOption =
   | 'changeAsc'
   | 'changeDesc';
 
+type FilterOption = 'all' | 'recommended';
+
 export default function Dashboard() {
   const [data, setData] = useState<Crypto[]>([]);
   const [sortedData, setSortedData] = useState<Crypto[]>([]);
   const [sortOption, setSortOption] = useState<SortOption>('nameAsc');
+  const [filterOption, setFilterOption] = useState<FilterOption>('all');
   const [previousPrices, setPreviousPrices] = useState<Record<string, number>>({});
   const [priceFlashes, setPriceFlashes] = useState<Record<string, 'up' | 'down' | null>>({});
 
   useEffect(() => {
-  const fetchData = async () => {
-    try {
-      const [resData, resPredicted] = await Promise.all([
-        fetch('/data/criptos_completas.json'),
-        fetch('/data/criptos_predichas.json')
-      ]);
+    const fetchData = async () => {
+      try {
+        const [resData, resPredicted] = await Promise.all([
+          fetch('/data/criptos_completas.json'),
+          fetch('/data/criptos_predichas.json')
+        ]);
 
-      const allCryptos: Crypto[] = await resData.json();
-      const predictedList = await resPredicted.json();
+        const allCryptos: Crypto[] = await resData.json();
+        const predictedList = await resPredicted.json();
 
-      // Soporte para array de strings o de objetos
-      const predictedSymbols = Array.isArray(predictedList)
-        ? predictedList.map(item =>
-            typeof item === 'string' ? item.toLowerCase() : item.symbol.toLowerCase()
-          )
-        : [];
+        const predictedMap: Record<string, string | undefined> = {};
 
-      const updated = allCryptos.map(coin => ({
-        ...coin,
-        predicted: predictedSymbols.includes(coin.symbol.toLowerCase()),
-      }));
-
-      // Detectar cambios de precio para animación
-      const flashes: Record<string, 'up' | 'down' | null> = {};
-      updated.forEach((coin) => {
-        const prev = previousPrices[coin.symbol];
-        if (prev !== undefined && prev !== coin.current_price) {
-          flashes[coin.symbol] = coin.current_price > prev ? 'up' : 'down';
-        } else {
-          flashes[coin.symbol] = null;
+        if (Array.isArray(predictedList)) {
+          predictedList.forEach(item => {
+            if (typeof item === 'string') {
+              predictedMap[item.toLowerCase()] = '';
+            } else if (item.symbol) {
+              predictedMap[item.symbol.toLowerCase()] = item.reason || '';
+            }
+          });
         }
-      });
 
-      setPriceFlashes(flashes);
-      setPreviousPrices(Object.fromEntries(updated.map(c => [c.symbol, c.current_price])));
-      setData(updated);
-      setTimeout(() => setPriceFlashes({}), 1000);
-    } catch (err) {
-      console.error('Error al cargar datos:', err);
-    }
-  };
+        const updated = allCryptos.map(coin => {
+          const lowerSymbol = coin.symbol.toLowerCase();
+          return {
+            ...coin,
+            predicted: lowerSymbol in predictedMap,
+            reason: predictedMap[lowerSymbol] || ''
+          };
+        });
 
-  fetchData();
-  const interval = setInterval(fetchData, 6000);
-  return () => clearInterval(interval);
-}, [previousPrices]);
+        const flashes: Record<string, 'up' | 'down' | null> = {};
+        updated.forEach((coin) => {
+          const prev = previousPrices[coin.symbol];
+          if (prev !== undefined && prev !== coin.current_price) {
+            flashes[coin.symbol] = coin.current_price > prev ? 'up' : 'down';
+          } else {
+            flashes[coin.symbol] = null;
+          }
+        });
+
+        setPriceFlashes(flashes);
+        setPreviousPrices(Object.fromEntries(updated.map(c => [c.symbol, c.current_price])));
+        setData(updated);
+        setTimeout(() => setPriceFlashes({}), 1000);
+      } catch (err) {
+        console.error('Error al cargar datos:', err);
+      }
+    };
+
+    fetchData();
+    const interval = setInterval(fetchData, 6000);
+    return () => clearInterval(interval);
+  }, [previousPrices]);
 
   useEffect(() => {
-    const sorted = [...data];
+    let filtered = [...data];
+    if (filterOption === 'recommended') {
+      filtered = filtered.filter(c => c.predicted);
+    }
+
     switch (sortOption) {
       case 'nameAsc':
-        sorted.sort((a, b) => a.name.localeCompare(b.name));
+        filtered.sort((a, b) => a.name.localeCompare(b.name));
         break;
       case 'nameDesc':
-        sorted.sort((a, b) => b.name.localeCompare(a.name));
+        filtered.sort((a, b) => b.name.localeCompare(a.name));
         break;
       case 'priceAsc':
-        sorted.sort((a, b) => a.current_price - b.current_price);
+        filtered.sort((a, b) => a.current_price - b.current_price);
         break;
       case 'priceDesc':
-        sorted.sort((a, b) => b.current_price - a.current_price);
+        filtered.sort((a, b) => b.current_price - a.current_price);
         break;
       case 'changeAsc':
-        sorted.sort((a, b) => a.price_change_30d - b.price_change_30d);
+        filtered.sort((a, b) => a.price_change_30d - b.price_change_30d);
         break;
       case 'changeDesc':
-        sorted.sort((a, b) => b.price_change_30d - a.price_change_30d);
+        filtered.sort((a, b) => b.price_change_30d - a.price_change_30d);
         break;
     }
-    setSortedData(sorted);
-  }, [data, sortOption]);
 
-  const totalCryptos = sortedData.length;
-  const recommendedCryptos = sortedData.filter(c => c.predicted).length;
+    setSortedData(filtered);
+  }, [data, sortOption, filterOption]);
+
+  const totalCryptos = data.length;
+  const recommendedCryptos = data.filter(c => c.predicted).length;
 
   return (
     <div className={styles.container}>
@@ -136,13 +152,13 @@ export default function Dashboard() {
           </select>
         </div>
 
-        {/* 📊 Resumen */}
+        {/* 📊 Resumen clickeable */}
         <div className={styles.summary}>
-          <p>
+          <p onClick={() => setFilterOption('all')} style={{ cursor: 'pointer' }}>
             <FaCoins className={styles.icon} />
             Total de criptomonedas: <strong>{totalCryptos}</strong>
           </p>
-          <p>
+          <p onClick={() => setFilterOption('recommended')} style={{ cursor: 'pointer' }}>
             <HiSparkles className={styles.icon} />
             Recomendadas por IA: <strong>{recommendedCryptos}</strong>
           </p>
@@ -185,23 +201,25 @@ export default function Dashboard() {
                 <strong>Market Cap:</strong> ${crypto.market_cap.toLocaleString()}
               </p>
 
-<div className={styles.changeBlock}>
-  <span className={styles.changeLabel}>
-    <FaCalendarAlt className={styles.icon} />
-    Cambio 30d
-  </span>
-  <span className={crypto.price_change_30d >= 0 ? styles.positive : styles.negative}>
-    {crypto.price_change_30d > 0 && <FaArrowUp className={styles.upIcon} />}
-    {crypto.price_change_30d < 0 && <FaArrowDown className={styles.downIcon} />}
-    {crypto.price_change_30d.toFixed(2)}%
-  </span>
-</div>
+              <div className={styles.changeBlock}>
+                <span className={styles.changeLabel}>
+                  <FaCalendarAlt className={styles.icon} />
+                  Cambio 30d
+                </span>
+                <span className={crypto.price_change_30d >= 0 ? styles.positive : styles.negative}>
+                  {crypto.price_change_30d > 0 && <FaArrowUp className={styles.upIcon} />}
+                  {crypto.price_change_30d < 0 && <FaArrowDown className={styles.downIcon} />}
+                  {crypto.price_change_30d.toFixed(2)}%
+                </span>
+              </div>
 
               {crypto.predicted && (
                 <div className={styles.tagIA}>
                   <HiSparkles className={styles.icon} />
                   Recomendado por IA
-                  <div className={styles.reason}>{crypto.reason}</div>
+                  {crypto.reason && (
+                    <div className={styles.reason}>{crypto.reason}</div>
+                  )}
                 </div>
               )}
             </a>
