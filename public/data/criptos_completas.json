@@ -4016,5 +4016,19 @@
     "chart": "",
     "predicted": false,
     "reason": ""
+  },
+  {
+    "id": "moo-deng",
+    "name": "Moo Deng",
+    "symbol": "moodeng",
+    "image": "https://coin-images.coingecko.com/coins/images/50264/large/MOODENG.jpg?1726726975",
+    "market_cap": 188745454,
+    "current_price": 0.189982,
+    "price_change_24h": 12.6837776520067,
+    "price_change_7d": 40.4236651718855,
+    "price_change_30d": -12.487890076209405,
+    "chart": "/charts/moodeng_chart.png",
+    "predicted": false,
+    "reason": ""
   }
 ]

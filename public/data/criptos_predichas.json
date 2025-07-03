@@ -9,7 +9,7 @@
     "price_change_24h": -4.643025306952283,
     "price_change_7d": 4.678846462179042,
     "price_change_30d": 34.02739822198766,
-    "score": 0.7,
+    "score": 0.7066666666666667,
     "predicted": true,
     "reason": "Rendimiento mensual superior al 30"
   },
@@ -23,7 +23,7 @@
     "price_change_24h": 0.39666445488107804,
     "price_change_7d": 66.42381749705554,
     "price_change_30d": 40.646019677015374,
-    "score": 0.76,
+    "score": 0.8133333333333334,
     "predicted": true,
     "reason": "Rendimiento mensual superior al 30 | Tendencia semanal positiva"
   },
@@ -37,7 +37,7 @@
     "price_change_24h": 0.543917997049713,
     "price_change_7d": 18.630820690169443,
     "price_change_30d": 66.6628647616337,
-    "score": 0.7866666666666666,
+    "score": 0.76,
     "predicted": true,
     "reason": "Crecimiento mensual superior al 60 | Tendencia semanal positiva"
   },
@@ -65,7 +65,7 @@
     "price_change_24h": -3.51762083626564,
     "price_change_7d": 79.88958298057243,
     "price_change_30d": 2525.5076477137086,
-    "score": 0.58,
+    "score": 0.5733333333333334,
     "predicted": true,
     "reason": "Crecimiento mensual superior al 60 | Tendencia semanal positiva"
   },
@@ -79,7 +79,7 @@
     "price_change_24h": 4.9094238278583155,
     "price_change_7d": 27.000716667803054,
     "price_change_30d": 29.82231551932909,
-    "score": 0.82,
+    "score": 0.74,
     "predicted": true,
     "reason": "Tendencia semanal positiva"
   }
