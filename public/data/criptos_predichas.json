@@ -1,18 +1,5 @@
 [
   {
-    "name": "WhiteBIT Coin",
-    "symbol": "wbt",
-    "image": "https://coin-images.coingecko.com/coins/images/27045/large/wbt_token.png?1696526096",
-    "chart": "",
-    "market_cap": 6307817636,
-    "current_price": 43.77,
-    "price_change_24h": -0.038236801286641,
-    "price_change_7d": -7.897554475358542,
-    "price_change_30d": 39.171629611488875,
-    "predicted": true,
-    "reason": "🟢 Rendimiento mensual superior al 30%"
-  },
-  {
     "name": "Sei",
     "symbol": "sei",
     "image": "https://coin-images.coingecko.com/coins/images/28205/large/Sei_Logo_-_Transparent.png?1696527207",
@@ -26,16 +13,29 @@
     "reason": "🟢 Rendimiento mensual superior al 30%"
   },
   {
-    "name": "Pudgy Penguins",
-    "symbol": "pengu",
-    "image": "https://coin-images.coingecko.com/coins/images/52622/large/PUDGY_PENGUINS_PENGU_PFP.png?1733809110",
+    "name": "Kaia",
+    "symbol": "kaia",
+    "image": "https://coin-images.coingecko.com/coins/images/39901/large/KAIA.png?1724734368",
     "chart": "",
-    "market_cap": 966104961,
-    "current_price": 0.015359010000000001,
-    "price_change_24h": 0.39666445488107804,
-    "price_change_7d": 66.42381749705554,
-    "price_change_30d": 40.646019677015374,
+    "market_cap": 951456567,
+    "current_price": 0.162431,
+    "price_change_24h": 0.5575838156193721,
+    "price_change_7d": -9.429174752977945,
+    "price_change_30d": 40.596174524605885,
     "predicted": true,
-    "reason": "📊 Subida mensual fuerte + tendencia semanal positiva"
+    "reason": "🟢 Rendimiento mensual superior al 30%"
+  },
+  {
+    "name": "Aerodrome Finance",
+    "symbol": "aero",
+    "image": "https://coin-images.coingecko.com/coins/images/31745/large/token.png?1696530564",
+    "chart": "",
+    "market_cap": 661285549,
+    "current_price": 0.773211,
+    "price_change_24h": -3.246732994797752,
+    "price_change_7d": -0.816320815490978,
+    "price_change_30d": 41.492454052246394,
+    "predicted": true,
+    "reason": "🟢 Rendimiento mensual superior al 30%"
   }
 ]
