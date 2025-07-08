@@ -1,10 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { exec } from 'child_process';
-import fs from 'fs';
-import path from 'path';
-
-const SCRIPT_PATH = path.resolve('scripts/modelo_portafolio.py');
-const OUTPUT_JSON = path.resolve('public/data/recomendaciones.json');
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
@@ -16,30 +10,16 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Faltan parámetros requeridos' }, { status: 400 });
   }
 
-  const command = `python ${SCRIPT_PATH} ${capital} ${riesgo} ${plazo}`;
-
   try {
-    // Ejecutar el script de recomendación
-    await new Promise<void>((resolve, reject) => {
-      exec(command, (error, stdout, stderr) => {
-        if (error) {
-          console.error('Error ejecutando el script:', stderr);
-          return reject(new Error('Error ejecutando modelo de recomendación.'));
-        }
-        console.log(stdout);
-        resolve();
-      });
-    });
+    const apiUrl = `https://backend-api-production-5020.up.railway.app/recomendar?capital=${capital}&riesgo=${riesgo}&plazo=${plazo}`;
+    const response = await fetch(apiUrl);
+    const data = await response.json();
 
-    // Leer el archivo de salida
-    if (!fs.existsSync(OUTPUT_JSON)) {
-      return NextResponse.json({ error: 'No se generó el archivo de salida.' }, { status: 500 });
+    if (!response.ok) {
+      return NextResponse.json({ error: data.error || 'Error en la API externa' }, { status: 500 });
     }
 
-    const raw = fs.readFileSync(OUTPUT_JSON, 'utf-8');
-    const recomendaciones = JSON.parse(raw);
-
-    return NextResponse.json({ recomendaciones });
+    return NextResponse.json(data);
   } catch (e: unknown) {
     if (e instanceof Error) {
       console.error('Error en API:', e.message);
@@ -47,6 +27,6 @@ export async function GET(req: NextRequest) {
       console.error('Error desconocido en API:', e);
     }
 
-    return NextResponse.json({ error: 'Error interno en la API.' }, { status: 500 });
+    return NextResponse.json({ error: 'Error interno al consultar el modelo' }, { status: 500 });
   }
 }
