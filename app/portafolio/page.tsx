@@ -1,5 +1,5 @@
 'use client';
-
+import Image from 'next/image';
 import { useState } from 'react';
 import styles from './Recomendar.module.css';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -73,8 +73,12 @@ export default function RecomendarPage() {
 
       setRecomendaciones(data.recomendaciones || []);
       setMostrarResultados(true);
-    } catch (e: any) {
-      setError(e.message || 'Error desconocido');
+    } catch (e: unknown) {
+  if (e instanceof Error) {
+    setError(e.message || 'Error desconocido');
+  } else {
+    setError('Error desconocido');
+  }
     } finally {
       setLoading(false);
     }

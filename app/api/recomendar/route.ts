@@ -40,8 +40,13 @@ export async function GET(req: NextRequest) {
     const recomendaciones = JSON.parse(raw);
 
     return NextResponse.json({ recomendaciones });
-  } catch (e: any) {
-    console.error('Error en API:', e.message);
+  } catch (e: unknown) {
+    if (e instanceof Error) {
+      console.error('Error en API:', e.message);
+    } else {
+      console.error('Error desconocido en API:', e);
+    }
+
     return NextResponse.json({ error: 'Error interno en la API.' }, { status: 500 });
   }
 }
