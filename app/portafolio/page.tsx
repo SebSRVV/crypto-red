@@ -1,5 +1,4 @@
 'use client';
-import Image from 'next/image';
 import { useState } from 'react';
 import styles from './Recomendar.module.css';
 import { motion, AnimatePresence } from 'framer-motion';
