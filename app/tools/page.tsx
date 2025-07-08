@@ -4,22 +4,20 @@ import styles from './Tools.module.css';
 import { FaTools, FaPlay, FaDownload, FaHome } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
 
-
 export default function ToolsPage() {
-  const [startPage, setStartPage] = useState(3);
-  const [endPage, setEndPage] = useState(6);
+  const [page, setPage] = useState(1);
   const [log, setLog] = useState('');
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
-  const runScript = async (script: 'extractor' | 'modelo') => {
+  const runScript = async (script: 'extractor' | 'modelo_general') => {
     setLoading(true);
     setLog('Ejecutando script...');
 
     const query =
       script === 'extractor'
-        ? `?script=extractor&start=${startPage}&end=${endPage}`
-        : `?script=modelo`;
+        ? `?script=extractor&page=${page}`
+        : `?script=modelo_general&page=30d`; // Fijo a 30 días
 
     try {
       const res = await fetch(`/api/run${query}`);
@@ -43,23 +41,13 @@ export default function ToolsPage() {
 
       <div className={styles.form}>
         <div className={styles.inputGroup}>
-          <label className={styles.label}>Página de inicio:</label>
+          <label className={styles.label}>Página a consultar:</label>
           <input
             className={styles.input}
             type="number"
-            value={startPage}
+            value={page}
             min={1}
-            onChange={(e) => setStartPage(Number(e.target.value))}
-          />
-        </div>
-        <div className={styles.inputGroup}>
-          <label className={styles.label}>Página final:</label>
-          <input
-            className={styles.input}
-            type="number"
-            value={endPage}
-            min={startPage}
-            onChange={(e) => setEndPage(Number(e.target.value))}
+            onChange={(e) => setPage(Number(e.target.value))}
           />
         </div>
 
@@ -74,11 +62,11 @@ export default function ToolsPage() {
 
         <button
           className={styles.button}
-          onClick={() => runScript('modelo')}
+          onClick={() => runScript('modelo_general')}
           disabled={loading}
         >
           <FaPlay style={{ marginRight: 6 }} />
-          Ejecutar Modelo
+          Correr Modelo General
         </button>
       </div>
 

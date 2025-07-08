@@ -1,18 +1,20 @@
 import { spawn } from 'child_process';
+import path from 'path';
 
 export async function GET(request: Request): Promise<Response> {
   const url = new URL(request.url);
   const script = url.searchParams.get('script');
-  const start = url.searchParams.get('start');
-  const end = url.searchParams.get('end');
+  const page = url.searchParams.get('page');
 
-  if (!script || !['extractor', 'modelo'].includes(script)) {
+  if (!script || !['extractor', 'modelo_general'].includes(script)) {
     return jsonResponse({ error: 'Script inválido' }, 400);
   }
 
-  const args: string[] = [`${script}.py`];
-  if (script === 'extractor' && start && end) {
-    args.push(start, end);
+  const scriptPath = path.resolve('scripts', `${script}.py`);
+  const args: string[] = [scriptPath];
+
+  if (script === 'extractor' && page) {
+    args.push(page);
   }
 
   try {
@@ -24,10 +26,10 @@ export async function GET(request: Request): Promise<Response> {
   }
 }
 
-// Ejecuta un script Python con argumentos y devuelve la salida
+// Ejecuta un script Python con los argumentos dados
 function runPythonScript(args: string[]): Promise<string> {
   return new Promise((resolve, reject) => {
-    const process = spawn('python', args);
+    const process = spawn('python', args); 
     let output = '';
     let errorOutput = '';
 
@@ -49,7 +51,7 @@ function runPythonScript(args: string[]): Promise<string> {
   });
 }
 
-// Devuelve una respuesta JSON tipada
+
 function jsonResponse(data: object, status = 200): Response {
   return new Response(JSON.stringify(data), {
     status,

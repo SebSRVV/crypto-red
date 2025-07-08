@@ -1,0 +1,340 @@
+/* === CONTENEDOR GENERAL === */
+.container {
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  min-height: 100vh;
+  padding: 2rem 1.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* === TÍTULO CENTRADO === */
+.titleCentered {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #7f5af0;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.5px;
+}
+
+/* === FORMULARIO INICIAL CENTRADO === */
+.centerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+/* === FORMULARIO LATERAL Y REPETIDO === */
+.form {
+  background-color: #1a1a1a;
+  border-left: 5px solid #7f5af0;
+  padding: 2rem;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.form label {
+  font-size: 0.95rem;
+  color: #bbb;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.form input,
+.form select {
+  background-color: #1f1f1f;
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  padding: 0.65rem 0.85rem;
+  color: #f5f5f5;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease, background 0.3s ease;
+}
+
+.form input:focus,
+.form select:focus {
+  border-color: #7f5af0;
+  background-color: #252525;
+}
+
+.form button {
+  background-color: #7f5af0;
+  border: none;
+  color: white;
+  padding: 0.8rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.form button:hover {
+  background-color: #6847d6;
+  transform: scale(1.03);
+}
+
+/* === GRID LAYOUT PRINCIPAL (Formulario + Gráfico) === */
+.layoutGrid {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 0 auto 2.5rem;
+}
+
+/* === PANEL IZQUIERDO === */
+.leftPanel {
+  display: flex;
+  justify-content: center;
+}
+
+/* === PANEL GRÁFICO A LA DERECHA === */
+.graphPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* === GRÁFICO CHART.JS === */
+.chartBox {
+  background-color: #1c1c1f;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chartBox h2 {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+/* === TARJETAS DE CRIPTOS EN GRILLA === */
+.resultados {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+/* === CARD INDIVIDUAL === */
+.card {
+  background-color: #16161a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #2c2c35;
+  box-shadow: 0 0 14px rgba(127, 90, 240, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(127, 90, 240, 0.2);
+}
+
+/* === LOGO DE CRIPTO === */
+.logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: contain;
+  background-color: #202020;
+  border: 2px solid #7f5af0;
+  margin: 0 auto 1rem auto; /* 👈 Centrado horizontal */
+  display: block;
+}
+
+/* === TÍTULO EN CARD === */
+.card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card h3 span {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-left: 4px;
+}
+
+/* === INFO EN LISTA === */
+.infoList {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  font-size: 0.92rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.infoList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.iconData {
+  color: #7f5af0;
+  margin-top: 0.2rem;
+  flex-shrink: 0;
+  font-size: 0.9rem;
+}
+
+/* === MENSAJE DE ERROR === */
+.error {
+  background: #2a0000;
+  color: #ff7c7c;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 4px solid #ff4c4c;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 1000px) {
+  .layoutGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .graphPanel {
+    margin-top: 2rem;
+  }
+}
+
+.summary {
+  background: #18181c;
+  padding: 1rem;
+  border-radius: 12px;
+  border-left: 5px solid #7f5af0;
+  margin: 1rem auto;
+  max-width: 1400px;
+  color: #e0e0e0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.summary h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-bottom: 1px solid #2c2c2c;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+}
+
+/* GRID de resumen */
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  justify-content: center;
+  gap: 1.25rem;
+  text-align: center;
+  margin-top: 0rem;
+}
+
+/* Tarjeta de resumen */
+.summaryItem,
+.summaryItemAccent {
+  background: #1f1f1f;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  min-height: 100px;
+}
+
+.summaryItem:hover {
+  background-color: #222;
+}
+
+.summaryItemAccent {
+  background: #292940;
+  border-color: #7f5af0;
+}
+
+.summaryItemAccent:hover {
+  background: #312d55;
+}
+
+/* Íconos del resumen */
+.summaryIcon {
+  font-size: 1.6rem;
+  color: #7f5af0;
+  margin-bottom: 0.4rem;
+}
+
+/* Texto destacado */
+.summaryItem strong {
+  display: block;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 0.3rem;
+  font-size: 1.05rem;
+}
+
+.dashboardTopRight {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.dashboardBtn {
+  background-color: #7f5af0;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 14px rgba(127, 90, 240, 0.3);
+}
+
+.dashboardBtn:hover {
+  background-color: #6847d6;
+  transform: scale(1.05);
+}

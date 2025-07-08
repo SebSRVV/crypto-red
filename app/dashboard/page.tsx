@@ -139,6 +139,9 @@ export default function Dashboard() {
           <button onClick={() => window.location.href = '/'} className={styles.backButton}>
             ⬅ Volver al Inicio
           </button>
+           <button onClick={() => window.location.href = '/portafolio'} className={styles.investButton}>
+    💰 Calcular Inversión
+  </button>
           <select
             value={sortOption}
             onChange={(e) => setSortOption(e.target.value as SortOption)}

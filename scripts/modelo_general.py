@@ -102,18 +102,42 @@ df["predicted"] = df["score"] >= UMBRAL_PROBABILIDAD
 
 def get_reason(row):
     reasons = []
-    if row["price_change_30d"] > 60:
-        reasons.append("Crecimiento mensual superior al 60")
+
+    if row["price_change_30d"] > 100:
+        reasons.append("Explosion mensual (+100%)")
+    elif row["price_change_30d"] > 60:
+        reasons.append("Crecimiento mensual sobresaliente (+60%)")
     elif row["price_change_30d"] > 30:
-        reasons.append("Rendimiento mensual superior al 30")
-    if row["price_change_7d"] > 5:
+        reasons.append("Buen rendimiento mensual (+30%)")
+
+    if row["price_change_7d"] > 10:
+        reasons.append("Fuerte tendencia semanal (+10%)")
+    elif row["price_change_7d"] > 5:
         reasons.append("Tendencia semanal positiva")
-    if "volume_24h" in row and row["volume_24h"] > 1e8:
-        reasons.append("Volumen alto")
-    if "market_cap_rank" in row and row["market_cap_rank"] < 100:
-        reasons.append("Top 100 por capitalizacion")
+
+    if "volume_24h" in row:
+        if row["volume_24h"] > 5e8:
+            reasons.append("Volumen extremadamente alto")
+        elif row["volume_24h"] > 1e8:
+            reasons.append("Volumen alto")
+
+    if "market_cap_rank" in row:
+        if row["market_cap_rank"] <= 10:
+            reasons.append("Top 10 por capitalizacion")
+        elif row["market_cap_rank"] <= 100:
+            reasons.append("Top 100 por capitalizacion")
+
+    if row["score"] > 0.8:
+        reasons.append("Alta confianza del modelo")
+    elif row["score"] > 0.6:
+        reasons.append("Buena puntuacion en analisis multivariable")
+
+    if "btc_change_30d" in row and row["btc_change_30d"] < 0 and row["price_change_30d"] > 0:
+        reasons.append("Destacando pese a caida de BTC")
+
     if not reasons and row["predicted"]:
         return "Recomendacion por analisis multivariable"
+
     return " | ".join(reasons)
 
 df["reason"] = df.apply(lambda row: get_reason(row) if row["predicted"] else "", axis=1)
@@ -137,54 +161,33 @@ with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
 print(f"JSON generado para frontend: {OUTPUT_JSON}")
 print(f"Total recomendadas: {len(recomendadas)} (umbral {UMBRAL_PROBABILIDAD})")
 
-def recomendar_inversion(capital: float, riesgo: str, plazo: str):
+def recomendar_generico_por_plazo(plazo: str, top_n: int = 5):
     if plazo == "24h":
         col = "price_change_24h"
-    elif plazo == "1a":
+    elif plazo == "30d" or plazo == "1a":
         col = "price_change_30d"
     else:
-        col = "price_change_30d"
+        raise ValueError("Plazo invalido. Usa '24h' o '30d'.")
 
-    if riesgo == "leve":
-        filtro = (df_out["price_change_30d"] > 0) & (df_out["score"] > 0.6)
-    elif riesgo == "moderado":
-        filtro = (df_out["price_change_30d"] > -10) & (df_out["score"] > 0.35)
-    elif riesgo == "volatil":
-        filtro = (df_out["price_change_30d"] < 100)
-    else:
-        raise ValueError("Riesgo invalido")
-
-    candidatos = df_out[filtro].copy()
-    if candidatos.empty:
-        print("No hay criptos que cumplan los criterios")
-        return
-
+    candidatos = df_out[df_out["predicted"] == True].copy()
     candidatos = candidatos.sort_values("score", ascending=False)
-    top_n = min(5, len(candidatos))
     seleccionadas = candidatos.head(top_n)
-    monto_por_cripto = capital / top_n
 
-    print(f"\n=== RECOMENDACION DE INVERSION ({riesgo.upper()}, {plazo}) ===")
-    print(f"Capital total: ${capital:.2f}")
-    print(f"Invertir en {top_n} criptos con ${monto_por_cripto:.2f} cada una:\n")
-
+    print(f"\n=== TOP {top_n} CRIPTOS RECOMENDADAS ({plazo.upper()}) ===\n")
     for _, row in seleccionadas.iterrows():
-        unidades = monto_por_cripto / row["current_price"]
         print(f"- {row['name']} ({row['symbol'].upper()}):")
         print(f"  Precio actual: ${row['current_price']:.2f}")
-        print(f"  Unidades a comprar: {unidades:.4f}")
-        print(f"  Score modelo: {row['score']:.2f}")
+        print(f"  Rendimiento ({plazo}): {row[col]:.2f}%")
+        print(f"  Score del modelo: {row['score']:.2f}")
         print(f"  Razon: {row['reason']}\n")
 
 if __name__ == "__main__":
-    if len(sys.argv) == 4:
+    if len(sys.argv) == 2:
         try:
-            capital = float(sys.argv[1])
-            riesgo = sys.argv[2].lower()
-            plazo = sys.argv[3].lower()
-            recomendar_inversion(capital, riesgo, plazo)
+            plazo = sys.argv[1].lower()
+            recomendar_generico_por_plazo(plazo)
         except Exception as e:
-            print(f"Error en argumentos: {e}")
-            print("Uso: python modelo.py 1000 moderado 30d")
+            print(f"Error al procesar: {e}")
     else:
-        print("Modelo entrenado. Usa: python modelo.py <capital> <riesgo> <plazo>")
+        print("Script Finalizado")
+
