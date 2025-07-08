@@ -83,35 +83,79 @@ export default function RecomendarPage() {
     }
   };
 
-  const generarGrafico = () => {
-    if (!recomendaciones.length || !recomendaciones[0].proyeccion?.length) return undefined;
+const colores = ['#8e44ad', '#3498db', '#e67e22', '#2ecc71', '#f1c40f', '#e74c3c'];
 
-    const cantidad = recomendaciones[0].proyeccion.length;
+const generarGrafico = () => {
+  if (!recomendaciones.length || !recomendaciones[0].proyeccion?.length) return undefined;
 
-    let etiquetas: string[] = [];
+  const cantidad = recomendaciones[0].proyeccion.length;
 
-    if (plazo === "24h") {
-      etiquetas = Array.from({ length: cantidad }, (_, i) => `Hora ${i}`);
-    } else if (plazo === "30d") {
-      etiquetas = Array.from({ length: cantidad }, (_, i) => `Día ${i}`);
-    } else if (plazo === "1a") {
-      const meses = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
-      etiquetas = meses.slice(0, cantidad);
-    }
+  let etiquetas: string[] = [];
 
-    return {
-      labels: etiquetas,
-      datasets: recomendaciones.map((r) => ({
-        label: r.symbol,
-        data: r.proyeccion || [],
-        fill: false,
-        tension: 0.4,
-        borderWidth: 2,
-      })),
-    };
+  if (plazo === "24h") {
+    etiquetas = Array.from({ length: cantidad }, (_, i) => `Hora ${i}`);
+  } else if (plazo === "30d") {
+    etiquetas = Array.from({ length: cantidad }, (_, i) => `Día ${i + 1}`);
+  } else if (plazo === "1a") {
+    const meses = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
+    etiquetas = meses.slice(0, cantidad);
+  }
+
+  return {
+    labels: etiquetas,
+    datasets: recomendaciones.map((r, idx) => ({
+      label: r.symbol,
+      data: r.proyeccion || [],
+      fill: false,
+      tension: 0.4,
+      borderColor: colores[idx % colores.length],
+      backgroundColor: colores[idx % colores.length],
+      pointRadius: 3,
+      borderWidth: 2,
+    })),
   };
+};
 
-  const graficoData = generarGrafico();
+const chartOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    legend: {
+      labels: {
+        color: '#FFFFFF',
+        font: {
+          size: 14,
+        },
+      },
+    },
+    tooltip: {
+      backgroundColor: '#1f1f2e',
+      titleColor: '#ffffff',
+      bodyColor: '#dddddd',
+    },
+  },
+  scales: {
+    x: {
+      ticks: {
+        color: '#CCCCCC',
+      },
+      grid: {
+        color: 'rgba(255, 255, 255, 0.1)',
+      },
+    },
+    y: {
+      ticks: {
+        color: '#CCCCCC',
+      },
+      grid: {
+        color: 'rgba(255, 255, 255, 0.1)',
+      },
+    },
+  },
+};
+
+const graficoData = generarGrafico();
+
 
   const totalProyeccion = recomendaciones
     .map((r) => r.proyeccion?.[r.proyeccion.length - 1] || 0)
