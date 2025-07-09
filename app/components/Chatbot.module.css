@@ -76,6 +76,22 @@
   margin: 10px 0 0 0;
   padding: 0 16px;
   background: var(--background);
+  scrollbar-width: thin;
+  scrollbar-color: #FFD600 #18120b;
+}
+
+.messages::-webkit-scrollbar {
+  width: 8px;
+  background: #18120b;
+  border-radius: 8px;
+}
+.messages::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #FFD600 0%, #e63946 100%);
+  border-radius: 8px;
+  min-height: 24px;
+}
+.messages::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #FFEA70 0%, #e63946 100%);
 }
 
 .messageRow {

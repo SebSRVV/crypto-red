@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { WiDaySunny } from "react-icons/wi";
 import styles from "./Chatbot.module.css";
 
@@ -8,9 +9,18 @@ Eres SUN, el asistente oficial de la app CryptoReed. Solo puedes responder pregu
 `;
 
 const FAQS = [
-  "¿Dónde veo mis predicciones?",
-  "¿Cómo cambio mi nivel de riesgo?",
-  "¿Qué crypto recomiendan hoy?"
+  {
+    text: "¿Dónde veo mis predicciones?",
+    redirect: "/portafolio"
+  },
+  {
+    text: "¿Cómo cambio mi nivel de riesgo?",
+    redirect: "/portafolio"
+  },
+  {
+    text: "¿Qué crypto recomiendan hoy?",
+    redirect: "/dashboard"
+  }
 ];
 
 async function fetchChatbotResponse(messages: {role: string, content: string}[]) {
@@ -23,6 +33,16 @@ async function fetchChatbotResponse(messages: {role: string, content: string}[])
   return data.reply;
 }
 
+function obtenerMensajeRedireccion(path: string | null) {
+  if (path === "/portafolio") {
+    return "Aquí podrás ver tus predicciones y cambiar tu nivel de riesgo.";
+  }
+  if (path === "/dashboard") {
+    return "Aquí puedes ver el resumen de criptomonedas y recomendaciones.";
+  }
+  return "Sección mostrada.";
+}
+
 export default function Chatbot() {
   const [isMounted, setIsMounted] = useState(false);
   const [visible, setVisible] = useState(true);
@@ -31,7 +51,9 @@ export default function Chatbot() {
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [pendingRedirect, setPendingRedirect] = useState<string | null>(null);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const router = useRouter();
 
   useEffect(() => {
     setIsMounted(true);
@@ -52,6 +74,43 @@ export default function Chatbot() {
   const handleSend = async (question?: string) => {
     const userInput = question || input;
     if (!userInput.trim()) return;
+
+    // Si hay un pendingRedirect y el usuario responde "sí", redirige
+    if (pendingRedirect && ["si", "sí"].includes(userInput.trim().toLowerCase())) {
+      setMessages(prev => [
+        ...prev,
+        { role: "user", content: userInput },
+        { role: "assistant", content: "Redirigiendo a la sección solicitada..." },
+        { role: "assistant", content: obtenerMensajeRedireccion(pendingRedirect) }
+      ]);
+      setPendingRedirect(null);
+      setInput("");
+      router.push(pendingRedirect);
+      return;
+    }
+
+    // Si hay un pendingRedirect y el usuario responde "no", cancela
+    if (pendingRedirect && userInput.trim().toLowerCase() === "no") {
+      setMessages(prev => [...prev, { role: "user", content: userInput }, { role: "assistant", content: "De acuerdo, no te redirijo." }]);
+      setPendingRedirect(null);
+      setInput("");
+      return;
+    }
+
+    // Detectar si la pregunta es un FAQ con redirección
+    const faq = FAQS.find(f => f.text === userInput);
+    if (faq) {
+      setMessages(prev => [...prev, { role: "user", content: userInput }]);
+      setLoading(true);
+      const reply = await fetchChatbotResponse([...messages, { role: "user", content: userInput }]);
+      setMessages(prev => [...prev, { role: "assistant", content: reply + "\n\n¿Deseas que te lleve a la sección correspondiente? (Sí/No)" }]);
+      setPendingRedirect(faq.redirect);
+      setLoading(false);
+      setInput("");
+      return;
+    }
+
+    // Normal flow
     const newMessages = [...messages, { role: "user", content: userInput }];
     setMessages(newMessages);
     setInput("");
@@ -92,10 +151,10 @@ export default function Chatbot() {
               <button
                 key={i}
                 className={styles.faqButton}
-                onClick={() => handleSend(faq)}
+                onClick={() => handleSend(faq.text)}
                 disabled={loading}
               >
-                {faq}
+                {faq.text}
               </button>
             ))}
           </div>

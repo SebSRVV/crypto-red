@@ -1,10 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
-<<<<<<< HEAD
 import Chatbot from './components/Chatbot';
-=======
->>>>>>> 79896b1e8f8a222551fde3cdf0fa8920429190de
 
 // Carga de tipografías con variables CSS
 const geistSans = Geist({

@@ -17,6 +17,7 @@ import {
   FaTimesCircle,
 } from 'react-icons/fa';
 import { Line } from 'react-chartjs-2';
+import Image from 'next/image';
 import {
   Chart as ChartJS,
   LineElement,
@@ -114,44 +115,6 @@ const generarGrafico = () => {
       borderWidth: 2,
     })),
   };
-};
-
-const chartOptions = {
-  responsive: true,
-  maintainAspectRatio: false,
-  plugins: {
-    legend: {
-      labels: {
-        color: '#FFFFFF',
-        font: {
-          size: 14,
-        },
-      },
-    },
-    tooltip: {
-      backgroundColor: '#1f1f2e',
-      titleColor: '#ffffff',
-      bodyColor: '#dddddd',
-    },
-  },
-  scales: {
-    x: {
-      ticks: {
-        color: '#CCCCCC',
-      },
-      grid: {
-        color: 'rgba(255, 255, 255, 0.1)',
-      },
-    },
-    y: {
-      ticks: {
-        color: '#CCCCCC',
-      },
-      grid: {
-        color: 'rgba(255, 255, 255, 0.1)',
-      },
-    },
-  },
 };
 
 const graficoData = generarGrafico();
@@ -329,7 +292,7 @@ const graficoData = generarGrafico();
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: i * 0.1 }}
                 >
-                  <img src={r.image} alt={r.nombre} className={styles.logo} />
+                  <Image src={r.image} alt={r.nombre} className={styles.logo} width={52} height={52} unoptimized />
                   <h3>{r.nombre} <span>({r.symbol})</span></h3>
 
                   <ul className={styles.infoList}>
