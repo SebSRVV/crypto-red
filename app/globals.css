@@ -1,0 +1,78 @@
+/* ---------- Variables globales ---------- */
+:root {
+  --background: #0d0d0d;
+  --primary: #e63946;
+  --hover: #d62828;
+  --text-main: #dddddd;
+  --accent: #f1faee;
+}
+
+/* ---------- Reset + base ---------- */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--text-main);
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideFadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes iconGlow {
+  0% {
+    transform: rotate(0deg) scale(1);
+    text-shadow: 0 0 6px rgba(230, 57, 70, 0.4);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.05);
+    text-shadow: 0 0 12px rgba(230, 57, 70, 0.6);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+    text-shadow: 0 0 16px rgba(230, 57, 70, 0.9);
+  }
+}
+
+
