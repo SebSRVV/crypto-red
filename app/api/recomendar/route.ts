@@ -1,64 +1,32 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { spawn } from 'child_process';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const capital = searchParams.get('capital');
   const riesgo = searchParams.get('riesgo');
   const plazo = searchParams.get('plazo');
-  const top_n = searchParams.get('top_n') || '5';
 
   if (!capital || !riesgo || !plazo) {
     return NextResponse.json({ error: 'Faltan parámetros requeridos' }, { status: 400 });
   }
 
   try {
-    // Ejecutar el script Python localmente
-    const pyArgs = [
-      'scripts/modelo_portafolio.py',
-      capital,
-      riesgo,
-      plazo,
-      top_n
-    ];
-    
-    const pythonProcess = spawn('python', pyArgs);
+    const apiUrl = `https://backend-api-production-5020.up.railway.app/recomendar?capital=${capital}&riesgo=${riesgo}&plazo=${plazo}`;
+    const response = await fetch(apiUrl);
+    const data = await response.json();
 
-    let output = '';
-    let errorOutput = '';
-
-    pythonProcess.stdout.on('data', (data) => {
-      output += data.toString();
-    });
-    pythonProcess.stderr.on('data', (data) => {
-      errorOutput += data.toString();
-    });
-
-    const exitCode: number = await new Promise((resolve) => {
-      pythonProcess.on('close', resolve);
-    });
-
-    if (exitCode !== 0) {
-      return NextResponse.json({ error: errorOutput || 'Error ejecutando el modelo' }, { status: 500 });
+    if (!response.ok) {
+      return NextResponse.json({ error: data.error || 'Error en la API externa' }, { status: 500 });
     }
 
-    // Buscar el último bloque JSON en la salida
-    const jsonMatch = output.match(/(\[\s*\{[\s\S]*\}\s*\])/);
-    if (!jsonMatch) {
-      return NextResponse.json({ error: 'No se pudo obtener la respuesta del modelo' }, { status: 500 });
-    }
-    const recomendaciones = JSON.parse(jsonMatch[1]);
-    return NextResponse.json({ recomendaciones });
+    return NextResponse.json(data);
   } catch (e: unknown) {
-    let errorMsg = 'Error interno al consultar el modelo local';
-    if (
-      typeof e === 'object' &&
-      e !== null &&
-      'message' in e &&
-      typeof (e as { message?: unknown }).message === 'string'
-    ) {
-      errorMsg = (e as { message: string }).message;
+    if (e instanceof Error) {
+      console.error('Error en API:', e.message);
+    } else {
+      console.error('Error desconocido en API:', e);
     }
-    return NextResponse.json({ error: errorMsg }, { status: 500 });
+
+    return NextResponse.json({ error: 'Error interno al consultar el modelo' }, { status: 500 });
   }
 }
