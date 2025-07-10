@@ -1,12 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { spawn } from 'child_process';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const capital = searchParams.get('capital');
   const riesgo = searchParams.get('riesgo');
   const plazo = searchParams.get('plazo');
-  const top_n = searchParams.get('top_n') || '5';
 
   if (!capital || !riesgo || !plazo) {
     return NextResponse.json({ error: 'Faltan parámetros requeridos' }, { status: 400 });
@@ -28,7 +26,6 @@ export async function GET(req: NextRequest) {
     } else {
       console.error('Error desconocido en API:', e);
     }
-
     return NextResponse.json({ error: 'Error interno al consultar el modelo' }, { status: 500 });
   }
 }
