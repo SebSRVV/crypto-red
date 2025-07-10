@@ -45,10 +45,14 @@ export async function POST(req: NextRequest) {
 
   // Si no es una pregunta de recomendación, usar el modelo de IA
   try {
+    const apiKey = process.env.OPENROUTER_API_KEY;
+    if (!apiKey) {
+      return NextResponse.json({ reply: "No se encontró la API key de OpenRouter. Contacta al administrador." }, { status: 500 });
+    }
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${'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'}`,
+        "Authorization": `Bearer ${apiKey}`,
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
@@ -60,7 +64,7 @@ export async function POST(req: NextRequest) {
     });
     const data = await response.json();
     console.log('Respuesta de OpenRouter:', data); // Log para depuración
-    let reply = data.choices?.[0]?.message?.content || "Lo siento, no puedo responder eso.";
+    let reply = data.choices?.[0]?.message?.content || data.error?.message || "Lo siento, no puedo responder eso.";
     if (reply && !reply.trim().endsWith(".")) {
       const lastDot = reply.lastIndexOf(".");
       if (lastDot !== -1) {
@@ -75,9 +79,13 @@ export async function POST(req: NextRequest) {
 }
 
 export async function GET() {
+  const apiKey = process.env.OPENROUTER_API_KEY;
+  if (!apiKey) {
+    return NextResponse.json({ models: [], error: "No se encontró la API key de OpenRouter." }, { status: 500 });
+  }
   const resp = await fetch("https://openrouter.ai/api/v1/models", {
     headers: {
-      "Authorization": `Bearer ${'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'}`
+      "Authorization": `Bearer ${apiKey}`
     }
   });
   const json = await resp.json();
