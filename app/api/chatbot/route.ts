@@ -48,7 +48,7 @@ export async function POST(req: NextRequest) {
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
+        "Authorization": `Bearer ${'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'}`,
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
@@ -70,16 +70,14 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ reply });
   } catch (error) {
     console.error('Error con OpenRouter:', error);
-    // Respuesta de fallback cuando no hay API key o falla la conexión
-    const fallbackReply = "¡Hola! Soy Sun, tu asistente de criptomonedas. Puedo ayudarte con recomendaciones de criptomonedas. ¿Qué te gustaría saber?";
-    return NextResponse.json({ reply: fallbackReply });
+    return NextResponse.json({ reply: "Lo siento, no puedo responder eso en este momento." });
   }
 }
 
 export async function GET() {
   const resp = await fetch("https://openrouter.ai/api/v1/models", {
     headers: {
-      "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`
+      "Authorization": `Bearer ${'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'}`
     }
   });
   const json = await resp.json();

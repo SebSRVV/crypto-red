@@ -37,7 +37,12 @@ def recomendar_portafolio(capital: float, riesgo: str, plazo: str, top_n: int = 
 
     # === FILTROS ===
     if riesgo == "leve":
-        filtro = (df["price_change_30d"] > 0) & (df["price_change_30d"] < 20) & (df["score"] > 0.6)
+        if plazo == "1a":
+            print(f"[Filtro leve/1a] price_change_30d < 40 y score > 0.4")
+            filtro = (df["price_change_30d"] > 0) & (df["price_change_30d"] < 40) & (df["score"] > 0.4)
+        else:
+            print(f"[Filtro leve/otros] price_change_30d < 30 y score > 0.5")
+            filtro = (df["price_change_30d"] > 0) & (df["price_change_30d"] < 30) & (df["score"] > 0.5)
     elif riesgo == "moderado":
         filtro = (df["price_change_30d"] > -10) & (df["price_change_30d"] < 30) & (df["score"] > 0.35)
     elif riesgo == "volatil":
