@@ -1,6 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { readFileSync } from "fs";
-import path from "path";
 
 export async function POST(req: NextRequest) {
   let { messages } = await req.json();
