@@ -49,7 +49,16 @@ export async function GET(req: NextRequest) {
     }
     const recomendaciones = JSON.parse(jsonMatch[1]);
     return NextResponse.json({ recomendaciones });
-  } catch (e: any) {
-    return NextResponse.json({ error: e.message || 'Error interno al consultar el modelo local' }, { status: 500 });
+  } catch (e: unknown) {
+    let errorMsg = 'Error interno al consultar el modelo local';
+    if (
+      typeof e === 'object' &&
+      e !== null &&
+      'message' in e &&
+      typeof (e as { message?: unknown }).message === 'string'
+    ) {
+      errorMsg = (e as { message: string }).message;
+    }
+    return NextResponse.json({ error: errorMsg }, { status: 500 });
   }
 }
