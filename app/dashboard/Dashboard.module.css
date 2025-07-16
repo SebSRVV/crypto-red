@@ -18,7 +18,7 @@
 
 .header h1 {
   font-size: 2.2rem;
-  color: #7f5af0;
+  color: #FF3C3C;
   font-weight: 700;
 }
 
@@ -31,7 +31,7 @@
 
 /* ---------- Buttons & Select ---------- */
 .backButton {
-  background-color: #7f5af0;
+  background-color: #FF3C3C;
   border: none;
   color: white;
   padding: 0.6rem 1.2rem;
@@ -43,7 +43,7 @@
 }
 
 .backButton:hover {
-  background-color: #5a3ee6;
+  background-color: #FF3C3C;
   transform: scale(1.05);
 }
 
@@ -61,7 +61,7 @@
 
 .sortSelect:hover,
 .sortSelect:focus {
-  border-color: #7f5af0;
+  border-color: #FF3C3C;
 }
 
 /* ---------- Summary (Mejorado + Responsive) ---------- */
@@ -69,7 +69,7 @@
   width: 100%;
   background-color: #1a1a1a;
   border: 1px solid #2d2d2d;
-  border-left: 4px solid #7f5af0;
+  border-left: 4px solid #FF3C3C;
   padding: 1rem 1.5rem;
   border-radius: 10px;
   margin-top: 1.5rem;
@@ -81,7 +81,7 @@
   justify-content: center;
   text-align: center;
   gap: 0.6rem;
-  box-shadow: 0 4px 12px rgba(127, 90, 240, 0.15);
+  box-shadow: 0 4px 12px rgba(240, 90, 90, 0.15);
   animation: fadeIn 0.6s ease-out both;
 }
 
@@ -108,7 +108,7 @@
   color: #fff;
 }
 .summary strong {
-  color: #7f5af0;
+  color: #FF3C3C;
 }
 
 /* ---------- Grid & Cards ---------- */
@@ -124,7 +124,7 @@
   border-radius: 14px;
   text-align: center;
   transition: transform 0.35s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.35s ease;
-  box-shadow: 0 0 12px rgba(127, 90, 240, 0.1);
+  box-shadow: 0 0 12px rgba(240, 90, 90, 0.1);
   position: relative;
   cursor: pointer;
   animation: fadeUp 0.6s ease forwards;
@@ -135,7 +135,7 @@
 
 .card:hover {
   transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 12px 24px rgba(127, 90, 240, 0.3);
+  box-shadow: 0 12px 24px rgba(240, 90, 90, 0.3);
 }
 
 /* ---------- Images & Charts ---------- */
@@ -145,7 +145,7 @@
   border-radius: 50%;
   object-fit: contain;
   background-color: #222;
-  border: 2px solid #7f5af0;
+  border: 2px solid #FF3C3C;
   margin-bottom: 1rem;
   transition: transform 0.3s ease;
 }
@@ -197,7 +197,7 @@
   vertical-align: middle;
   font-size: 0.95rem;
   transform: translateY(1px);
-  color: #7f5af0;
+  color: #FF3C3C;
 }
 
 /* ✅ Íconos flechas mejorados */
@@ -258,7 +258,7 @@
 }
 
 .investButton {
-  background-color: #7f5af0;
+  background-color: #FF3C3C;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
@@ -268,23 +268,23 @@
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 2px 8px rgba(127, 90, 240, 0.3);
+  box-shadow: 0 2px 8px rgba(235, 12, 49, 0.3);
 }
 
 .investButton:hover {
-  background-color: #6847d6;
+  background-color: #FF3C3C;
   transform: scale(1.04);
 }
 
 /* ---------- Recomendación IA ---------- */
 .tagIA {
   margin-top: 0.8rem;
-  background: rgba(127, 90, 240, 0.1);
-  border: 1px solid #7f5af0;
+  background: rgba(241, 10, 10, 0.1);
+  border: 1px solid #FF3C3C;
   border-radius: 8px;
   padding: 0.45rem 0.6rem;
   font-size: 0.9rem;
-  color: #7f5af0;
+  color: #FF3C3C;
   font-weight: 500;
 }
 
