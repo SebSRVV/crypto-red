@@ -40,13 +40,6 @@ export default function Home() {
             >
               Ir al Dashboard 🚀
             </button>
-
-            <button
-              className={styles.buttonBlue}
-              onClick={() => router.push('/tools')}
-            >
-              Tools 🔧
-            </button>
           </div>
         </div>
       </main>
