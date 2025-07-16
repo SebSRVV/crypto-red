@@ -5,11 +5,7 @@ import numpy as np
 import sys
 
 # === RUTAS ===
-INPUT_JSON = "public/data/criptos_predichas.json"
-OUTPUT_DIR = "public/data"
-OUTPUT_RECOMENDACIONES = os.path.join(OUTPUT_DIR, "recomendaciones.json")
-
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+INPUT_JSON = "criptos_predichas.json"
 
 # === CARGAR DATOS ===
 def cargar_criptos():
@@ -39,13 +35,19 @@ def recomendar_portafolio(capital: float, riesgo: str, plazo: str, top_n: int = 
 
     df = cargar_criptos()
 
-    # === FILTROS ===
+    # === FILTROS DIFERENCIADOS ===
     if riesgo == "leve":
-        filtro = (df["price_change_30d"] > 0) & (df["score"] > 0.6)
+        if plazo == "1a":
+            # Menos estricto: permite price_change_30d hasta 35 y score > 0.35
+            filtro = (df["price_change_30d"] > 0) & (df["price_change_30d"] < 35) & (df["score"] > 0.35)
+        else:
+            # Menos estricto: permite price_change_30d hasta 25 y score > 0.4
+            filtro = (df["price_change_30d"] > 0) & (df["price_change_30d"] < 25) & (df["score"] > 0.4)
     elif riesgo == "moderado":
-        filtro = (df["price_change_30d"] > -10) & (df["score"] > 0.35)
+        # Más intermedio: price_change_30d > -15 y < 40, score > 0.3
+        filtro = (df["price_change_30d"] > -15) & (df["price_change_30d"] < 40) & (df["score"] > 0.3)
     elif riesgo == "volatil":
-        filtro = (df["price_change_30d"] < 100)
+        filtro = (df["price_change_30d"] > -30) & (df["price_change_30d"] < 60) & (df["score"] > 0.2)
     else:
         raise ValueError("Riesgo inválido: leve, moderado o volatil")
 
@@ -64,28 +66,43 @@ def recomendar_portafolio(capital: float, riesgo: str, plazo: str, top_n: int = 
     else:
         raise ValueError("Plazo inválido: 24h, 30d o 1a")
 
-    candidatos = df[filtro].copy()
-    if candidatos.empty:
-        print("No hay criptomonedas que cumplan los criterios.")
+    candidatos = df[filtro]
+    if not isinstance(candidatos, pd.DataFrame):
+        candidatos = pd.DataFrame(candidatos)
+    candidatos = candidatos.copy()
+    if candidatos.shape[0] == 0:
+        print(json.dumps([]))
         return
 
     candidatos = candidatos.sort_values("score", ascending=False).head(top_n)
-    total_score = candidatos["score"].sum()
-    candidatos["peso"] = candidatos["score"] / total_score
+    total_score = float(candidatos["score"].sum())
+    candidatos["peso"] = candidatos["score"] / total_score if total_score > 0 else 0
     candidatos["monto_invertido"] = candidatos["peso"] * capital
 
     resumen = []
     x_range = list(range(puntos + 1))
 
-    print(f"\n=== RECOMENDACIÓN DE PORTAFOLIO ({riesgo.upper()}, {plazo.upper()}) ===\n")
-
-    for i, (_, row) in enumerate(candidatos.iterrows(), start=1):
+    for _, row in candidatos.iterrows():
         try:
-            monto = row["monto_invertido"]
-            precio = row["current_price"]
+            monto = float(row["monto_invertido"])
+            precio = float(row["current_price"])
             unidades = monto / precio
-            cambio_pct = row[col] / 100
-            rendimiento_diario = (1 + cambio_pct) ** (1 / 30) - 1
+            cambio_pct = float(row[col]) / 100
+
+            # === AJUSTE DE PROYECCIÓN SEGÚN RIESGO ===
+            if riesgo == "leve":
+                # Limita el crecimiento anual a +/-5% para conservador
+                cambio_pct_limitado = max(min(cambio_pct, 0.05), -0.05)
+            elif riesgo == "moderado":
+                # Limita el crecimiento anual a +/-15%
+                cambio_pct_limitado = max(min(cambio_pct, 0.15), -0.15)
+            elif riesgo == "volatil":
+                # Permite hasta +/-40%
+                cambio_pct_limitado = max(min(cambio_pct, 0.4), -0.4)
+            else:
+                cambio_pct_limitado = cambio_pct
+
+            rendimiento_diario = (1 + cambio_pct_limitado) ** (1 / 30) - 1
             rendimiento_anual = (1 + rendimiento_diario) ** 365 - 1
 
             if escala == "horas":
@@ -93,40 +110,31 @@ def recomendar_portafolio(capital: float, riesgo: str, plazo: str, top_n: int = 
             elif escala == "días":
                 crecimiento = [(1 + rendimiento_diario) ** d for d in x_range]
             elif escala == "meses":
-                crecimiento = [(1 + rendimiento_diario) ** (m * 30) for m in x_range]
+                factor_30d = 1 + cambio_pct_limitado
+                factor_diario = factor_30d ** (1/30)
+                crecimiento = [(factor_diario ** (m * 30)) for m in x_range]
             else:
                 crecimiento = [1] * len(x_range)
 
-            proyeccion = [round(c * monto, 2) for c in crecimiento]
-        except Exception as e:
-            print(f"Error al procesar {row['symbol']}: {e}")
+            proyeccion = [round(float(c) * monto, 2) for c in crecimiento]
+        except Exception:
             continue
 
         resumen.append({
             "image": row.get("image", ""),
             "nombre": row["name"],
-            "symbol": row["symbol"].upper(),
-            "precio_actual": round(precio, 4),
-            "unidades": round(unidades, 6),
-            "valor_usd": round(unidades * precio, 2),
-            "score": round(row["score"], 3),
+            "symbol": str(row["symbol"]).upper(),
+            "precio_actual": round(float(precio), 4),
+            "unidades": round(float(unidades), 6),
+            "valor_usd": round(float(unidades) * float(precio), 2),
+            "score": round(float(row["score"]), 3),
             "reason": row.get("reason", ""),
             "plazo": plazo,
-            "probabilidad_subida": f"{round(row['score'] * 100, 1)}%",
+            "probabilidad_subida": f"{round(float(row['score']) * 100, 1)}%",
             "proyeccion": proyeccion
         })
 
-        print(f"Crypto {i}: {row['name']} ({row['symbol'].upper()})")
-        print(f"    Precio actual: ${precio:.4f}")
-        print(f"    Unidades sugeridas: {unidades:.6f}")
-        print(f"    Inversión en USD: ${unidades * precio:.2f}")
-        print(f"    Score: {row['score']:.3f}")
-        print(f"    Motivo: {row.get('reason', '')}")
-        print(f"    Rendimiento anual estimado: {rendimiento_anual * 100:.2f}%\n")
-
-    with open(OUTPUT_RECOMENDACIONES, "w", encoding="utf-8") as f:
-        json.dump(resumen, f, indent=2, ensure_ascii=False)
-    print(f"Recomendaciones guardadas en: {OUTPUT_RECOMENDACIONES}")
+    print(json.dumps(resumen, ensure_ascii=False))
 
 # === EJECUCIÓN DESDE TERMINAL ===
 if __name__ == "__main__":

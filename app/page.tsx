@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import styles from './Home.module.css';
 import { HiOutlineCpuChip } from 'react-icons/hi2';
+import Chatbot from "./components/Chatbot";
 
 export default function Home() {
   const router = useRouter();
@@ -53,6 +54,7 @@ export default function Home() {
       <footer className={`${styles.footer} ${visible ? styles.visible : ''}`}>
         <p>© {new Date().getFullYear()} CryptoRed — Todos los derechos reservados</p>
       </footer>
+      <Chatbot />
     </div>
   );
 }

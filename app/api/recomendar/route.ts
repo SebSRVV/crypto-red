@@ -26,7 +26,6 @@ export async function GET(req: NextRequest) {
     } else {
       console.error('Error desconocido en API:', e);
     }
-
     return NextResponse.json({ error: 'Error interno al consultar el modelo' }, { status: 500 });
   }
 }
